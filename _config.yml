@@ -1,7 +1,7 @@
 # Site
-title:              Moon
+title:              Walking River's Blog
 bio:                'Minimal, one column jekyll theme.'
-description:        "Moon is a minimal, one column jekyll theme for your blog."
+description:        "Like the `Walking River`, the best software is elegant and beautiful."
 reading_time:       true
 words_per_minute:   200
 logo:               'assets/img/logo.png'
@@ -41,7 +41,7 @@ disqus_shortname:   disqus_qv7OXZQXu7
 twitter:            walkingriver
 facebook:           ParkPursuit
 github-url:         walkingriver
-#stackoverflow:     123456/username   from a "http://stackoverflow.com/users/123456/username" link
+stackoverflow:      411989/mikec   from a "http://stackoverflow.com/users/123456/username" link
 #linkedin:          username
 #xing:              username
 instagram:          walkingriver
