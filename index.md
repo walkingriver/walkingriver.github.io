@@ -1,6 +1,6 @@
 ---
 title: Hello, GitHub!
-layout: post
+layout: default
 ---
 
 ## Work in progress
