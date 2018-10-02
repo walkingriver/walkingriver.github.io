@@ -3,6 +3,7 @@ layout: post
 title: Consumers and Creators - You Must Understand Your API
 author: Michael Callaghan
 tags: software development, api
+comments: true
 ---
 
 # Understand Your API
