@@ -11,6 +11,7 @@ locale:             en_US
 url:                https://walkingriver.github.io
 
 # Jekyll
+excerpt_separator:  <!--more-->
 permalink:          /:title/
 markdown:           kramdown
 highlighter:        rouge
