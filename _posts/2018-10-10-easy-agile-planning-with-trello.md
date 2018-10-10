@@ -7,6 +7,7 @@ tags:
 - Trello
 - Agile
 modified_time: '2018-07-29T07:32:56.367-04:00'
+comments: true
 ---
 # Easy Agile Planning with Trello
 
