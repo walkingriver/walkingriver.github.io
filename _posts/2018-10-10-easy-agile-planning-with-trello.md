@@ -16,24 +16,24 @@ When starting a new software project, your team has a lot of decisions to make. 
 
 ## Task Creation and Tracking
 
-Setup with Trello is fast. Simply go to the <a href="http://www.trello.com/" target="_blank">Trello web site</a>, logon (or create an account), create an organization for your team, add members, and set up a new board. By default, your board will include three empty lists:
+Setup with Trello is fast. Simply go to the <a href="https://www.trello.com/" target="_blank">Trello web site</a>, logon (or create an account), create an organization for your team, add members, and set up a new board. By default, your board will include three empty lists:
 - To Do
 - Doing
 - Done
 
-<div class="separator" style="clear: both; text-align: center;"><a href="http://1.bp.blogspot.com/-xm18lX2vHr4/U9a-8D9ti8I/AAAAAAAAAOY/8UFE3Sftumg/s1600/NewBoard.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://1.bp.blogspot.com/-xm18lX2vHr4/U9a-8D9ti8I/AAAAAAAAAOY/8UFE3Sftumg/s1600/NewBoard.png" height="371" width="640" /></a></div>
+<div class="separator" style="clear: both; text-align: center;"><a href="https://1.bp.blogspot.com/-xm18lX2vHr4/U9a-8D9ti8I/AAAAAAAAAOY/8UFE3Sftumg/s1600/NewBoard.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="https://1.bp.blogspot.com/-xm18lX2vHr4/U9a-8D9ti8I/AAAAAAAAAOY/8UFE3Sftumg/s1600/NewBoard.png" height="371" width="640" /></a></div>
 
 Though your lists can be modified at any time, this is a great place to start, and will allow you to create a backlog of stories and tasks quickly, without regard to importance, how long a task might take to accomplish, or who will end up implementing them.
 
 Every feature and idea that anyone has is fair game at this stage. Create a new card in the "To Do" list for every idea, user story, or task you can think of. As long as a card is in this list, anyone can make changes to it. Cards can be moved around at will, but should be sorted by importance. The more important cards are near the top. This forces you to make value judgments on the relative importance of your features. Because cards must be in order, no two cards can share the same significance. This eliminates the problem of every feature request being considered "critical." The most critical card is always the one on top.
 
-<div class="separator" style="clear: both; text-align: center;"><a href="http://4.bp.blogspot.com/-IiMQp_-ud8c/U9bCrBx51uI/AAAAAAAAAOg/hMUz1Ux_ylQ/s1600/BoardWithToDoCards.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://4.bp.blogspot.com/-IiMQp_-ud8c/U9bCrBx51uI/AAAAAAAAAOg/hMUz1Ux_ylQ/s1600/BoardWithToDoCards.png" height="372" width="640" /></a></div>
+<div class="separator" style="clear: both; text-align: center;"><a href="https://4.bp.blogspot.com/-IiMQp_-ud8c/U9bCrBx51uI/AAAAAAAAAOg/hMUz1Ux_ylQ/s1600/BoardWithToDoCards.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="https://4.bp.blogspot.com/-IiMQp_-ud8c/U9bCrBx51uI/AAAAAAAAAOg/hMUz1Ux_ylQ/s1600/BoardWithToDoCards.png" height="372" width="640" /></a></div>
 All changes and comments to all cards are logged, so it's easy to look back and see a history of how a feature has evolved over time.
 
 
 ## Estimation
 
-Trello has no built-in mechanism for estimating the time any particular card will take to complete. There are informal methods for dealing with this, but one particularly clever idea is to use a web browser extension to make it painless for the entire team. <a href="http://scrumfortrello.com/" rel="nofollow" target="_blank">Scrum for Trello</a> is a free browser extension for Chrome, Firefox and Safari that will let you place an estimate on each card's title.&nbsp;
+Trello has no built-in mechanism for estimating the time any particular card will take to complete. There are informal methods for dealing with this, but one particularly clever idea is to use a web browser extension to make it painless for the entire team. <a href="https://scrumfortrello.com/" rel="nofollow" target="_blank">Scrum for Trello</a> is a free browser extension for Chrome, Firefox and Safari that will let you place an estimate on each card's title.&nbsp;
 
 
 Once the extension is installed, you can simply click on a card's title to set its estimate. A small row of numbers appears just under the title's text box. The numbers are the typical agile planning values from 0 to 21. Click on one to set it.&nbsp;
@@ -41,7 +41,7 @@ Once the extension is installed, you can simply click on a card's title to set i
 
 Your development team should go through each card in the To Do list and assign an estimate. Very simple tasks will probably get a 0.5 or 1. Extremely complicated tasks might get a 13 or 21. Those cards should be broken down into multiple cards so that every estimate is a single-digit number.
 
-<div class="separator" style="clear: both; text-align: center;"><a href="http://1.bp.blogspot.com/-wWJLMYLzmOc/U9bC2HOOLdI/AAAAAAAAAOo/XO0PQWenR1c/s1600/CardsWithEstimates.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://1.bp.blogspot.com/-wWJLMYLzmOc/U9bC2HOOLdI/AAAAAAAAAOo/XO0PQWenR1c/s1600/CardsWithEstimates.png" height="372" width="640" /></a></div>
+<div class="separator" style="clear: both; text-align: center;"><a href="https://1.bp.blogspot.com/-wWJLMYLzmOc/U9bC2HOOLdI/AAAAAAAAAOo/XO0PQWenR1c/s1600/CardsWithEstimates.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="https://1.bp.blogspot.com/-wWJLMYLzmOc/U9bC2HOOLdI/AAAAAAAAAOo/XO0PQWenR1c/s1600/CardsWithEstimates.png" height="372" width="640" /></a></div>
 
 By design, the numbers do not contain units. They don't represent any particular measure of time. Most Agile practitioners call them story points. At this point, don't get hung up on what the numbers mean. They won't be accurate at the beginning even if you try. The important thing is that the developers are comfortable that each card has a value that is accurate, relative to the other cards in the list.&nbsp;
 
@@ -57,7 +57,7 @@ This is also where you may want to consider making your first custom list in Tre
 
 
 Your task at this point is to select the most important cards from the To Do list, and move them to the Current Iteration list. Remember that cards should already be organized by importance from top to bottom, so you simply need to drag them from one list to the other. As you do so, the Scrum extension will update the list's estimate. Continue dragging cards until the developers feel confident that they can complete the amount of work scheduled.&nbsp;
-<div class="separator" style="clear: both; text-align: center;"><a href="http://4.bp.blogspot.com/-hfshMKO6zVk/U9bDehgUu6I/AAAAAAAAAOw/JBpvVfuCqe8/s1600/CurrentIterationPlanned.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://4.bp.blogspot.com/-hfshMKO6zVk/U9bDehgUu6I/AAAAAAAAAOw/JBpvVfuCqe8/s1600/CurrentIterationPlanned.png" height="372" width="640" /></a></div>
+<div class="separator" style="clear: both; text-align: center;"><a href="https://4.bp.blogspot.com/-hfshMKO6zVk/U9bDehgUu6I/AAAAAAAAAOw/JBpvVfuCqe8/s1600/CurrentIterationPlanned.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="https://4.bp.blogspot.com/-hfshMKO6zVk/U9bDehgUu6I/AAAAAAAAAOw/JBpvVfuCqe8/s1600/CurrentIterationPlanned.png" height="372" width="640" /></a></div>
 
 Developers should not be pressured to accept more work than they feel they can handle, especially in your first iteration.&nbsp;
 
@@ -70,7 +70,7 @@ At the beginning of every day, the developers should get together to discuss wha
 
 
 As developers select a card to work on for the day, they will assign the card to themselves (select the card, click Members, and add themselves). Then the developer will move the card from Current Iteration to Doing, and begin to implement the feature on the card. Throughout development, comments and checklists can be freely added to the card.&nbsp;
-<div class="separator" style="clear: both; text-align: center;"><a href="http://1.bp.blogspot.com/-s42XR24SMR8/U9bEnREyBbI/AAAAAAAAAO4/TJp9vAewgMM/s1600/CardsBeingWorkedOn.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://1.bp.blogspot.com/-s42XR24SMR8/U9bEnREyBbI/AAAAAAAAAO4/TJp9vAewgMM/s1600/CardsBeingWorkedOn.png" height="372" width="640" /></a></div>The powerful thing about this is that everyone on the team can see the current state of development at any time at a glance, simply by loading the project's Trello board. Trello boards dyanmically update automatically when anything changes, so that all users see others' changes almost immediately.
+<div class="separator" style="clear: both; text-align: center;"><a href="https://1.bp.blogspot.com/-s42XR24SMR8/U9bEnREyBbI/AAAAAAAAAO4/TJp9vAewgMM/s1600/CardsBeingWorkedOn.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="https://1.bp.blogspot.com/-s42XR24SMR8/U9bEnREyBbI/AAAAAAAAAO4/TJp9vAewgMM/s1600/CardsBeingWorkedOn.png" height="372" width="640" /></a></div>The powerful thing about this is that everyone on the team can see the current state of development at any time at a glance, simply by loading the project's Trello board. Trello boards dyanmically update automatically when anything changes, so that all users see others' changes almost immediately.
 
 
 If a developer has a question for someone else on the team, he can enter that question as a comment on the card, tagging the individual(s) expected to have the answer. Those tagged in a card will be pro-actively notified by Trello.&nbsp;
@@ -79,7 +79,7 @@ If a developer has a question for someone else on the team, he can enter that qu
 When the developer has finished implementing a particular card, it is dragged from Doing to Done. He can then take another card from Current Iteration, assign himself to it, and drag it to Doing. Developers continue to work in this way until the iteration ends or they run out of cards.
 
 Running out of cards is the exception to the rule of not moving cards between To Do and Current Iteration. This simply indicates that the developers are working faster than initially expected. If this happens, management (in consultation with developers) should move one or more cards from To Do into Current Iteration, again based on importance. The developers can continue working until the iteration ends.
-<div class="separator" style="clear: both; text-align: center;"><a href="http://1.bp.blogspot.com/-4t0A5h-1EAE/U9bFK0lj5zI/AAAAAAAAAPA/uS-0XM9sacc/s1600/CardsDoneAndDoing.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://1.bp.blogspot.com/-4t0A5h-1EAE/U9bFK0lj5zI/AAAAAAAAAPA/uS-0XM9sacc/s1600/CardsDoneAndDoing.png" height="372" width="640" /></a></div>
+<div class="separator" style="clear: both; text-align: center;"><a href="https://1.bp.blogspot.com/-4t0A5h-1EAE/U9bFK0lj5zI/AAAAAAAAAPA/uS-0XM9sacc/s1600/CardsDoneAndDoing.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="https://1.bp.blogspot.com/-4t0A5h-1EAE/U9bFK0lj5zI/AAAAAAAAAPA/uS-0XM9sacc/s1600/CardsDoneAndDoing.png" height="372" width="640" /></a></div>
 
 If the iteration ends with cards still in the Current Iteration list, don't consider it a failure of your estimation or planning. It just means you put in more cards than the developers were able to finish. This is important information that you can now use to help plan the next iteration.
 
@@ -118,14 +118,14 @@ Sometimes you may be tempted to force a higher velocity on your team by adding m
 
 ## Rinse and Repeat
 
-At the end of every iteration, schedule a period of time (an hour or two) to review the work that was completed. This is the iteration's retrospective, where you will calculate and discuss your team's velocity. It is a good time to have a "<a href="http://www.people-results.com/start-stop-continue/" rel="nofollow" target="_blank">start, stop, and continue</a>" review to determine what worked and didn't during the iteration, and what things can be improved for the next iteration.&nbsp;
+At the end of every iteration, schedule a period of time (an hour or two) to review the work that was completed. This is the iteration's retrospective, where you will calculate and discuss your team's velocity. It is a good time to have a "<a href="https://www.people-results.com/start-stop-continue/" rel="nofollow" target="_blank">start, stop, and continue</a>" review to determine what worked and didn't during the iteration, and what things can be improved for the next iteration.&nbsp;
 
 
 Any cards remaining in the Current Iteration can be left there for the next iteration, or if management decides, can be put back into the To Do list for reevaluation. The same goes with cards in the Doing list, though because work has already started, it would be a waste to move them back into the To Do list.
 
 
 All cards in the Done list can be archived. Alternatively, you can rename the Done list with the current iteration number, and then archive the entire list. If you choose this route, simply create a new Done list to be used with the next iteration.
-<div class="separator" style="clear: both; text-align: center;"><a href="http://1.bp.blogspot.com/-E_hE60wIs2k/U9bF9tCggsI/AAAAAAAAAPI/Yysr4k7uer0/s1600/IterationComplete.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://1.bp.blogspot.com/-E_hE60wIs2k/U9bF9tCggsI/AAAAAAAAAPI/Yysr4k7uer0/s1600/IterationComplete.png" height="372" width="640" /></a></div>
+<div class="separator" style="clear: both; text-align: center;"><a href="https://1.bp.blogspot.com/-E_hE60wIs2k/U9bF9tCggsI/AAAAAAAAAPI/Yysr4k7uer0/s1600/IterationComplete.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="https://1.bp.blogspot.com/-E_hE60wIs2k/U9bF9tCggsI/AAAAAAAAAPI/Yysr4k7uer0/s1600/IterationComplete.png" height="372" width="640" /></a></div>
 
 Once you have completed the retrospective, you can roll right into the planning for your next iteration, and repeat the process.&nbsp;
 
@@ -151,8 +151,8 @@ As I mentioned above, there are a few rules that everyone needs to agree to if y
 
 ## Resources
 
-- <a href="http://www.trello.com/" rel="nofollow" target="_blank">Trello</a>
-- <a href="http://scrumfortrello.com/" rel="nofollow" target="_blank">Scrum for Trello</a>
+- <a href="https://www.trello.com/" rel="nofollow" target="_blank">Trello</a>
+- <a href="https://scrumfortrello.com/" rel="nofollow" target="_blank">Scrum for Trello</a>
   
   
 ## Feedback
