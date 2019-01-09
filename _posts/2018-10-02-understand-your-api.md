@@ -6,8 +6,6 @@ tags: software development, api
 comments: true
 ---
 
-# Understand Your API
-
 Whether your are creating or consuming an API, you must understand all of its implications. If you are the consumer, 
 it's up to you to understand what calling its various functions will do. If you are creating an API, you also
 have a responsibility to your consumers. I won't go into all of the rules here, but will touch on two very severe

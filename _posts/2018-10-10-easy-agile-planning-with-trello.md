@@ -9,8 +9,6 @@ tags:
 modified_time: '2018-07-29T07:32:56.367-04:00'
 comments: true
 ---
-# Easy Agile Planning with Trello
-
 When starting a new software project, your team has a lot of decisions to make. Not the least of which is how to track the features from initial design through completion. Trello can help make the entire process easy and painless. Let's jump right in.
 <!--more-->
 
