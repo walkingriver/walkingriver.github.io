@@ -8,6 +8,7 @@ tags:
 - TDD
 - Angular
 - JavaScript
+feature: assets/img/javascript-func.png
 comments: true
 ---
 Everyone agrees that Test Driven Development (TDD) is a good thing, right? Right? If you agree that tests
