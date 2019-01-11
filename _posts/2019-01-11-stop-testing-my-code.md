@@ -193,6 +193,8 @@ code written by others. Then test just your code and call it a day.
 Your family and coworkers will thank you, because you may end up
 being a more pleasant person to have around. 
 
+By the way, did you notice I don't have to test the promise anymore?
+
 What are your thoughts? Could I make these tests better? Feel free
 to comment below. 
 
