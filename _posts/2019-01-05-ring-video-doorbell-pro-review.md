@@ -5,7 +5,7 @@ date: '2019-01-05T15:43:00.001-05:00'
 author: Michael Callaghan
 tags: security, product review
 modified_time: '2019-01-09T07:32:56.367-04:00'
-thumbnail: https://4.bp.blogspot.com/-0tAnwBhwBa4/WG60eYAPlcI/AAAAAAAADNg/pICdHd1IvqMEJNOcWva-1-FiT0LXBDs0QCPcB/s72-c/IMG_0862.JPG
+feature: assets/img/motion-zones.PNG
 comments: true
 ---
 

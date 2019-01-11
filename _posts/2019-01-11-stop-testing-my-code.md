@@ -11,9 +11,9 @@ tags:
 feature: assets/img/javascript-func.png
 comments: true
 ---
-Everyone agrees that Test Driven Development (TDD) is a good thing, right? Right? If you agree that tests
-are important, you probably write a lot of tests. You might even have a code coverage tool that helps you
-know how much of your code is tested. Great so far. But here's my question. Are you testing the right code?
+Everyone agrees that Test Driven Development (TDD) is a good thing, right? Right? If you agree that tests 
+are important, you probably write a lot of tests. You might even have a code coverage tool that helps you 
+know how much of your code is tested. Great so far. But here's my question. Are you testing the right code? 
 Are you testing your code, or mine? 
 <!--more-->
 
