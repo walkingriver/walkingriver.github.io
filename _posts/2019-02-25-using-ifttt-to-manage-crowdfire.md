@@ -5,7 +5,7 @@ author: Michael Callaghan
 tags: social media,marketing
 feature: assets/img/ifttt-01.png
 cover_image: https://walkingriver.com/assets/img/ifttt-01.png
-canonical_url: https://walkingriver.com/record-video-of-your-android-screen/
+canonical_url: https://walkingriver.com/using-ifttt-to-manage-crowdfire/
 comments: true
 ---
 Recently the social media tool Crowdfire had its Twitter API suspended without warning. 
@@ -33,7 +33,7 @@ As a software developer, my day is spent solving problems. Surely there must be 
 ## IFTTT to the Rescue
  Web developers tend to think of things in terms of building blocks. The programmable web is a massive collection of these building blocks, assuming you know where to look. [IFTTT](https://ifttt.com/) is a somewhat clumsy acronym that means IF This Then That. It consists of a collection of recipes, each taking the form of "If this event happens on one of your web accounts, then do that other thing." IFTTT still has the ability to post to Twitter, so I thought to myself, "I wonder if IFTTT can watch for my new Facebook posts, and then automatically cross-post them to Twitter?" As it turns out, it can, and it's really easy.
 
- ## Register and Connect
+## Register and Connect
  The first thing I had to do is register with IFTTT, and connect my social media accounts. Because I was planning to connect it to Facebook, I decided to sign up using my Facebook account. 
 
   ![Registration](https://walkingriver.com/assets/img/ifttt-02.png)
