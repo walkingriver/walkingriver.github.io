@@ -5,7 +5,7 @@ author: Michael Callaghan
 tags: android,adb,video
 feature: assets/img/android-1000x420.jpg
 cover_image: https://walkingriver.com/assets/img/android-1000x420.jpg
-canonical_url: 
+canonical_url: https://walkingriver.com/record-video-of-your-android-screen/
 comments: true
 ---
 Recently I needed to record a demo video for one of my apps running on an Android test device, an older Samsung Galaxy S4.
