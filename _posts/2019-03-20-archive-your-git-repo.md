@@ -48,5 +48,5 @@ _Note: The archive will not contain the .git directory, but will contain other h
 
 ## Reference
 
-https://stackoverflow.com/questions/160608/do-a-git-export-like-svn-export
+[https://stackoverflow.com/questions/160608/do-a-git-export-like-svn-export]()
 
