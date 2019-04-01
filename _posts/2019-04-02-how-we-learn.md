@@ -3,14 +3,14 @@ layout: post
 title: How We Learn
 date: '2019-04-02T10:56:00.001-04:00'
 author: Michael Callaghan
-thumbnail: https://walkingriver.com/assets/img/baby.jpg
+thumbnail: https://walkingriver.com/assets/img/baby-tn.jpg
 tags: learning
-feature: assets/img/baby-tn.jpg
+feature: assets/img/baby.jpg
 cover_image: https://walkingriver.com/assets/img/baby.jpg
 canonical_url: https://walkingriver.com/how-we-learn/
 ---
 
-<img border="0" height="133" src="https://walkingriver.com/assets/img/baby.jpg" align="right" width="200" />Have you ever stopped to think about how we learn things? I was recently reflecting on when my 15-year old was learning to drive. I had the unenviable job of teaching him. At the time, it struck me that he had to think about every little detail of what he was doing. He needed to be reminded to check his mirrors, signal his lane changes, look behind him when backing up, etc.. Learning to drive requires absolute and complete attention. He didn't even have the spare mental capacity to listen to music.
+Have you ever stopped to think about how we learn things? I was recently reflecting on when my 15-year old was learning to drive. I had the unenviable job of teaching him. At the time, it struck me that he had to think about every little detail of what he was doing. He needed to be reminded to check his mirrors, signal his lane changes, look behind him when backing up, etc.. Learning to drive requires absolute and complete attention. He didn't even have the spare mental capacity to listen to music.
 <!--more-->
 
 Watching him struggle reminded me of something I learned many years ago about how we learn new things. Regardless of what we are learning -- whether it's driving, putting up drywall, or learning a new programming language -- we all go through four stages of learning. You could think of them as the four steps of mastery. They are:
