@@ -4,7 +4,7 @@ title: How We Learn
 date: '2019-04-02T10:56:00.001-04:00'
 author: Michael Callaghan
 thumbnail: https://walkingriver.com/assets/img/baby-tn.jpg
-tags: git,code,archive
+tags: learning
 feature: assets/img/baby-tn.jpg
 cover_image: https://walkingriver.com/assets/img/baby.jpg
 canonical_url: https://walkingriver.com/how-we-learn/
