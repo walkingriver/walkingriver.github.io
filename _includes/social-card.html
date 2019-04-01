@@ -1,0 +1,30 @@
+
+<!-- set key defaults -->
+<meta name="twitter:card" content="summary">
+
+{% if site.twitter %}
+<meta name="twitter:site" content="{{ site.twitter }}">
+{% endif %}
+{% if page.author %}
+<meta name="twitter:creator" content="{{ page.author }}">
+{% endif %}
+
+<meta name="twitter:title" content="{{ page.title }}">
+<meta content="{{ page.title }}" property="og:title">
+<meta content="website" property="og:type">
+
+{% if page.excerpt %}
+<meta name="twitter:description" content="{{ page.excerpt }}">
+<meta content="{{ page.excerpt }}" property="og:description">
+{% endif %}
+
+<meta name="twitter:url" content="{{ site.url }}">
+<meta content="{{ site.url }}" property="og:url">
+
+<!-- set image -->
+
+{% if page.thumbnail %}
+<meta property="og:image" content="{{ page.thumbnail | prepend: site.url }}" />
+{% else %}
+<meta property="og:image" content="{{ site.app.icon | prepend: site.url }}" />
+{% endif %}
