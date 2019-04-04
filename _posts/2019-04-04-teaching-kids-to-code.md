@@ -8,7 +8,7 @@ feature: assets/img/laptop-boy.jpg
 thumbnail: https://walkingriver.com/assets/img/laptop-boy.jpg
 cover_image: https://walkingriver.com/assets/img/laptop-boy.jpg
 canonical_url: https://walkingriver.com/teaching-kids-to-code/
-published: false
+published: true
 ---
 
 When my oldest son was 11 years old, I hired him to work on an ASP.NET project with me. It wasn't anything I had planned to do, but I had some monotonous layout work and he was eager to help. As it turned out, he had quite the knack for it. At 15, he got his first "real" job maintaining an existing ASP.NET site for a friend of mine. Today, he is finishing a degree in Software Engineering while doing a paid internship building apps for a financial services company.  In this article, I will try to document the experience, and hopefully identify some reusable patterns for teaching others. 
