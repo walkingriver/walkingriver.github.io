@@ -49,7 +49,7 @@ Back in 2006, when big bookstores were still a thing, I used to spend a lot of t
 
 As I often do, I forgot about the book for a few days. It sat on the side of my desk, untouched. Then one day, I needed to look something up but the book wasn't there anymore. In fact, a couple of my books were missing: the LINQ book and another one on C#. I searched the usual places in the house where I might leave a book, but couldn't find it. 
 
-When my son got home from school, I asked him if he'd seen them. He had them both. He had seen them sitting on my desk, thought they looked interesting, and decided to read them. "Did you? I asked. "Yes," he replied. "Did you understand them?" He claimed he did, so I asked him to explain a lambda expression to me. 
+When my son got home from school, I asked him if he'd seen them. He had them both. He had seen them sitting on my desk, thought they looked interesting, and decided to read them. "Did you?" I asked. "Yes," he replied. "Did you understand them?" He claimed he did, so I asked him to explain a lambda expression to me. 
 
 ## What's a Lambda Expression?
 One of the struggles I had with LINQ at the time was the concept of lambda expressions. For some reason, it took me a long time to internalize the idea of passing a function into another function. Lambda expressions complicated that by passing the entire function, unnamed, as a parameter. And calling them "lambda expressions" didn't help. 
