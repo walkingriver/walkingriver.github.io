@@ -46,7 +46,9 @@ I called home and told my family I would see them around lunchtime tomorrow. I t
 
 Unlike the angry guy in front of me, I continue to fly on this particular airline as often as I can. I sometimes wonder what he got for yelling at the gate agent. I think I know the answer.
 
-If the message you took from this post is, "try to bribe gate agents get flight upgrades," please read it again. Though that was the outcome in this case, it isn't always. A more accurate message is that you won't get very far treating others badly. Treat people with politeness, courtesy, and kindness. Regardless of the outcome of any particular interaction, the effects will accumulate over time. You will feel better about yourself, kindness and courtesy will become a habit, and you will become a person others want to be around. And one day, when you need help, you may find yourself accepting someone else's kindness to get you through a difficulty of your own.
+If the message you took from this post is, "try to bribe gate agents to get flight upgrades," I respectfully suggest that you missed the point. Please read it again. Though that was the outcome in this case, it isn't always. 
+
+A more accurate message is that you won't get very far treating others badly. Treat people with politeness, courtesy, and kindness. Regardless of the outcome of any particular interaction, the effects will accumulate over time. You will feel better about yourself, kindness and courtesy will become a habit, and you will become a person others want to be around. And one day, when you need help, you may find yourself accepting someone else's kindness to get you through a difficulty of your own.
 
 At my current day job, we value courtesy to our guests and employees over everything but safety. Though this incident occurred many years before this job, I like to think back on it when pondering how my actions and attitudes affect those around me. Sometimes I forget, and this story is a reminder to myself to elevate my interactions with people, especially when having a bad day.
 
