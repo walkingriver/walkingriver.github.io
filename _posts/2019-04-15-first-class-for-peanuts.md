@@ -16,10 +16,11 @@ Many years ago I was on a business trip, and found myself in a particularly crow
 
 <!--more-->
 
-> <img alt="James Steward in Harvey" align="left" src="https://walkingriver.com/assets/img/harvey.png" height="85px"/> In this world, you must be oh so smart, or oh so pleasant. Well, for years I was smart. I recommend pleasant. You may quote me.
->
+![James Stewart in Harvey](https://walkingriver.com/assets/img/harvey.png)
+
+>In this world, you must be oh so smart, or oh so pleasant. Well, for years I was smart. I recommend pleasant. You may quote me.
 > _-Elwood P. Dowd, [Harvey, 1950](https://www.imdb.com/title/tt0042546/)_
->
+
 
 I had just arrived from Texas to catch a connecting flight to New Hampshire. The first leg was uneventful, but also uncomfortable. My back ached and I needed to find a some painkillers before the next flight. I knew things were bad as soon as I got to the gate, and saw the hordes of unhappy travellers. 
 
