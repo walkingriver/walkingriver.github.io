@@ -10,7 +10,7 @@ feature: assets/img/github.png
 thumbnail: https://walkingriver.com/assets/img/github-octocat.png
 cover_image: https://walkingriver.com/assets/img/github.png
 canonical_url: https://walkingriver.com/revert-your-mistaken-git-commits/
-published: false
+published: true
 ---
 
 ![GitHub](assets/img/github-octocat.png) Recently one of my development teams had a merge problem. For version control, they use a modified form of [GitFlow](https://nvie.com/posts/a-successful-git-branching-model/), and it was time to merge from the `develop` branch to the `release` branch. If things are done correctly, this should always be a clean, simple merge. It is especially true in this case, because it was their first release for a new project.  The team opened a pull request from `develop` to `release` and then reported to me that there GitHub was reporting merge conflicts. Huh?  How is that possible? The `release` branch should be empty. Except that it wasn't. 
