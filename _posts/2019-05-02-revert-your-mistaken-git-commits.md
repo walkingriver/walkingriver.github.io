@@ -3,7 +3,7 @@ layout: post
 title: Revert Your Mistaken Git Commits
 date: '2019-05-01T15:15:00.002-04:00'
 author: Michael Callaghan
-tags: 
+tags: git,development,code
 modified_time: '2019-05-01T15:15:48.265-04:00'
 layout: post
 feature: assets/img/github.png
@@ -13,7 +13,7 @@ canonical_url: https://walkingriver.com/revert-your-mistaken-git-commits/
 published: true
 ---
 
-![GitHub](assets/img/github-octocat.png) Recently one of my development teams had a merge problem. For version control, they use a modified form of [GitFlow](https://nvie.com/posts/a-successful-git-branching-model/), and it was time to merge from the `develop` branch to the `release` branch. If things are done correctly, this should always be a clean, simple merge. It is especially true in this case, because it was their first release for a new project.  The team opened a pull request from `develop` to `release` and then reported to me that there GitHub was reporting merge conflicts. Huh?  How is that possible? The `release` branch should be empty. Except that it wasn't. 
+<img src="https://walkingriver.com/assets/img/github-octocat.png" align="left" alt="GitHub logo"> Recently one of my development teams had a merge problem. For version control, they use a modified form of [GitFlow](https://nvie.com/posts/a-successful-git-branching-model/), and it was time to merge from the `develop` branch to the `release` branch. If things are done correctly, this should always be a clean, simple merge. It is especially true in this case, because it was their first release for a new project.  The team opened a pull request from `develop` to `release` and then reported to me that there GitHub was reporting merge conflicts. Huh?  How is that possible? The `release` branch should be empty. Except that it wasn't. 
 <!--more-->
 
 As it turned out, a well-meaning developer on the team knew that the code eventually needed to go into `release`, so that's he committed all of his changes. Locking down branches is a topic for another day, I suppose. I had to deal with the problem in front of me first.
@@ -69,8 +69,3 @@ git push origin release
 Back on the server, I checked the open pull request from `develop` to `release`, and there were no merge conflicts. I completed the pull request, and the build was able to continue. 
 
 Now the testers can get on with their work, and we can all live happily ever after — until the next problem, of course. 
-
-Do you have any git tricks, feedback, or stories? Please share them with me on [Twitter](https:////twitter.com/walkingriver).
-
-<hr/>
-I'd also be ecstatic if you 
