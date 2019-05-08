@@ -17,6 +17,11 @@ What do all these symbols mean? I saw someone post on Twitter recently that if y
 
 <!--more-->
 
+Here is the tweet I referred to...
+
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Did you know that a double ampersand &amp;&amp; will run multiple scripts sequentially while a single &amp; will run them in parallel? <a href="https://twitter.com/hashtag/javascript?src=hash&amp;ref_src=twsrc%5Etfw">#javascript</a> <a href="https://twitter.com/hashtag/node?src=hash&amp;ref_src=twsrc%5Etfw">#node</a> <a href="https://twitter.com/hashtag/npm?src=hash&amp;ref_src=twsrc%5Etfw">#npm</a> <a href="https://twitter.com/hashtag/webdeveloper?src=hash&amp;ref_src=twsrc%5Etfw">#webdeveloper</a> 🤯  <a href="https://t.co/58P92Bo3AI">pic.twitter.com/58P92Bo3AI</a></p>&mdash; Dan Vega (@therealdanvega) <a href="https://twitter.com/therealdanvega/status/1116403685452668928?ref_src=twsrc%5Etfw">April 11, 2019</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 _Note: The examples contained below were all tested and work on a MacOS terminal running the bash shell. They should work on any other common shell in Linux, and should even work in GitBash for Windows. As always, your mileage may vary._
 
 # And &&
