@@ -1,6 +1,6 @@
 ---
 layout: post
-title: What the <~|&||&&$!>`()?
+title: What the ~|&||&&$!`()?
 date: '2019-05-03T15:15:00.002-04:00'
 author: Michael Callaghan
 tags: terminal,development,shell
