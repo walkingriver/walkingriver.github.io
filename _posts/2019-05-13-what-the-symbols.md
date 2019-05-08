@@ -15,7 +15,7 @@ published: true
 
 What do all these symbols mean? I saw someone post on Twitter recently that if you place a single ampersand between two shell commands, they run in parallel. While that is somewhat true, the tweet didn't capture the essence of what is really going on. So I decided I would go back to basics and remind myself (and others) just what these and other weird symbols do in a Linux, MacOS, or even Windows (Bash) terminal.
 
-<!--more -->
+<!-- more -->
 
 _Note: The examples contained below were all tested and work on a MacOS terminal running the bash shell. They should work on any other common shell in Linux, and should even work in GitBash for Windows. As always, your mileage may vary._
 
