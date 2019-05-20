@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Hosting the Notify API
-date: '2019-05-207T05:15:00.002-04:00'
+date: '2019-05-20T05:15:00.002-04:00'
 author: Michael Callaghan
 tags: firebase,functions,node
 layout: post
