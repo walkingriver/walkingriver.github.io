@@ -8,7 +8,7 @@ layout: post
 feature: assets/img/bravo-icons.png
 thumbnail: https://walkingriver.com/assets/img/bravo-icons.png
 cover_image: https://walkingriver.com/assets/img/bravo-icons.png
-canonical_url: https://walkingriver.com/capacitor-icons
+canonical_url: https://walkingriver.com/make-icons/
 published: true
 ---
 
