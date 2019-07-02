@@ -42,7 +42,7 @@ sips -z 40 40 --out ./AppIcon.appiconset/AppIcon-40x40@1x.png icon.png
 sips -z 80 80 --out ./AppIcon.appiconset/AppIcon-40x40@2x-1.png icon.png
 sips -z 80 80 --out ./AppIcon.appiconset/AppIcon-40x40@2x.png icon.png
 sips -z 120 120 --out ./AppIcon.appiconset/AppIcon-40x40@3x.png icon.png
-sips -z 512 512 --out ./AppIcon.appiconset/AppIcon-512@2x.png icon.png
+sips -z 1024 1024 --out ./AppIcon.appiconset/AppIcon-512@2x.png icon.png
 sips -z 120 120 --out ./AppIcon.appiconset/AppIcon-60x60@2x.png icon.png
 sips -z 180 180 --out ./AppIcon.appiconset/AppIcon-60x60@3x.png icon.png
 sips -z 76 76 --out ./AppIcon.appiconset/AppIcon-76x76@1x.png icon.png
