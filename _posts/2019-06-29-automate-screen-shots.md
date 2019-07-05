@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Automating App Store Screen Shots with Angular and Protractor
-date: '2019-07-07T15:15:00.002-04:00'
+date: '2019-07-04T15:15:00.002-04:00'
 author: Michael Callaghan
 tags: angular,protractor,mobile
 layout: post
