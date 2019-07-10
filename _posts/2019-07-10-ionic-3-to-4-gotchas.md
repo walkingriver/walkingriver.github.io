@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Some Ionic v3 to v4 Gotchas
-date: '2019-07-10
+date: '2019-07-10'
 author: Michael Callaghan
 tags: ionic,angular,typescript
 layout: post
