@@ -53,6 +53,8 @@ However, as soon as I dropped it into my Ionic v4 project, I immediately started
 # No UI Refresh
 Once the compiler error was addressed, it seemed like everything would just work. Unfortunately, it did not. Though it compiled just fine, the UI would not refresh after the game was deleted. At first, I thought there was an error with my delete code, but that was not the case. 
 
+In fact, when I clicked a blank space anywhere else in the app, the deleted game would suddenly vanish. That behavior got me on track to finding the root cause.
+
 What I discovered was that the delete was happening and the games array was being updated properly, but somehow outside of the rendering process. I had immediate flashbacks to problems dealing with the Angular 1.x digest cycle. 
 
 My first thought was to add a `window.setTimeout` to `Delete` button's handler function. Two things stopped me. First, it felt like a kludge; and second, I was not sure it would even work. 
