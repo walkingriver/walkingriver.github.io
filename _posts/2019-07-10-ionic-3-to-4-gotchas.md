@@ -48,12 +48,12 @@ async deleteGame(game: Game) {
 
 In Ionic v3, this function worked properly. Clicking the `Delete` button caused the game to be deleted and the UI to refresh as expected. 
 
-However, as soon as I dropped it into my Ionic v4 project, I immediately started having problems. First, I got a type error in the `create` line. With v4, the AlertController's `create` function returns `Promise<AlertController>` rather than the object directly. Fixing that was as simple as adding an `await` to the front of the `create` line.
+However, as soon as I dropped it into my Ionic v4 project, I immediately started having problems. First, I got a type error in the `create` line. With v4, the AlertController's `create` function returns `Promise<HTMLIonAlertElement>` rather than the object directly. Fixing that was as simple as adding an `await` to the front of the `create` line.
 
-# No UI Updates
+# No UI Refresh
 Once the compiler error was addressed, it seemed like everything would just work. Unfortunately, it did not. Though it compiled just fine, the UI would not refresh after the game was deleted. At first, I thought there was an error with my delete code, but that was not the case. 
 
-What I discovered was that the delete was happening and the games array was being updated properly, but somehow outside of the rendering process. I had immediate flashbacks to the Angular 1.x digest cycle. 
+What I discovered was that the delete was happening and the games array was being updated properly, but somehow outside of the rendering process. I had immediate flashbacks to problems dealing with the Angular 1.x digest cycle. 
 
 My first thought was to add a `window.setTimeout` to `Delete` button's handler function. Two things stopped me. First, it felt like a kludge; and second, I was not sure it would even work. 
 
@@ -62,7 +62,7 @@ I looked around online for others having the same problem, but it seemed I was t
 
 The clue to my fix came from the fact that almost all of the `AlertController` functions return promises, and not just its `create` function. What if I have to await more of them. I added an `await` to the `present` function, but the behavior did not change. 
 
-From there, I reviewed the `AlertController` API docs a little more closely, and noticed it has some extra functions I could call. The one that seemed relevant is `onDidDismiss`, which returns a promise that resolves (surprise!) after the alert has been dismissed. 
+From there, I reviewed the `AlertController` API docs a little more closely, and noticed it has some extra functions I could call. The one that seemed relevant is `onDidDismiss`, which returns a promise that resolves (_surprise!_) after the alert has been dismissed. 
 
 The updated code is below. I added three lines and changed two.
 
@@ -102,7 +102,7 @@ Instead of immediately updating my component's `games` array, I created a local 
 # Conclusion
 Is this the right solution? Are there better or cleaner solutions? Maybe. This approach seemed simple enough, and it works. Thus, I am sharing with the world in the hope that it might help someone else. If you find a better solution, feel free to let me know.
 
-I ran into the same problem with the `PickerController`. It, too, has a similar API, and the solution was the same.
+I ran into an identical problem with the `PickerController`. No UI refresh after the picker was dismissed. It, too, has a similar API, and the solution was the same.
 
 # References
 - [Ionic Framework Alert Controller](https://ionicframework.com/docs/api/alert)
