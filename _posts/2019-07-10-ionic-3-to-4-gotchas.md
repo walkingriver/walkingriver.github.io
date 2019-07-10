@@ -12,7 +12,7 @@ canonical_url: https://walkingriver.com/ionic-3-to-4-gotchas/
 published: true
 ---
 
-Not long ago I posted an [article about upgrading an app from Ionic v3 to v4](https://walkingriver.com/ionic-3-to-4/). While adding some more features, I found that there are some gotchas that aren not entirely intuitive, particularly when updating the UI after dismissing things like alerts. The issue is easy enough to work around, but it took me some time to figure it out. This post describes one solution I discovered.
+Not long ago I posted an [article about upgrading an app from Ionic v3 to v4](https://walkingriver.com/ionic-3-to-4/). While adding some more features, I found that there are some gotchas that are not entirely intuitive, particularly when updating the UI after dismissing things like alerts. The issue is easy enough to work around, but it took me some time to figure it out. This post describes one solution I discovered.
 
 <!--more-->
 
@@ -109,4 +109,4 @@ I ran into the same problem with the `PickerController`. It, too, has a similar 
 - [Ionic Framework Picker Controller](https://ionicframework.com/docs/api/picker)
 
 # Feedback Appreciated
-Do you have any comments or questions? Did I make any mistakes in this post? Let me know on Twitter. I'm [@walkingriver](https://twitter.com/walkingriver).
+Do you have any comments or questions? Did I make any mistakes in this post? Let me know on Twitter. I'm [@WalkingRiver](https://twitter.com/walkingriver).
