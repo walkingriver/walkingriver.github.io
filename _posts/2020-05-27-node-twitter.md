@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Calling the Twitter API from NodeJS
-date: '2019-05-287T15:15:00.002-04:00'
+date: '2019-05-28T15:15:00.002-04:00'
 author: Michael Callaghan
 tags: twitter,development,node
 layout: post
