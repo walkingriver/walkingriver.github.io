@@ -19,7 +19,7 @@ I hate shaving. It is one of life's cruel twists in that I have to shave daily, 
 > Full Disclosure: Many of the links in this review are affiliate links.
 
 # Summary of the review so far
-## Updated July 15, 2019
+## Updated July 31, 2019
 If you are simply interested in my test results, you can find them in this table. I will update it as I go.
 
 |Day(s)|Blades|Pre-shave|Post-shave|Result|
@@ -28,7 +28,7 @@ If you are simply interested in my test results, you can find them in this table
 |2-7|<abbr title="Dollar Shave Club, First Blade">DSC-1</abbr>|Gillette Fusion Gel|Gillette Aftershave|Great Combination
 |8-14|<abbr title="Dollar Shave Club, First Blade">DSC-1</abbr>|Target Up&Up|Gillette Aftershave|Not as close; some irritation
 |15-21|<abbr title="Dollar Shave Club, Second Blade">DSC-2</abbr>|Target Up & Up|Gillette Aftershave|Better
-|22-28|<abbr title="Dollar Shave Club, Second Blade">DSC-2</abbr>|Gillette Pure Shave Gel|Gillette Aftershave|Better
+|22-31|<abbr title="Dollar Shave Club, Second Blade">DSC-2</abbr>|Gillette Pure Shave Gel|Gillette Aftershave|Better
 
 # Complete Review 
 The table above lists the summary of my results. This section contains a more thorough review. This should present enough information for you to reproduce the experiment if you wish; alternatively, it may provide you with information to draw your own conclusions from mine.  
@@ -64,17 +64,29 @@ The Dollar Shave Club starter set came with four blades. The box in which the bl
 ## Day 1
 I began my experiment on July 1, 2019, and it lasted exactly one day. My initial plan was to use everything included in the DSC starter kit. That was a mistake. 
 
+The pre-shave face scrub provided has that rough texture that feels like it contains sand. I do not know whether is supposed to be trendy, or if it really is beneficial. I have never been a fan of such soaps, so jettisoned that one immediately.
 
+Next up was their shave lotion. I can one thing for sure: it certainly contains lubricant. In fact, after applying it to my face, my fingers were still so slippery I could barely hold the razor's handle. The morning was not off to a good start.
+
+Once I rewashed my hands (shave lotion still on my face, mind you) and could hold the razor, the shave itself was very good. It was comfortable, close, and not at all irritating. That was not surprising, given it was a brand new blade. 
+
+When I was done, I applied the DSC post-shave lotion. Again, my first emotion was disappointment. It does not have a very pleasant scent; in fact, it may even be unscented. If that is what you like, great. It was also very creamy, and not the alcohol-based gel to which I am accustomed. Admittedly, this is a personal thing, and does not detract from what was otherwise a comfortable shave.
+
+The good news is that I really did not need the post-shave lotion at all, as there was no irritation from the shave itself. I consider that a win. That said, I decided on the spot not to continue the test with any of the other DSC products than the razor.
 
 ## Days 2-7
 
+The rest of this week's test was back to my usual products, the Gillette Shave gel and aftershave gel. I experienced no or issues with a slippery razor handle, confirming that was the DSC pre-shave lotion that had been the cause. For the remainder of the week, each shave was close and comfortable, with no tugging, burning, or other 
+
 ## Days 8-14
+
+My intention had been to try the razor for two weeks without changing any other variables. That effort failed after day one, but I was still hopeful that the rest of the two weeks would 
 
 ## Days 15-21
 
-## Days 22-28
+## Days 22-31
 
-- 
+## Days 32-62 (August 2019)
 
 # Feedback Appreciated
 Do you have any comments or questions? Did I make any mistakes in this post? Let me know on Twitter. I'm [@WalkingRiver](https://twitter.com/walkingriver).
