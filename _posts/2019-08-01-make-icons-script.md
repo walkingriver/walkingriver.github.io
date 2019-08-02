@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Shell Script king Icons for a Capacitor/iOS Application
+title: Shell Script to Make Icons for a Capacitor/iOS Application
 date: '2019-08-01T15:15:00.002-04:00'
 author: Michael Callaghan
 tags: ionic,capacitor,ios
