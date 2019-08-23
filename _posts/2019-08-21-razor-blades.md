@@ -19,8 +19,11 @@ I hate shaving. It is one of life's cruel twists in that I have to shave daily, 
 > Full Disclosure: Many of the links in this review are affiliate links.
 
 # Summary of the review so far
-## Updated August 5, 2019
 If you are simply interested in my test results, you can find them in this table. I will update it as I go.
+
+## August 22, 2019 Update
+I've started the fourth week of using a single DSC blade. I can tell it is not quite as good as it was during the first week, but the comfort and quality of the shave are still acceptable. My goal (hope?) is that I can get a full month out of one.
+
 
 |Day(s)|Blades|Pre-shave|Post-shave|Result|
 |-|-|-|-|-|
