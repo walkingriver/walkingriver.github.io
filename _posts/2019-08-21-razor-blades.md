@@ -55,7 +55,7 @@ Price is only half of the story, of course. What value is a cheap blade if the s
 >** Winner 
 
 ## Review Conclusion
-Ultimately, I found the Dollar Shave Club to be equivalent to the quality of the Gillette. It really comes down to price and convenience. For $20 every four months, I can have new blades delivered to my door, without my having to remember to buy them. 
+Ultimately, I found the Dollar Shave Club to be equivalent to the quality of the Gillette. It really comes down to price and convenience. For $10 every four months (including shipping and tax), I can have new blades delivered to my door, without my having to remember to buy them. 
 
 The absolute best price I was able to find on the Gillette blades works out to about $3.25 per blade, buying them 8 at a time. 
 
