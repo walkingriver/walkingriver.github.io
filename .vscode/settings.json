@@ -8,7 +8,10 @@
     "titleBar.activeBackground": "#2f253e",
     "titleBar.inactiveBackground": "#2f253e99",
     "titleBar.activeForeground": "#e7e7e7",
-    "titleBar.inactiveForeground": "#e7e7e799"
+    "titleBar.inactiveForeground": "#e7e7e799",
+    "statusBar.background": "#2f253e",
+    "statusBarItem.hoverBackground": "#47385e",
+    "statusBar.foreground": "#e7e7e7"
   },
   "cSpell.enabledLanguageIds": [
     "asciidoc",
@@ -37,5 +40,6 @@
     "typescript",
     "typescriptreact",
     "yml"
-  ]
+  ],
+  "peacock.color": "#2f253e"
 }
