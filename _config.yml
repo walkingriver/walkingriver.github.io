@@ -75,3 +75,6 @@ jekyll-mentions:
 
 # Exclude list
 exclude: [README.md, Gemfile, Gemfile.lock, node_modules, gulpfile.js, package.json, _site, src, vendor, CNAME, LICENSE, Rakefile]
+
+# Coil
+coil:         $pay.stronghold.co/1a1430981e8e48d40b5887601117e6e46cb
