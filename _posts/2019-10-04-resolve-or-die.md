@@ -190,3 +190,5 @@ Review the demo video to see how each one behaves, and choose the option that wo
 
 # Feedback Appreciated
 Do you have any comments or questions? Did I miss your favorite pattern? Did I make any mistakes in this post? Let me know on Twitter. I'm [@walkingriver](https://twitter.com/walkingriver).
+
+I also author [courses for Pluralsight](https://pluralsight.pxf.io/OnWrP), exclusively targeting the Ionic Framework. 

@@ -1,37 +1,23 @@
 ---
 layout: page
-title: About the Theme
-tags: [about, Jekyll, theme, moon]
-date: 2016-03-21
+title: About Walking River
+tags: [about]
+date: 2019-10-11
 comments: false
 ---
     
-<center><a href="http://taylantatli.github.io/Moon"><b>Moon</b></a> is a minimal, one column jekyll theme.</center>
+# About Walking River
+Walking River is my online alias, encompassing everything I do outside of my day job. 
 
-## Features
-* Minimal, you can focus on your content
-* Responsive
-* Disqus integration
-* Syntax highlighting
-* Optional post image
-* Social icons
-* Page for sharing projects
-* Optional background image
-* Simple navigation menu
-* MathJax support
+## What is a Walking River?
+Many years ago my wife and I were exploring the mountain of northern New Hampshire. We parked along the side of the Swift River, just off the Kancamagus Highway, near a gorgeous covered bridge. As we made our way down to the riverbank, my wife exclaimed that it was a "walking river." Upon seeing my puzzled expression, she explained that a walking river is any river or stream that is so full of rocks, that one can easily walk across or along it without getting wet. You simply walk or hop from rock to rock. 
 
-## Preview
+![A Walking River](https://walkingriver.com/assets/img/white-mountains-918002_1920.jpg)
 
-{% capture images %}
-    https://cloud.githubusercontent.com/assets/754514/14509720/61c61058-01d6-11e6-93ab-0918515ecd56.png
-    https://cloud.githubusercontent.com/assets/754514/14509716/61ac6c8e-01d6-11e6-879f-8308883de790.png
-{% endcapture %}
-{% include gallery images=images caption="Screenshots of Moon Theme" cols=2 %}
+When I got home from that trip, I registered walkingriver.com, and have been using the name informally for years. It is my online personna for most of my personal projects.
 
-See a [live version of Moon](http://taylantatli.github.io/Moon) hosted on GitHub.
-
-## Getting Started
-
-To learn how to install and use this theme check out the [Setup Guide](http://taylantatli.me/Moon/moon-theme/) for more information.
+## About This Theme
+This theme is built on Jekyll and the Moon theme. For more information, or to learn how to install and use this theme check out the [Setup Guide](http://taylantatli.me/Moon/moon-theme/) for more information.
       
 [Install Moon](https://github.com/TaylanTatli/Moon){: .btn}
+See a [live version of Moon](http://taylantatli.github.io/Moon) hosted on GitHub.
