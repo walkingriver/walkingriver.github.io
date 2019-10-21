@@ -97,6 +97,9 @@ We should discuss our build process awhile.
 ## Imply/Infer
 If you expect your reader to derive some meaning from your statement, you are implying. Your reader is inferring. Try not to reverse them.
 
+## Lead/Led
+The past-tense of the verb `lead` is `led`. `Lead` is a metal.
+
 ## Less/Fewer
 I see this error often, and the rule is pretty simple. If you can count something, use `fewer`. If you cannot count it, or you tend to use its singular noun form, use `less`. 
 
