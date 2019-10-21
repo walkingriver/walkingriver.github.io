@@ -1,0 +1,162 @@
+---
+layout: post
+title: Watch Your Language - Spelling and Grammar Tips for Developers
+date: '2019-10-20T15:15:00.002-04:00'
+author: Michael Callaghan
+tags: writing,spelling,grammar
+layout: post
+feature: https://walkingriver.com/assets/img/writing.png
+thumbnail: https://walkingriver.com/assets/img/writing.png
+cover_image: https://walkingriver.com/assets/img/writing.png
+canonical_url: https://walkingriver.com/watch-your-language/
+published: true
+---
+
+At the risk of offending some of my peers, I wish to make an observation. As a group, we tend to be horrible at written communication. Software developers are some of the worst writers I have ever read. We make sloppy mistakes, both in spelling and in grammar. Whether you write technical articles for a living, blog posts for a hobby, or pull request comments, this article is an attempt to provide some simple guidance to improve your language and your writing. 
+
+<!--more-->
+
+# Spelling
+First and foremost, use a spell checker. In today's world, there is no excuse for spelling words incorrectly. However, if you are not careful, you can still use a correctly spelled word incorrectly. Below are some common mistakes I see often. 
+
+## Alright
+There is no such word, even though many spell checkers do not flag it. It is an informal form of `all right`.
+
+## Alot
+This word does not appear in the English language. It is an informal way of saying `a lot`. When in doubt, consider using `many`.
+
+Do not say
+```
+There were alot of bugs in the last release.
+```
+
+Do say
+```
+There were a lot of bugs in the last release.
+There were many bugs in the last release.
+```
+
+## Cancelled/Canceled
+Though technically either form is correct, in most of the English-speaking world, the proper spelling is `canceled`. Quite frankly, it does not matter which one you use; try to be consistent.
+
+## Irregardless
+Again, there is no such word. There are two words you may wish to use instead: `regardless` or `irrespective`. 
+
+## It's/Its
+This one probably bothers me more than any other. The word `it's` is a contraction, meaning `it is`. The correct possessive form is `its`.
+
+Do not say
+```
+My cat just spent the last five minutes chasing it's tail.
+Its a beautiful day outside.
+```
+
+Say
+```
+My cat just spent the last five minutes chasing its tail.
+It's a beautiful day outside.
+```
+
+## Then/Than
+I think this one confuses people because we no longer use `then` in most programming languages for conditionals. Shell script and BASIC programmers probably do not make this mistake.
+
+`Then` follows `if`. `Than` is used to compare two things. 
+
+- If this, `then` that.
+- This is better `than` that.
+
+## There/their/they're
+Their defense is over there working hard to show they're the most talented. 
+
+## Your/You're
+`Your` is possessive. `You're` is a contraction meaning `you are`. Please do not confuse the two. Whenever I see `your welcome` in a message, I always want to reply, `my welcome what???`
+
+I imagine that this is almost always a typo, but it is worth mentioning.
+
+# Grammar
+Even though you may spell words correctly, and use the correct spelling of your words, it is possible to confuse your reader by using inappropriate language, words, and grammar. This section contains the errors I see most often.
+
+## Profanity
+Though it has become more acceptable in society, profanity has no place in a professional setting or in your professional writing. If you are writing a novel, or perhaps an article for _Rolling Stone_, swear all you like. Please do not swear in your technical tutorials, blog posts, and especially not your business emails. Profanity makes you appear neither smarter nor more mature.
+
+## Awhile/A while
+I admit to being guilty of this one myself. `A while` refers to an indefinite amount of time. `Awhile` is an adverb, and will usually appear next to a verb. Also, though some people do it, do not use `awhile` after a preposition.
+
+Do not say
+```
+The code took awhile to build.
+We should discuss our build process for awhile.
+```
+
+Do say
+```
+The code took a while to build.
+We should discuss our build process awhile.
+```
+
+## Imply/Infer
+If you expect your reader to derive some meaning from your statement, you are implying. Your reader is inferring. Try not to reverse them.
+
+## Less/Fewer
+I see this error often, and the rule is pretty simple. If you can count something, use `fewer`. If you cannot count it, or you tend to use its singular noun form, use `less`. 
+
+Do not say
+```
+This code release has less bugs than the last one.
+```
+
+Do say
+```
+This code release has fewer bugs than the last one.
+This code release is less complex than the last one.
+```
+
+## Split Infinitives
+An infinitive is a verb form that is used as a noun. The word `replicate` is a verb. `To replicate` is a noun. In the sentence `Docker enables teams to replicate`, the verb is `enables` and the noun is `to replicate`. 
+
+Splitting an infinitive involves adding another word between the two. 
+
+Do not say
+```
+Docker enables teams to quickly replicate their development and production environments. 
+```
+
+Do say
+```
+Docker enables teams to replicate their development and production environments quickly.
+```
+
+Also correct, though less common
+```
+Docker enables teams quickly to replicate their development and production environments.
+```
+
+Though splitting infinitives is becoming more acceptable and widespread, especially in informal writing, the use of split infinitives seems lazy. 
+
+## Contractions
+This is not a hard and fast rule, so much as a preference on my part. I was taught many years ago that one should avoid using contractions in professional and technical writing. Their use is considered too informal. 
+
+# Summary
+Like it or not, people do judge you based on your words. Sloppy writing is unprofessional. Spend some time making sure that your meaning conveys your intent.
+
+If you made it this far, then you probably experienced at least one of two emotions:
+
+1. Slight embarrassment that I exposed some flaw in your own writing style.
+1. Annoyance at one or more of my opinions.
+
+If you agree with me entirely and make none of these mistakes, congratulations! If you have some favorites of your own that I have forgotten, or I made any spelling or grammatical errors in this article, please let me know.
+
+# Resources
+These two books have probably been more help to me than any other throughout my career. 
+
+[![Strunk and White - Elements of Style](https://walkingriver.com/assets/img/2019-10-14-06-59-36.png)](https://amzn.to/2B80IEf)
+
+[![The Mac is Not a Typewriter](https://walkingriver.com/assets/img/2019-10-14-07-07-12.png)](https://amzn.to/35yeP3T)
+
+_Note: These are affiliate links to Amazon.com, and I could potentially receive a commission for any sales resulting from them._
+
+# Feedback Appreciated
+Do you have any comments or questions? Did I make any mistakes in this post? Let me know on Twitter. I'm [@walkingriver](https://twitter.com/walkingriver).
+I also author [courses for Pluralsight](https://pluralsight.pxf.io/OnWrP), exclusively targeting the Ionic Framework. 
+
+
