@@ -14,7 +14,7 @@ Many years ago my wife and I were exploring the mountain of northern New Hampshi
 
 ![A Walking River](https://walkingriver.com/assets/img/white-mountains-918002_1920.jpg)
 
-When I got home from that trip, I registered walkingriver.com, and have been using the name informally for years. It is my online personna for most of my personal projects.
+When I got home from that trip, I registered walkingriver.com, and have been using the name informally for years. It is my online persona for most of my personal projects.
 
 ## About This Theme
 This theme is built on Jekyll and the Moon theme. For more information, or to learn how to install and use this theme check out the [Setup Guide](http://taylantatli.me/Moon/moon-theme/) for more information.
