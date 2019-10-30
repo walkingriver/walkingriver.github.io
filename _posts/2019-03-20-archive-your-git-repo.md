@@ -3,7 +3,10 @@ layout: post
 title: Archive Your Git Repo
 date: '2019-03-19T10:56:00.001-04:00'
 author: Michael Callaghan
-tags: git,code,archive
+tags: 
+- git 
+- code
+- archive
 modified_time: '2019-03-19T10:56:00.001-04:00'
 feature: assets/img/github.png
 cover_image: https://walkingriver.com/assets/img/github.png

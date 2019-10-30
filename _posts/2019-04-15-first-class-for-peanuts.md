@@ -4,7 +4,10 @@ title: First Class for Peanuts
 date: '2019-04-15T08:39:00.001-04:00'
 author: Michael Callaghan
 thumbnail: https://walkingriver.com/assets/img/
-tags: travel,courtesy,kindness
+tags: 
+- travel 
+- courtesy
+- kindness
 feature: assets/img/mixed-nuts.jpg
 thumbnail: https://walkingriver.com/assets/img/mixed-nuts.jpg
 cover_image: https://walkingriver.com/assets/img/mixed-nuts.jpg

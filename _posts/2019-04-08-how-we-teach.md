@@ -4,7 +4,10 @@ title: How We Teach
 date: '2019-04-08T10:56:00.001-04:00'
 author: Michael Callaghan
 thumbnail: https://walkingriver.com/assets/img/math-board.jpg
-tags: learning,teaching,edge
+tags: 
+- learning 
+- teaching
+- edge
 feature: assets/img/math-board.jpg
 cover_image: https://walkingriver.com/assets/img/math-board.jpg
 canonical_url: https://walkingriver.com/how-we-teach/

@@ -3,7 +3,10 @@ layout: post
 title: Watch Your Language - Spelling and Grammar Tips for Developers
 date: '2019-10-20T15:15:00.002-04:00'
 author: Michael Callaghan
-tags: writing,spelling,grammar
+tags: 
+- writing 
+- spelling
+- grammar
 layout: post
 feature: https://walkingriver.com/assets/img/writing.png
 thumbnail: https://walkingriver.com/assets/img/writing.png

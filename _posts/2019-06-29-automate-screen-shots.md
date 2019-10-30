@@ -3,7 +3,10 @@ layout: post
 title: Automating App Store Screen Shots with Angular and Protractor
 date: '2019-07-04T15:15:00.002-04:00'
 author: Michael Callaghan
-tags: angular,protractor,mobile
+tags: 
+- angular 
+- protractor
+- mobile
 layout: post
 feature: assets/img/2019-07-04-22-31-21.png
 thumbnail: https://walkingriver.com/assets/img/2019-07-04-22-31-21.png

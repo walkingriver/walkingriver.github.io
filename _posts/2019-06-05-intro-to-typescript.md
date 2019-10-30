@@ -3,7 +3,10 @@ layout: post
 title: Introduction to TypeScript (for Experienced Developers)
 date: '2019-06-03T15:15:00.002-04:00'
 author: Michael Callaghan
-tags: programming,development,typescript
+tags: 
+- programming 
+- development
+- typescript
 layout: post
 feature: assets/img/typescript.jpg
 thumbnail: https://walkingriver.com/assets/img/typescript-logo.svg

@@ -3,7 +3,10 @@ layout: post
 title: Making Splash Screens for a Capacitor/Android Application
 date: '2019-06-30'
 author: Michael Callaghan
-tags: ionic,capacitor,ios
+tags: 
+- ionic 
+- capacitor
+- ios
 layout: post
 feature: assets/img/bravo-icons.png
 thumbnail: https://walkingriver.com/assets/img/bravo-icons.png

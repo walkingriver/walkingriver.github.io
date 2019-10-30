@@ -5,7 +5,10 @@ title: How We Lead
 date: '2019-04-08T10:56:00.001-04:00'
 author: Michael Callaghan
 thumbnail: https://walkingriver.com/assets/img/
-tags: learning,teaching,leading
+tags: 
+- learning 
+- teaching
+- leading
 feature: assets/img/
 cover_image: https://walkingriver.com/assets/img/
 canonical_url: https://walkingriver.com/how-we-lead/

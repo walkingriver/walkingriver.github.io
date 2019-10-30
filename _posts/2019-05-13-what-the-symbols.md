@@ -3,7 +3,10 @@ layout: post
 title: What the ~|&||&&$!`()?
 date: '2019-05-03T15:15:00.002-04:00'
 author: Michael Callaghan
-tags: terminal,development,shell
+tags: 
+- terminal 
+- development
+- shell
 modified_time: '2019-05-03T15:15:48.265-04:00'
 layout: post
 feature: assets/img/linux-shell.png

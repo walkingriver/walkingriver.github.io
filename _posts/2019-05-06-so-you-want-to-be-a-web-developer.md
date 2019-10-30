@@ -3,7 +3,10 @@ layout: post
 title: So You Want to Be a Web Developer?
 date: '2019-05-03T15:15:00.002-04:00'
 author: Michael Callaghan
-tags: training,development,code
+tags: 
+- training 
+- development
+- code
 modified_time: '2019-05-03T15:15:48.265-04:00'
 layout: post
 feature: assets/img/

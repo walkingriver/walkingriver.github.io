@@ -3,7 +3,10 @@ layout: post
 title: Making Icons for a Capacitor/iOS Application
 date: '2019-06-29T15:15:00.002-04:00'
 author: Michael Callaghan
-tags: ionic,capacitor,ios
+tags: 
+- ionic 
+- capacitor
+- ios
 layout: post
 feature: assets/img/bravo-icons.png
 thumbnail: https://walkingriver.com/assets/img/bravo-icons.png

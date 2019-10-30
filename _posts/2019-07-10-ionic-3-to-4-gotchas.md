@@ -3,7 +3,10 @@ layout: post
 title: Some Ionic v3 to v4 Gotchas
 date: '2019-07-10'
 author: Michael Callaghan
-tags: ionic,angular,typescript
+tags: 
+- ionic 
+- angular
+- typescript
 layout: post
 feature: assets/img/ionic-logo.png
 thumbnail: https://walkingriver.com/assets/img/ionic-logo.png

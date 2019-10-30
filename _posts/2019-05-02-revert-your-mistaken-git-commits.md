@@ -3,7 +3,10 @@ layout: post
 title: Revert Your Mistaken Git Commits
 date: '2019-05-01T15:15:00.002-04:00'
 author: Michael Callaghan
-tags: git,development,code
+tags: 
+- git 
+- development
+- code
 modified_time: '2019-05-01T15:15:48.265-04:00'
 layout: post
 feature: assets/img/github.png

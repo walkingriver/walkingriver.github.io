@@ -3,7 +3,10 @@ layout: post
 title: Teaching Kids to Code
 date: '2019-04-03T10:56:00.001-04:00'
 author: Michael Callaghan
-tags: learning,teaching,coding
+tags: 
+- learning 
+- teaching
+- coding
 feature: assets/img/laptop-boy.jpg
 thumbnail: https://walkingriver.com/assets/img/laptop-boy.jpg
 cover_image: https://walkingriver.com/assets/img/laptop-boy.jpg
