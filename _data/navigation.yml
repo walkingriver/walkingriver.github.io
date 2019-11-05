@@ -3,8 +3,11 @@
 # - title: Projects
 #   url: /projects/
 
-- title: Training
+- title: Courses
   url: /training/
+
+- title: Speaking
+  url: /speaking/
 
 - title: Contact
   url: /contact/
