@@ -17,7 +17,7 @@ published: true
 
 Someone commented on the discussion section of my [Ionic/PWA course at Pluralsight](https://pluralsight.pxf.io/Ly2EY) that there are many examples of deploying to Firebase, but few other services. My immediate reply was that Firebase makes it dead-simple to deploy. But the question got me thinking. My course is almost a year old. Maybe there are other really good deployment hosts, and I might be doing my viewers and readers a disservice by not investigating them. I have always been a big fan of Microsoft Azure, so figured I would see what it takes to deploy my Ionic PWA there.
 
-<!--more -->
+<!--more-->
 
 # Prerequisites
 Naturally, there are things you need to do before starting out.
