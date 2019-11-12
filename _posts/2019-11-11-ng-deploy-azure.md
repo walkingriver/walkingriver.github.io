@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Watch Your Language - Spelling and Grammar Tips for Developers
-date: '2019-10-20T15:15:00.002-04:00'
+title: Deploy Your Angular App to Azure with ng deploy
+date: '2019-11-11T15:15:00.002-04:00'
 author: Michael Callaghan
 tags: 
 - azure 
