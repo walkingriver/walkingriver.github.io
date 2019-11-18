@@ -12,7 +12,7 @@ feature: assets/img/
 thumbnail: https://walkingriver.com/assets/img/
 cover_image: https://walkingriver.com/assets/img/
 canonical_url: https://walkingriver.com/paste-code-into-slides/
-published: true
+published: false
 ---
 
 I present a lot of code in my Pluralsight courses. Sometimes the code is in an IDE, but often it will be displayed in a slide deck. In either case, it is important that the presentation be consistent and attractive. Most (all?) modern IDEs provide special code syntax coloring, which developers have come to expect. Getting that consistency in a slide deck was harder. When I first started, the easiest way to ensure that your code looks decent in your deck was to take a screenshot and paste it into the slides as an image. That is still an option, but today there is a better way.
