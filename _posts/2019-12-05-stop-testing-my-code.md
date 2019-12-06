@@ -13,7 +13,7 @@ thumbnail: https://walkingriver.com/assets/img/javascript-func.png
 cover_image: https://walkingriver.com/assets/img/javascript-func.png
 canonical_url: https://walkingriver.com/stop-testing-my-code/
 date: '2019-12-05'
-published: false
+published: true
 ---
 Everyone agrees that Test Driven Development (TDD) is a good thing, right? Right? If you agree that tests are important, you probably write a lot of tests. You might even have a code coverage tool that helps you know how much of your code is tested. Great so far. But here is my question. Are you testing the right code? Are you testing your code, or mine? 
 <!--more-->
