@@ -29,11 +29,11 @@ The author's intention, in English was the following...
 
 > "Get me a list of all reservations where the guest's last name matches the last name provided." 
 
-Anyone who has used LINQ to Entities can probably spot the problem immediately. By default, the LINQ to Entities executes as much of the query as it can on the database. However, the `.ToList()` call, which is not even necessary, overrides that behavior. It causes the query to be executed immediately and the results serialized into a list. That list is then returned to the method chain, at which point the `Where` clause is executed. 
+Anyone who has used LINQ to Entities can probably spot the problem immediately. By default, the LINQ to Entities executes as much of the query as it can on the database. However, the `ToList()` call, which is not even necessary, overrides that behavior. It causes the query to be executed immediately and the results serialized into a list. That list is then returned to the method chain, at which point the `Where` clause is executed. 
 
 In English, the actual consequences of this method chain is...
 
-"Get me a list of all reservations in the database. Once you've returned all of those to me, then filter the list to only those records with a matching last name provided."
+> "Get me a list of all reservations in the database. Once you've returned all of those to me, then filter the list to only those records with a matching last name provided."
 
 As I'm sure you can imagine, asking a hotel reservation system to return all of its reservations, without any
 constraints, would return a lot of records. You might think this would be discovered quickly. The developer did not see any issues locally, because the local development database contained only a few dozen reservations. That is a problem worth its own discussion. 
