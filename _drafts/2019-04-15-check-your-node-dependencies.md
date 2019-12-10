@@ -44,7 +44,7 @@ Unused devDependencies
 
 As you can see, the output is very straightforward. I was surprised to see grunt and jshint listed as unused `devDependencies`. I guess it thinks those utilities should be installed globally. That's fine. I tend to prefer using `npx` to run CLI tools, and keeping my global npm packages to a minimum. 
 
-When it finds unused depenendencies, they our listed as above, and command returns a non-zero exit status. If there are no unused dependencies at all, the command outputs nothing and returns a zero exit status. So my next step will be to do something like this, and add it to a git pre-push hook, so I don't have to deal with this problem again. 
+When it finds unused dependencies, they our listed as above, and command returns a non-zero exit status. If there are no unused dependencies at all, the command outputs nothing and returns a zero exit status. So my next step will be to do something like this, and add it to a git pre-push hook, so I don't have to deal with this problem again. 
 
 ```sh
 ```
