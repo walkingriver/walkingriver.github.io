@@ -147,5 +147,3 @@ being a more pleasant person to have around.
 
 By the way, did you notice I don't have to test the promise anymore? 
 
-# Feedback Appreciated
-Do you have any comments or questions? Did I make any mistakes in this post? Could I make these tests better? Let me know on Twitter. I'm [@walkingriver](https://twitter.com/walkingriver).

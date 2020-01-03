@@ -70,5 +70,3 @@ If you are creating an API:
 
  As I said above, you do not want to be the one bringing down the production systems on a Sunday morning.
 
-# Feedback Appreciated
-Do you have any comments or questions? Did I make any mistakes in this post? Let me know on Twitter. I'm [@walkingriver](https://twitter.com/walkingriver). I also author [courses for Pluralsight](https://pluralsight.pxf.io/OnWrP), exclusively targeting the Ionic Framework. 

@@ -56,7 +56,3 @@ sips -z 167 167 --out ./AppIcon.appiconset/AppIcon-83.5x83.5@2x.png icon.png
 
 As I said, pretty straightforward. With a little more time, I could probably come up with something more elegant, but this brute-force solution works well enough. It assumes you have a PNG file named icon.png, and it should be at least 512x512.
 
-
-
-# Feedback Appreciated
-Do you have any comments or questions? Did I make any mistakes in this post? Let me know on Twitter. I'm [@walkingriver](https://twitter.com/walkingriver).

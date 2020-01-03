@@ -113,5 +113,3 @@ I ran into an identical problem with the `PickerController`. No UI refresh after
 - [Ionic Framework Alert Controller](https://ionicframework.com/docs/api/alert)
 - [Ionic Framework Picker Controller](https://ionicframework.com/docs/api/picker)
 
-# Feedback Appreciated
-Do you have any comments or questions? Did I make any mistakes in this post? Let me know on Twitter. I'm [@walkingriver](https://twitter.com/walkingriver). I also author [courses for Pluralsight](https://pluralsight.pxf.io/OnWrP), exclusively targeting the Ionic Framework. 

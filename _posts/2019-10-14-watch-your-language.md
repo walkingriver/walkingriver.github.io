@@ -161,8 +161,5 @@ These two books have probably been more help to me than any other throughout my 
 
 _Note: These are affiliate links to Amazon.com, and I could potentially receive a commission for any sales resulting from them._
 
-# Feedback Appreciated
-Do you have any comments or questions? Did I make any mistakes in this post? Let me know on Twitter. I'm [@walkingriver](https://twitter.com/walkingriver).
-I also author [courses for Pluralsight](https://pluralsight.pxf.io/OnWrP), exclusively targeting the Ionic Framework. 
 
 

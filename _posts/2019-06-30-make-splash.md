@@ -63,9 +63,3 @@ resize $1 1280 1920 drawable-port-xxxhdpi
 
 Like yesterday's script to create iOS icons, this one is pretty straightforward. It is a lot of brute force, and assumes a happy path. Unlike yesterday's, this one actually allows you to specify the splash screen to be converted, and it will then build the appropriate `res` folder. Simply take those files and drop them into your Android Capacitor project. You'll find them in `./android/src/app/main/res`.
 
-Feel free to make suggestions on improvement.
-
-
-
-# Feedback Appreciated
-Do you have any comments or questions? Did I make any mistakes in this post? Let me know on Twitter. I'm [@walkingriver](https://twitter.com/walkingriver).

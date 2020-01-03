@@ -337,5 +337,3 @@ export class CheckboxComponent implements ControlValueAccessor {
 - [W3School Custom Checkbox](https://www.w3schools.com/howto/howto_css_custom_checkbox.asp)
 - [HTML DOM Event object](https://www.w3schools.com/jsref/dom_obj_event.asp)
 
-# Feedback Appreciated
-Do you have any comments or questions? Did I make any mistakes in this post? Let me know on Twitter. I'm [@walkingriver](https://twitter.com/walkingriver).

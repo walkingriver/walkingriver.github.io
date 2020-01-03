@@ -87,7 +87,3 @@ To use it, first make sure you're on a Mac.
 1. Enjoy!
 
 
-# Feedback Appreciated
-Do you have any comments or questions? Did I make any mistakes in this post? Let me know on Twitter. I'm [@walkingriver](https://twitter.com/walkingriver).
-
-

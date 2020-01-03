@@ -143,8 +143,3 @@ That was not so bad. Other than one hiccup, Angular deployments to Azure seem to
 
 Most of what I did above would only be suitable for an individual developer. The documentation describes how to integrate deployment into a CICD pipeline, but that will have to wait for another batch of free time. 
 
-
-# Feedback Appreciated
-Do you have any comments or questions? Did I make any mistakes in this post? Let me know on Twitter. I'm [@walkingriver](https://twitter.com/walkingriver).
-I also author [courses for Pluralsight](https://pluralsight.pxf.io/OnWrP), exclusively targeting the Ionic Framework. 
-

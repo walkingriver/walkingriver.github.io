@@ -309,5 +309,3 @@ mike = { email: '2345@company.com', firstName: 'Bob', lastName: 'Johnson' };
 # What Next?
 That's all for now, but there is a lot more to TypeScript. For more information, visit www.typescriptlang.org
 
-# Feedback Appreciated
-Do you have any comments or questions? Did I make any mistakes in this post? Let me know on Twitter. I'm [@walkingriver](https://twitter.com/walkingriver).

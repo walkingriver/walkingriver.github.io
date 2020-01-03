@@ -191,7 +191,3 @@ As part of that research, I came up with some ~~rules~~ guidelines for deciding 
 
 Review the demo video to see how each one behaves, and choose the option that works best for your projects. 
 
-# Feedback Appreciated
-Do you have any comments or questions? Did I miss your favorite pattern? Did I make any mistakes in this post? Feel free to [suggest an edit]({{site.github.repository_url}}/edit/master/{{page.relative_path}}), or let me know on Twitter. I'm [@walkingriver](https://twitter.com/walkingriver).
-
-I also author [courses for Pluralsight](https://pluralsight.pxf.io/OnWrP), exclusively targeting the Ionic Framework. 
