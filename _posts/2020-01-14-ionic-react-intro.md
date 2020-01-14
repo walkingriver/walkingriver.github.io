@@ -37,7 +37,7 @@ ionic start bravo-react sidemenu --type=react
 
 Fire up the app to see what it looks like.
 
-```base
+```bash
 ionic serve
 ```
 
@@ -49,7 +49,7 @@ It is a standard Ionic sample app with a menu and a split-pane view. This means 
 We will remove everything on the home page inside the `<IonContent>...</IonContent>` and replace it with some general game instructions. 
 
 ## Slider
-My instruction cards are implementing using the ion-slides component. The current code looks like this, which is what I need to replicate.
+My instruction cards are implementing using the `ion-slides` component. The current code looks like this, which is what I need to replicate.
 
 ### ion-sides (Angular)
 ```html
@@ -60,7 +60,7 @@ My instruction cards are implementing using the ion-slides component. The curren
 </ion-slides>
 ```
 
-There are multiple ion-slide objects inside a single ion-slides wrapper. The wrapper has an identifier that I can reference from the Angular component code through a ViewChild decorator. Only a single option is specified, displaying a pager at the bottom of the slider as a series of small gray dots. My slider raises a single event I care about, onSlideChange. This event fires whenever the slide has changed.
+There are multiple `ion-slide` objects inside a single `ion-slides` wrapper. The wrapper has an identifier that I can reference from the Angular component code through a `ViewChild` decorator, which is Angular-specific. Only a single option is specified, displaying a pager at the bottom of the slider as a series of small gray dots. My slider raises a single event I care about, `onSlideChange`. This event fires whenever the slide has changed.
 
 I was originally going to omit it from this experiment, but realized that responding to HTML events is a pretty basic task. It has also provided me with my first real challenge. 
 
@@ -104,7 +104,7 @@ const ionSlideChanged = (event: CustomEvent) => {
 }
 ```
 
-The first line, which is what took me so long to get right, "returns a stateful value, and a function to update it." This is a basic React hook, and provides a way to set and alter the component state. In this instance, I want a local variable that controls the visibility of my Skip button. 
+The first line, which is what took me so long to get right, "returns a stateful value, and a function to update it." This is a basic React hook, and provides a way to set and alter the component state. I want React to understand that this variable means something to the UI, and this is how that is done. I tell React to give me some state by calling `React.useState(true)`. The `true` parameter is the initial state value. That function returns two values, the state variable itself, and a function I can call to update it. In this instance, I now have a local variable that controls the visibility of my Skip button. 
 
 The function `ionSlideChanged` is called whenever the slide is changed. This function needs to set the value of `showSkip` based on whether or not the final slide is showing. Unlike the Angular version, I do not seem to have a strongly-typed way to reach into the ion-slides component. Instead, I need to retrieve the target of the HTML event (In React, the IonSlides component), and then find its internal `swiper` field (that took a while to find), and check its `isEnd` value. It is here that the Angular code wins hands-down.
 
