@@ -11,7 +11,7 @@ layout: post
 feature: assets/img/
 thumbnail: https://walkingriver.com/assets/img/
 cover_image: https://walkingriver.com/assets/img/
-canonical_url: https://walkingriver.com/ionic-react/
+canonical_url: https://walkingriver.com/ionic-react-intro-1/
 published: false
 ---
 
@@ -46,9 +46,34 @@ Although the Ionic CLI does not (yet?) support React as thoroughly as it does An
 It is a standard Ionic sample app with a menu and a split-pane view. This means that when the app window is wide enough, like on a desktop browser, side menu will be visible all the time. When the window is narrower, less than 992 pixels wide, the menu will collapse into a standard hamburger menu. The menu shows two pages, home and list. Clicking either will navigate to the appropriate page. This is enough to get us started.
 
 # Instructions
-We will remove everything on the home page and replace it with some general game instructions. 
+We will remove everything on the home page inside the `<IonContent>...</IonContent>` and replace it with some general game instructions. 
 
 ## Slider
+My instruction cards are implementing using the ion-slider component. The Angular code looks like this, which is what I need to replicate.
+
+```html
+<ion-slides #slider pager="true" (ionSlideDidChange)="onSlideChange($event)">
+  <ion-slide>
+  . . .
+  </ion-slide>
+</ion-slides>
+```
+
+There are multiple ion-slide objects inside a single ion-slides wrapper. The wrapper has an identifier that I can reference from the Angular component code through a ViewChild decorator. Only a single option is specified, displaying a pager at the bottom of the slider as a series of small gray dots. My slider raises a single event I care about, onSlideChange. This event fires whenever the slide has changed.
+
+That event handler simply controls the visibility of a "Skip" link in the header. This link should be visible unless the slider is showing the last slide, indicated by `isEnd()`. That function is asynchronous, so it must be awaited. 
+
+```typescript
+async onSlideChange() {
+  this.showSkip = !(await this.slider.isEnd());
+}
+```
+
+I was originally going to omit it from this experiment, but realized that responding to HTML events is a pretty basic task.
+
+The only
+
+
 ### IonSlides
 
 ## IonCard
