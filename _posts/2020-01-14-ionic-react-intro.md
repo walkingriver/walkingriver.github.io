@@ -8,10 +8,10 @@ tags:
 - react
 - web
 layout: post
-feature: assets/img/ionic-v1.png
-thumbnail: https://walkingriver.com/assets/img/ionic-v1.png
-cover_image: https://walkingriver.com/assets/img/ionic-v1.png
-canonical_url: https://walkingriver.com/ionic-react-intro-1/
+feature: assets/img/react-v1.png
+thumbnail: https://walkingriver.com/assets/img/react-v1.png
+cover_image: https://walkingriver.com/assets/img/react-v1.png
+canonical_url: https://walkingriver.com/ionic-react-intro/
 published: true
 ---
 
