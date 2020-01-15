@@ -15,7 +15,7 @@ canonical_url: https://walkingriver.com/ionic-react-intro/
 published: true
 ---
 
-The other day I made a post I titled Confessions of a Reluctant Ionic-React Fan". That post contained some snippets that got added to the default Ionic SideMenu template, but it neglected to provide any real functionality. In this post, I will attempt to recreate using Ionic-React a subset of one of my existing Ionic v4 apps written in Angular. 
+The other day I made a post I titled "Confessions of a Reluctant Ionic-React Fan". That post contained some snippets that got added to the default Ionic SideMenu template, but it neglected to provide any real functionality. In this post, I will attempt to recreate using Ionic-React a subset of one of my existing Ionic v4 apps written in Angular. 
 
 <!--more-->
 
