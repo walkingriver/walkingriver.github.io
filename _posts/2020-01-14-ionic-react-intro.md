@@ -15,9 +15,15 @@ canonical_url: https://walkingriver.com/ionic-react-intro/
 published: true
 ---
 
-The other day I made a post I titled ["Confessions of a Reluctant Ionic-React Fan"](https://walkingriver.com/ionic-react/). That post contained some snippets that got added to the default Ionic SideMenu template, but it neglected to provide any real functionality. In this post, I will attempt to recreate using Ionic-React a subset of one of my existing Ionic v4 apps written in Angular. 
+The other day I made a post I titled Confessions of a Reluctant Ionic-React Fan". That post contained some snippets that got added to the default Ionic SideMenu template, but it neglected to provide any real functionality. In this post, I will attempt to recreate using Ionic-React a subset of one of my existing Ionic v4 apps written in Angular. 
 
 <!--more-->
+
+This is the second in what I hope to be a series on my experience with Ionic-React.
+
+0. ["Confessions of a Reluctant Ionic-React Fan"](https://walkingriver.com/ionic-react/)
+1. Ionic-React, a Brief Introduction
+2. _Coming Soon_
 
 # The Application
 The app I want to reproduce is called Bravo! It is a tiny app I wrote to help pass the time when waiting in line, on a road trip, or other times you find yourself with lots of time and little to do. You can download it here [for Android](http://bit.ly/android-bravo) or [for iOS](http://bit.ly/ios-bravo). 
@@ -53,21 +59,26 @@ My instruction cards are implementing using the `ion-slides` component. The curr
 
 ### ion-sides (Angular)
 ```html
-<ion-slides #slider pager="true" (ionSlideDidChange)="onSlideChange($event)">
+<ion-slides 
+  #slider 
+  pager="true" 
+  (ionSlideDidChange)="onSlideChange($event)">
   <ion-slide>
   . . .
   </ion-slide>
 </ion-slides>
 ```
 
-There are multiple `ion-slide` objects inside a single `ion-slides` wrapper. The wrapper has an identifier that I can reference from the Angular component code through a `ViewChild` decorator, which is Angular-specific. Only a single option is specified, displaying a pager at the bottom of the slider as a series of small gray dots. My slider raises a single event I care about, `onSlideChange`. This event fires whenever the slide has changed.
+There are multiple `ion-slide` objects inside a single `ion-slides` wrapper. The wrapper has an identifier that I can reference from the Angular component code through a `@ViewChild` decorator, which is Angular-specific. Only a single option is specified, `pager`, displaying a series of small gray dots at the bottom of the slider. My slider raises a single event I care about, `onIonSlideDidChange`. This event fires whenever the slide has changed (duh!).
 
 I was originally going to omit it from this experiment, but realized that responding to HTML events is a pretty basic task. It has also provided me with my first real challenge. 
 
 ### IonSlides (React)
-First and foremost, you cannot simply copy and paste the markup from the HTML file into a TSX file. If you try, you get a bunch of unknown components. Why? The tag names are different from Ionic-Angular and Ionic-React. This is what I started with.
+First and foremost, you cannot simply copy and paste the markup from the Angular project's HTML file into a React project's TSX file. If you try, you get a bunch of unknown component errors. Why? The tag names are different from Ionic-Angular and Ionic-React. 
 
-```tsx
+After that realization, this is what I managed to get working to start.
+
+```html
 <IonSlides pager={true} onIonSlideDidChange={ionSlideChanged}>
   <IonSlide>
     01. Placeholder
@@ -106,7 +117,25 @@ const ionSlideChanged = (event: CustomEvent) => {
 
 The first line, which is what took me so long to get right, "returns a stateful value, and a function to update it." This is a basic React hook, and provides a way to set and alter the component state. I want React to understand that this variable means something to the UI, and this is how that is done. I tell React to give me some state by calling `React.useState(true)`. The `true` parameter is the initial state value. That function returns two values, the state variable itself, and a function I can call to update it. In this instance, I now have a local variable that controls the visibility of my Skip button. 
 
-The function `ionSlideChanged` is called whenever the slide is changed. This function needs to set the value of `showSkip` based on whether or not the final slide is showing. Unlike the Angular version, I do not seem to have a strongly-typed way to reach into the ion-slides component. Instead, I need to retrieve the target of the HTML event (In React, the IonSlides component), and then find its internal `swiper` field (that took a while to find), and check its `isEnd` value. It is here that the Angular code wins hands-down.
+The function `ionSlideChanged` is called whenever the slide is changed. This function needs to set the value of `showSkip` based on whether or not the final slide is showing. Unlike the Angular version, I do not seem to have a strongly-typed way to reach into the ion-slides component. Instead, I need to retrieve the target of the HTML event (In React, the `IonSlides` component), and then find its internal `swiper` field (that took a while to discover), and check its `isEnd` value. It is here that the Angular code wins hands-down.
+
+### onIonSlideDidChange (Alternative)
+[Kevin Clark](https://twitter.com/KClarkADSTech) commented on Twitter that there are a couple of ways to get strong typing in this function. His first suggestion, that I use `event.detail`, did not work for me. It always had a `null` value. His second suggestion, however, worked perfectly. The new version of the function is here:
+
+```typescript
+async function ionSlideChanged(event: CustomEvent) {
+  const target = event.target as HTMLIonSlidesElement;
+  setSkip(! await target.isEnd());
+}
+```
+
+Now it looks almost exactly like the Angular version. I simply needed to coerce the `event.target` to be an `HTMLIonSlidesElement`. Once I did that, I could await a call to its `isEnd()` function, and use that value. 
+
+The Angular version is slightly more concise, because I already had a strongly-typed reference to the slides element in my component code:
+
+```typescript
+@ViewChild('slider') slider: IonSlides;
+```
 
 ## Toolbar and Buttons
 Now let us look at that Skip button and how it is shown or hidden. The Angular code for the entire header looks like this:
@@ -116,7 +145,9 @@ Now let us look at that Skip button and how it is shown or hidden. The Angular c
   <ion-toolbar color="dark">
     <ion-title>Bravo!</ion-title>
     <ion-buttons slot="end" *ngIf="showSkip">
-      <ion-button routerDirection="root" routerLink="/game" color="light">Skip</ion-button>
+      <ion-button routerDirection="root" 
+                  routerLink="/game" 
+                  color="light">Skip</ion-button>
     </ion-buttons>
   </ion-toolbar>
 </ion-header>
@@ -126,6 +157,7 @@ It is missing a menu button, but that was an early design decision. In the React
 
 The Skip button is light colored, and declares itself to be a navigation link to the "game" page, which is not yet implemented. Notice that the `ion-buttons` component contains an `*ngIf` to display or not, depending on the value of the `showSkip` variable. This concept is not replicated in React, so this was my second challenge.
 
+### Skip Button, First Attempt
 After a few web searches and much trial and error, I ended up creating the button as its own component, defined as a constant inside the HomePage component. It looks like this.
 
 ```tsx
@@ -163,6 +195,20 @@ You can see the call to the `skipButton()` function inside the `<IonButtons>` ta
 
 This is a little more abstraction and encapsulation than I would prefer for a simple "show/hide button" construct. But I was unable to find a better solution. 
 
+### A Better Approach
+Thanks to [Ely Lucas](https://twitter.com/elylucas), who commented on my pull request, I was able to eliminate the `skipButton()` function entirely by using what he suggested would be "kinda like [Angular's] ngIf." Instead of a separate function, we can simply evaluate the `skipButton` value directly inside the `<IonButtons>` element, as follows.
+
+```html
+<IonButtons slot="end">
+  {showSkip && <IonButton
+    routerDirection="forward"
+    routerLink="/game"
+    color="light">Skip </IonButton>}
+</IonButtons>
+```
+
+The entire `<IonButton>` definition is included with the markup where it is used. However if `showSkip` is not "truthy," JavaScript's short-circuiting of the conditional expression will prevent the right side of the `&&` from being evaluated. Thus, if `showSkip` is `false`, nothing will be displayed. Now the only reason to have a separate definition for the `skipButton` would be  to use it in more than one place on the page. This is much better.
+
 ## IonCard
 The next thing I want to do is flesh out the instructions themselves. In the Angular version, I use an `<ion-card>` that looks like this.
 
@@ -193,7 +239,7 @@ I will forgo any discussion about the custom CSS classes for now and simply conc
 
 ```html
 <IonCard>
-  <div class="concert bg"></div>
+  <div className="concert bg"></div>
   <IonCardHeader class="item item-header item-text-wrap">
     <IonCardTitle>Welcome to Bravo!</IonCardTitle>
   </IonCardHeader>
