@@ -19,6 +19,12 @@ What happens when a committed Angular developer crosses over and experiments wit
 
 <!--more-->
 
+This is the first in a series on my experience with Ionic-React.
+
+0. Confessions of a Reluctant Ionic-React Fan
+1. [Ionic-React, a Brief Introduction](https://walkingriver.com/ionic-react-intro/)
+2. _Coming Soon_
+
 # Background 
 First, a little background. Everyone who is familiar with me or my writing knows that I am a huge fan of the Ionic Framework. I discovered Ionic back in its v0.5 days, when I wanted to build a mobile app with Cordova, but also use AngularJS. As Ionic entered its adolescence with version 2, it matured from JavaScript and AngularJS to Angular 2 and TypeScript. This maturity continued into young adulthood with version 3, but big things were looming as adulthood approached.
 
