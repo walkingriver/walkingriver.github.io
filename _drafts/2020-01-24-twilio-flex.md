@@ -9,8 +9,8 @@ tags:
 - crm
 layout: post
 feature: /assets/img/twilio-flex.png
-thumbnail: //github.com/walkingriver/walkingriver.github.io/blob/master/assets/img/twilio-flex.png
-cover_image: //github.com/walkingriver/walkingriver.github.io/blob/master/assets/img/twilio-flex.png
+thumbnail: https://walkingriver.com/assets/img/twilio-flex.png
+cover_image: https://walkingriver.com/assets/img/twilio-flex.png
 canonical_url: https://walkingriver.com/twilio-flex/
 published: false
 ---
@@ -55,7 +55,7 @@ Widgets that call web services automatically parse the web response into an obje
 ## Weather App
 I thought it would be fun trying to build a simple phone based weather system using the widgets available to me. I created a new IVR flow and was immediately presented with a canvas consisting of a number of widgets pre-wired to handle the phone call. 
 
-![Twilio Studio](/assets/img/twilio-studio.png)
+![Twilio Studio](https://walkingriver.com/assets/img/twilio-studio.png)
 
 1. My first widget simply speaks a greeting to the user and then moves on. 
 2. Next, I ask the caller to enter a 5-digit US zip code.
