@@ -210,6 +210,8 @@ This Ionic v4-v5 upgrade did not go as well as some of my others. That said, it 
 
 I am not the only one who has been struggling with Icon changes since v5 was released. There were a lot of people on Twitter sharing similar frustrations. From what I have seen, though, this has really been the only roadblock with the upgrade.
 
+If you are interested in the complete set of changes I made to the project, you can review the [Pull Request](https://github.com/walkingriver/bravo-react/pull/3/files).
+
 # What is Next?
 Now that the upgrade to Ionic v5 is complete, here are some of the things that still need to be done to complete this project: 
 - Finishing the Instructions Page
