@@ -23,7 +23,8 @@ This is the second in what I hope to be a series on my experience with Ionic-Rea
 
 0. ["Confessions of a Reluctant Ionic-React Fan"](https://walkingriver.com/ionic-react/)
 1. Ionic-React, a Brief Introduction
-2. _Coming Soon_
+2. [Ionic-React, Upgrading to Ionic v5](https://walkingriver.com/ionic-react-5/)
+3. _Coming Soon_
 
 # The Application
 The app I want to reproduce is called Bravo! It is a tiny app I wrote to help pass the time when waiting in line, on a road trip, or other times you find yourself with lots of time and little to do. You can download it here [for Android](http://bit.ly/android-bravo) or [for iOS](http://bit.ly/ios-bravo). 

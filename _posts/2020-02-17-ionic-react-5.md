@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Ionic-React, Upgrading to Ionic v5
-date: '2020-01-14'
+date: '2020-01-17'
 author: Michael Callaghan
 tags: 
 - ionic 
@@ -21,10 +21,10 @@ Ionic v5 has been released, right in the middle of the conversion of one of my I
 
 This is the third in a series on my experience with Ionic-React.
 
-1. [Confessions of a Reluctant Ionic-React Fan](https://walkingriver.com/ionic-react/)
-2. [Ionic-React, a Brief Introduction](https://walkingriver.com/ionic-react-intro)
-3. Ionic-React, Upgrading to Ionic v5
-4. _Coming Soon_
+0. [Confessions of a Reluctant Ionic-React Fan](https://walkingriver.com/ionic-react/)
+1. [Ionic-React, a Brief Introduction](https://walkingriver.com/ionic-react-intro)
+2. Ionic-React, Upgrading to Ionic v5
+3. _Coming Soon_
 
 # The Application
 A few weeks back my "trusty" Mac Mini died. It simply would not power on. Fortunately, it was under warranty. A lot happened while I was waiting for it to be fixed and returned. One of those things was the official release of Ionic v5, including Ionic-React. So before I fully jump back into the app's conversion from Angular to React, I want to make sure it has the latest version of Ionic. 
