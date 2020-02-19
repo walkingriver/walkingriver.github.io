@@ -1,18 +1,18 @@
 ---
 layout: post
 title: A Few Days with Twilio Flex
-date: '2020-01-24'
+date: '2020-02-19'
 author: Michael Callaghan
 tags: 
+- twilio
 - sms
-- ivr
-- crm
+- flex
 layout: post
 feature: /assets/img/twilio-flex.png
 thumbnail: https://walkingriver.com/assets/img/twilio-flex.png
 cover_image: https://walkingriver.com/assets/img/twilio-flex.png
 canonical_url: https://walkingriver.com/twilio-flex/
-published: false
+published: true
 ---
 
 Have you ever needed to create an application for customer engagements? Imagine building a call center application from scratch that needs to support phone calls, web chat, and SMS messages, interactive voice response, speech recognition, and more. If the thought of doing all of that makes you cringe, you might want to consider Flex from Twilio.
@@ -20,7 +20,7 @@ Have you ever needed to create an application for customer engagements? Imagine 
 <!--more-->
 
 # Twilio
-When someone first suggested Twilio to me, my immediate response was, "That is the company that has a cool API to send and receive text messages, right?" Apparently my information is very out date, as Twilio has grown far beyond that. 
+When someone first suggested Twilio to me, my immediate response was, "That is the company that has a cool API to send and receive text messages, right?" Apparently my information is very out of date, as Twilio has grown far beyond that. 
 
 ## SMS
 So yes, Twilio does still provide a wonderful API for sending and receiving texts, supporting just about every platform you can imagine. 
@@ -99,20 +99,22 @@ Flex plugins allow developers to create standalone panels that will live inside 
 Flex Plugin JavaScript development requires a minimum of Node 8 and npm 5. 
 
 ## Setup
-The developer setup for building a JavaScript plugin was simple and easy. I issued the following command in my macOS terminal.
+The developer setup for building a JavaScript plugin was simple and easy. I issued the following commands in my macOS terminal.
 
 ```bash
-npm init flex-plugin plugin-park-hours --install --typescript
+npm init flex-plugin plugin-park-hours \
+  --install --typescript
+
 cd plugin-park-hours
 npm start
 ```
 
-The first line initializes a new Flex plugin project directly through its NPM package. The fourth parameter, `plugin-park-hours` is the plugin name. All Flex plugins must begin with the word `plugin`. The `--install` parameter indicates that it should automatically run `npm install` after the project is initialized. The final parameter, `--typescript`, tells the system that I want to use TypeScript instead of JavaScript.
+The first command initializes a new Flex plugin project directly through its NPM package. The fourth parameter, `plugin-park-hours` is the plugin name. All Flex plugins must begin with the word `plugin`. The `--install` parameter indicates that it should automatically run `npm install` after the project is initialized. The final parameter, `--typescript`, tells the system that I want to use TypeScript instead of JavaScript.
 
 The next two lines start the plugin, which by default is a small panel at the top of the Flex desktop that simply displays a message with a close button.
 
 ## React
-Plugins are implemented as React components. That was not good enough for me. I wanted some attractive web components. I have been spending a lot of time lately experimenting with Ionic-React, so I added `npm install @ionic/react` to the plugin project, and instantly had all of Ionic at my disposal.
+Plugins are implemented as React components. That was not good enough for me. I wanted some attractive web components. I have been spending a lot of time lately [experimenting with Ionic-React](https://walkingriver.com/ionic-react/), so I added `npm install @ionic/react` to the plugin project, and instantly had all of Ionic at my disposal.
 
 Next, I deleted the sample React code that came with the plugin project, and replaced it with some code that would call a web service to retrieve the current day's park hours at the Walt Disney World Resort (sorry, I cannot share that code). The web response is then parsed and converted into four `<IonCol>` elements, one for each park, and displayed across the top of the Flex desktop. 
 
@@ -141,7 +143,6 @@ The web call to retrieve the park hours ended up looking like this:
 
 ```jsx
   function retrieve() {
-    console.log('Getting a token - I hope.');
     const url = 'https://XXXXXXXXXXXXXXXX/api/park-hours';
 
     return <Get url={url}>
