@@ -12,7 +12,7 @@ feature: assets/img/course-banner-react.png
 thumbnail: https://walkingriver.com/assets/img/course-banner-react.png
 cover_image: https://walkingriver.com/assets/img/course-banner-react.png
 canonical_url: https://walkingriver.com/ionic-react-course/
-published: false
+published: true
 ---
 
 A while ago I made a post I titled "Confessions of a Reluctant Ionic-React Fan". That post led to an experiment where I began to recreate using Ionic-React a subset of one of my existing Ionic v4 apps written in Angular. That in turn led to my latest online video course, Ionic and React, Zero to App Store. This is my most ambitious course idea yet, which I explain in more detail below.
