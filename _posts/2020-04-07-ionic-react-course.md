@@ -23,7 +23,7 @@ For some background, I have also posted a series of articles about my early expe
 
 0. [Confessions of a Reluctant Ionic-React Fan](https://walkingriver.com/ionic-react/)
 1. [Ionic-React, a Brief Introduction](https://walkingriver.com/ionic-react-intro)
-2. [Ionic-React, Navigation and Styling](https://walkingriver.com/ionic-react-nav-style/)
+2. [Ionic-React, Upgrading to Ionic 5](https://walkingriver.com/ionic-react-nav-style/)
 
 # Course Overview
 The course will take you from having zero knowledge of the Ionic Framework, through building your first application, to integrating with mobile device features, to deploying it to popular web hosting services, and then finally all the way to the Apple App and Google Play Stores. 
