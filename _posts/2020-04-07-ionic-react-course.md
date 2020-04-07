@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Online Course - Ionic and React, Zero to App Store
-date: '2020-01-14'
+date: '2020-04-07'
 author: Michael Callaghan
 tags: 
 - ionic 
