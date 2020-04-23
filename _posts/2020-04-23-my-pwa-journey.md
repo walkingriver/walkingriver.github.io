@@ -45,14 +45,14 @@ That is what happened to me. Both Apple and Google rejected my application outri
 # The Offending Application 
 What was this horrific application, you ask? It all starts with Mario Kart 8 for the Nintendo Wii U. 
  
- ![Mario Kart 8](2020-04-23-13-53-21.png)
+ ![Mario Kart 8](https://walkingriver.com/assets/img/2020-04-23-13-53-21.png)
 My family loves playing Mario Kart. No, I did not create a Mario Kart 8 clone for mobile phones. I created a utility my children and I could use while we play Mario Kart.  
 
 After a few years playing this amazing game, every member of my family had a favorite character, car, wheel, and wing combination. This led to many evenings of predictable outcomes. One night, my youngest child suggested that we randomly select our combinations.  
 
 We started by rolling dice, until one day, another child asked whether I could create an app that does the same thing. I spent the weekend and came up with this: An Ionic-Angular app, complete with 3D animations and sound effects, which could be deployed to either iPhones or Androids. 
 
-![Mk8r](2020-04-23-13-54-22.png)
+![Mk8r](https://walkingriver.com/assets/img/2020-04-23-13-54-22.png)
 Please keep in mind there are other utilities on both stores that assist with playing Mario Kart, so I assumed I would be safe. I was sadly mistaken. My rejection from Apple was swift, (pun intended) and brief. It simply said, “Your app or its metadata appears to contain misleading content. Specifically, your app creates a misleading association with Mario Kart.” My home page clearly indicates that I am not affiliated with Nintendo in any way.  
 
 Google’s rejection was even shorter: “Your application has been suspended.” 
