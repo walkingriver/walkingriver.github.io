@@ -8,9 +8,9 @@ tags:
 - pwa
 - angular
 layout: post
-feature: assets/img/2020-04-24-08-18-15.png
-thumbnail: https://walkingriver.com/assets/img/2020-04-24-08-18-15.png
-cover_image: https://walkingriver.com/assets/img/2020-04-24-08-18-15.png
+feature: assets/img/2020-04-24-08-23-14.png
+thumbnail: https://walkingriver.com/assets/img/2020-04-24-08-23-14.png
+cover_image: https://walkingriver.com/assets/img/2020-04-24-08-23-14.png
 canonical_url: https://walkingriver.com/angular-offline
 published: true
 ---
@@ -99,7 +99,7 @@ Below are some examples of different ways you can style it.
 </ion-chip>
 
 ```
-![Ion-Chip Samples](assets/img/2020-04-24-08-18-15.png)
+![Ion-Chip Samples](https://walkingriver.com/assets/img/2020-04-24-08-18-15.png)
 
 The first one  is the chip that I will use to show whenever the application is offline. It’s an unobtrusive yellow rounded rectangle with the word “offline” in it. This color is is known as “warning” and is an ionic constant. 
 
@@ -129,6 +129,6 @@ Thus, when the application is online, nothing will be shown. When the applicatio
 
 Whenever the application is offline, it would look something like this.
 
-![Completed Example](assets/img/2020-04-24-08-23-14.png)
+![Completed Example](https://walkingriver.com/assets/img/2020-04-24-08-23-14.png)
 
 It occurred to me that I could have negated the value of the observable in the component, subscribed to that, and then cut down on the markup. I think I prefer this method, though, because it makes it easier to change what is displayed, instead of simply showing or hiding it. The strategy is the same regardless. The final decision, of course, is yours.
