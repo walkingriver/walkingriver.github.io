@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Displaying "Network Offline" in an Angular and Ionic
+title: Displaying "Network Offline" in an Angular and Ionic Application
 date: '2020-04-24'
 author: Michael Callaghan
 tags: 
