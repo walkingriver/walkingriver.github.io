@@ -1,11 +1,13 @@
 # Site
-title:              Walking River's Blog
-bio:                'Beautiful and Elegant Software Solutions'
-description:        "Like the `Walking River`, the best software is both elegant and beautiful, and seldom what you expect."
+title:              WalkingRiver.com
+bio:                'Information on All Web Development Topics (But Mostly Ionic)'
+description:        'The best software is both elegant and beautiful, and seldom what you expect.'
+gumroad:            'Sign up below to receive notification of new blog posts, plus free and discounted offers for my current and upcoming web development books and courses. I promise not to overwhelm you or sell your email address.'
 reading_time:       true
 words_per_minute:   200
-logo:               'assets/img/logo.png'
-background:         'assets/img/white-mountains-918002_1920.jpg'
+logo:               'assets/img/mike-mmrr.jpg'
+# background:         'assets/img/white-mountains-918002_1920.jpg'
+background:         'assets/img/mike-speaking-session.jpg'
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             en_US
 url:                https://walkingriver.com
@@ -40,12 +42,13 @@ google:
 #bing-verify:
 #email:
 twitter:            walkingriver
-facebook:           ParkPursuit
+facebook:           walkingriverservices
 github-url:         walkingriver
-stackoverflow:      411989/mikec   #from a "https://stackoverflow.com/users/123456/username" link
-#linkedin:          username
+gumroad_url:        'https://gumroad.com/walkingriver'
+#stackoverflow:      411989/mikec   #from a "https://stackoverflow.com/users/123456/username" link
+linkedin:          michaelcallaghan2
 #xing:              username
-instagram:          walkingriver
+#instagram:          walkingriver
 #lastfm:            username
 #tumblr:            username
 #medium:            '@username'
