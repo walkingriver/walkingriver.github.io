@@ -86,7 +86,7 @@ Use an `ngFor` directive inside of an `ion-menu-toggle` component.
 
 This is a slightly different `ngFor` expression than is common. It is looping over the `appPages` array, but there is also the second portion, `let i = index`. This does what you probably suspect, providing an integer representing the array index of each page in the array. 
 
-Set the `auto-hide` property to false, unless you enjoy watching things vanish for no apparent reason. If it is true, then the menu toggle will disappear if Ionic renders it in a split pane, which you will do shortly.
+Set the `auto-hide` property to false, unless you enjoy watching things vanish for no apparent reason. If it is `true`, then the menu toggle will disappear if Ionic renders it in a split pane, which you will do shortly.
 
 ### Ion Item
 
