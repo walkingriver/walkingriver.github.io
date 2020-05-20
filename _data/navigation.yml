@@ -1,7 +1,7 @@
 # Site navigation links
 
-# - title: Projects
-#   url: /projects/
+- title: Projects
+  url: /projects/
 
 - title: Courses
   url: /training/
