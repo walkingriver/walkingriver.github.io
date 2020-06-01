@@ -8,11 +8,11 @@ tags:
 - Disney
 - Software
 layout: post
-feature: https://walkingriver.com/assets/img/disney.jpeg
-thumbnail: https://walkingriver.com/assets/img/disney.jpeg
-cover_image: https://walkingriver.com/assets/img/disney.jpeg
+feature: https://walkingriver.com/assets/img/cinderella-castle.jpg
+thumbnail: https://walkingriver.com/assets/img/cinderella-castle.jpg
+cover_image: https://walkingriver.com/assets/img/cinderella-castle.jpg
 canonical_url: https://walkingriver.com/magical-job
-published: false
+published: true
 ---
 
 I normally ignore unsolicited emails from recruiters. They are almost never a good match, and feel as though they are "shotgun" email blasts sent to hundreds or thousands of people. This one was different, though. It had the word "Disney" in the subject line.
@@ -109,11 +109,11 @@ From this point on, I will use initials when describing the people I met who are
 
 ![Team Disney at Walt Disney World](/assets/img/teamdisney.jpg)
 
-Upon my arrival at Team Disney, I discovered I was a little early. I parked at the far end of the parking lot to be able to take everything in. I have always admired the Team Disney building,but had never been close to it. That giant tower in the center reminds me of a smoke stack, and I assumed the building was designed to resemble a cruise ship. I was mistaken. That tower is an 8-10 story hollow tube, open to the sky. In fact, it is a giant functioning sundial, with markings on the walls to help you tell the time. 
+Upon my arrival at Team Disney, I discovered I was a little early. I parked at the far end of the parking lot to be able to take everything in. I have always admired the Team Disney building but had never been close to it. That giant tower in the center reminds me of a smoke stack, and I assumed the building was designed to resemble a cruise ship. I was mistaken. That tower is an (estimated) 8-story hollow tube, open to the sky. In fact, it is a giant functioning sundial, with markings on the walls to help you tell the time. 
 
 I entered the building at the main entrance, beneath the Mickey ears. I then checked in with the security guard, who called the hiring manager, JG, to let her know I was here. 
 
-My wait was brief, and soon JG walked up and introduced herself to me. She informed me that she was the manager of a 3-person team known as the .NET Center of Excellence (or COE). I liked the sound of that. She escorted me upstairs to a tiny office I later learned was the office of the COE. I met JS and DM, who gave me an overview of their day to day work. They told me all about the individual I would potentially be replacing, and it was clear that this was a tight-knit bunch. They would have to be, working together in a tiny office. I tried to imagine myself working closely with them every day.
+My wait was brief, and soon JG walked up and introduced herself to me. She informed me that she was the manager of a 3-person team known as the .NET Center of Excellence (or COE). I liked the sound of that. She escorted me upstairs to a tiny conference room I later learned was the office of the COE. I met JS and DM, who gave me an overview of their day to day work. They told me all about the individual I would potentially be replacing, and it was clear that this was a tight-knit bunch. They would have to be, working together in a tiny office. I tried to imagine myself working closely with them every day.
 
 When we got to the technical portion of the interview, they began telling me about the types of technology they expected to use that year: Entity Framework and ASP.NET MVC were two of the biggest &mdash; the very ones I had spent the last 14 months or so becoming an expert in! 
 
@@ -141,11 +141,7 @@ He told me used to be a .NET developer himself and described some of the project
 
 After my answer, LR smiled and said that his reason for working at Disney was very similar. He then went on to describe what has become one of favorite employment benefits of working here: The Cross-U. 
 
-Cross-U is short for "Cross Utilization." Simply put it goes like this. At certain extra-busy times of the year, usually right around Christmas and Easter, office-based Cast Members are asked to leave their desks and sign up for shifts in the theme parks. The jobs we are asked to do are the types of things that require little to know training: fill sodas, sweep up trash, clear tables in a restaurant, park strollers, run parade crowd control, that sort of thing. The most complicated task I have ever been assigned was to make popcorn, and that is so well designed that even I had a hard time messing it up (though I did once &mdash; I forgot to press the Oil button with one batch). 
-
-Here is a picture of me working at the ice cream cart just outside of the Tomorrowland Speedway at Magic Kingdom, around Easter a few years ago.
-
-![Tomorrowland Speedway Ice Cream Cart](/assets/img/ice-cream-tomorrowland.jpg)
+Cross-U is short for "Cross Utilization." Simply put it goes like this. At certain extra-busy times of the year, usually right around Christmas and Easter, office-based Cast Members are asked to leave their desks and sign up for shifts in the theme parks. The jobs are the types of things that require little to no training: fill sodas, sweep up trash, clear tables, park strollers, run parade crowd control, that sort of thing. To some it may sound like drudgery, but the idea of taking shifts in the parks excited me.
 
 It was about time for the final hour of my interview, when JG came into the room. She thanked LR for his help and then told me the interview was being cut short. She said that she would be in touch with the recruiter, thanked me for coming in, and escorted me back to the security desk. 
 
@@ -177,7 +173,7 @@ Because I was starting in early May, and school in NH did not end until late Jun
 
 Fortunately, my experience the year before with Dell had inadvertently prepared me for this. I knew how to avoid the oddball mistakes I had made during that move. For one, I rented a furnished condo this time (don't ask). 
 
-Another difference between Dell and Disney is that I did not try to drive all my things. Instead, the Mustang was loaded onto a car carrier about a week before I flew down, and it arrived in Florida a few days after I did. 
+Another difference between Dell and Disney is that I did not try to drive all my things. Instead, the Mustang was loaded onto a car carrier about a week before I flew down, and it arrived in Florida a few days after I did. It could not have gone more smoothly.
 
 # My First Couple of Days
 On May 9, 2011, I finally arrived for my first day at Team Disney. I again met with JG, JS, and DM, and spent most of the day getting my computer set up and generally observing. I was not expected to do much, because  I did not even have a security badge yet. That would be tomorrow. 
@@ -186,11 +182,13 @@ On May 9, 2011, I finally arrived for my first day at Team Disney. I again met w
 
 On Tuesday, May 10, I arrived at Disney University bright and early for Traditions, a day-long orientation required for all new Disney Cast Members. I do not want to go into detail about the specifics of Traditions for two reasons. First, I do not want to spoil the experience for others. You are best coming in cold, as I did. Second, the program changes often enough that anything I told you would likely be out of date or completely inaccurate.
 
-I will say that it was at Traditions that I received my security badge and my nametag. 
+I can say that it was at Traditions that I received my security badge and my name tag. 
 
 ![Disney nametag](/assets/img/nametag.jpg)
 
 With my security badge came new abilities, and I was determined to use them. When Traditions ended, I drove to Disney's Boardwalk Inn, where I had stayed just a few months before. My shiny new badge got me through the security gate and I proceeded to park and walk around. 
+
+![Disney's Boardwalk Resort Area](/assets/img/boardwalk.jpg)
 
 The Boardwalk Resort area has always been one of my favorite locations at Walt Disney World. It is simply beautiful. It is also within walking distance of both Epcot and Disney's Hollywood Studios. 
 
@@ -204,7 +202,7 @@ I bought her something she had wanted the last time we had visited, and then lef
 
 # Family Reunion
 
-It would be almost two months before my family finally joined me in Florida. I had the condo 
+It would be almost two months before my family finally joined me in Florida. We had chosen a rental a few towns away, but it was not available until July 1. Fortunately, I had the condo for three months, so we ended up living there until the house was ready. The move could not have gone more smoothly The movers kept our things in storage until our move-in day in July. Our house in New Hampshire sold a few months later. My transition to full-time Disney Cast Member and Florida resident was complete.
 
 # Timeline of Events
 From the beginning to the end, the entire process took 140 days (4 months, 19 days) from the time I received the email until I reported for my first day on the job. 
@@ -221,6 +219,38 @@ To recap, the major events were this:
 
 # Lessons Learned
 
-The primary takeaway from this experience, is never give up. There many times during this process where I was convinced it was never going to happen. 
+The primary takeaway from this experience is that you should never give up. There many times during this process where I was convinced it was never going to happen. 
 
-A secondary lesson is the importance of keeping your skills sharp, and taking jobs that will help you do so. I had to be willing to leave my family for 6 months to do that. Will that happen to everyone? Of course not, but keep 
+A secondary lesson is the importance of keeping your skills sharp, and taking jobs that will help you do so. I had to be willing to leave my family for 6 months to do that. Will that happen to everyone? Of course not, but it seemed right for our situation at the time. And in the end, that experience in Texas the year before prepared me to make the move to Florida.
+
+Try to stay positive during the interview. My thinking about losing the job to John Papa nearly derailed the entire day. As I later discovered, JG was not telling me about him coming back to the team to make me think he was my competition. She was trying to get me more interested in the job. Unknown to me at the time, there would soon be another opening on the team. John ended up filling that opening and joining us a few months later.
+
+# Cross-U Details
+Oh, that Cross-U I was telling you about. With only a single exception, I have managed to work at least one shift every Cross-U season. One I worked eight. 
+
+The most complicated task I have ever been assigned was to make popcorn, and that is so well designed that even I had a hard time messing it up (though I did once &mdash; I forgot to press the Oil button with one batch). 
+
+Here is a picture of me working at the ice cream cart just outside of the Tomorrowland Speedway at Magic Kingdom, around Easter a few years ago.
+
+![Tomorrowland Speedway Ice Cream Cart](/assets/img/ice-cream-tomorrowland.jpg)
+
+# Since Joining Disney
+
+It has been nine magical years this month since I joined Disney. I have been fortunate to hold a variety of roles, from Solutions Architect to Software Engineer.
+
+The .NET Center of Excellence is no more. Through a series of corporate moves and job transfers, I am now a Lead Software Engineer with one of our Cast-facing Resort-Sales teams. 
+
+I have had the privilege of helping to organize two separate internal "Developer Days," a Disney-only conference held for the benefit of our technology Cast. My Twitter banner photo is from one of these events, where I gave an introduction to Ionic at Disney's Coronado Springs Resort and Convention Center.
+
+A few years ago I was given the opportunity to be the lead developer on an emergency project, which required us to replace the handheld devices used by Disney's Magical Express at the resorts and the airport. Time being of the essence, we chose to implement the project using the [Ionic Framework](https://ionicframework.com). This was our first official foray into hybrid mobile development, and it could not have gone better. I discussed this project in more detail in December 2019 on the [Ionic Podcast](https://betontheweb.ionicframework.com/episodes/disney-world-and-ionic-with-michael-callaghan).
+
+On the non-technology side of things, in addition to the Cross-U shifts, I have also been present at almost every major theme park "grand opening" we have had: New Fantasyland, Test Track, Pandora, Toy Story Land, Galaxy's Edge, and more. 
+
+# Do You Have What it Takes?
+If you have gotten this far, it is possible that you may be interested in working for us in some capacity. As I am writing this, we are right in the middle of the COVID-19 pandemic, and things are mostly shut down. That will not last forever. 
+
+If you think you have the skills and talents to join us, we will eventually have more technology jobs open. 
+
+I occasionally tweet about new job openings in my own organization, so feel free to follow me on Twitter (@walkingriver) to get notified. You can also checkout DisneyTech.com to see our current openings across The Walt Disney Company. 
+
+If you think you might be interested, go ahead and apply. You have nothing to lose by applying. Maybe we will work together on a project some day.
