@@ -2,7 +2,7 @@
 layout: post
 title: Teaching Kids to Code
 date: '2019-04-03T10:56:00.001-04:00'
-author: Michael Callaghan
+author: Michael D. Callaghan
 tags: 
 - learning 
 - teaching

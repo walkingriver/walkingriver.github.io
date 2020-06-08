@@ -2,7 +2,7 @@
 layout: post
 title: Introduction to TypeScript (for Experienced Developers)
 date: '2019-06-03T15:15:00.002-04:00'
-author: Michael Callaghan
+author: Michael D. Callaghan
 tags: 
 - programming 
 - development

@@ -2,7 +2,7 @@
 layout: post
 title: Consumers and Creators - You Must Understand Your API
 date: '2019-12-09'
-author: Michael Callaghan
+author: Michael D. Callaghan
 tags: 
 - software development
 - api

@@ -2,7 +2,7 @@
 layout: post
 title: Resolve or Die - Error Handling Strategies for Loading Data in Angular
 date: '2019-10-08T08:15:00.002-04:00'
-author: Michael Callaghan
+author: Michael D. Callaghan
 tags: 
 - angular 
 - discussion

@@ -2,7 +2,7 @@
 layout: post
 title: Hybrid Mobile Development at Disney
 date: '2020-01-23'
-author: Michael Callaghan
+author: Michael D. Callaghan
 tags: 
 - ionic 
 - angular

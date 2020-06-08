@@ -2,7 +2,7 @@
 layout: post
 title: Quick Hit - Paste Syntax-Colored Source Code into Slides
 date: '2019-08-01T15:15:00.002-04:00'
-author: Michael Callaghan
+author: Michael D. Callaghan
 tags: 
 - code 
 - powerpoint

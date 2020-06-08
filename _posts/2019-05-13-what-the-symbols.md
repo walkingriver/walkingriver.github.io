@@ -2,7 +2,7 @@
 layout: post
 title: What the ~|&||&&$!`()?
 date: '2019-05-03T15:15:00.002-04:00'
-author: Michael Callaghan
+author: Michael D. Callaghan
 tags: 
 - terminal 
 - development

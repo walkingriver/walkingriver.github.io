@@ -2,7 +2,7 @@
 layout: post
 title: Revert Your Mistaken Git Commits
 date: '2019-05-01T15:15:00.002-04:00'
-author: Michael Callaghan
+author: Michael D. Callaghan
 tags: 
 - git 
 - development

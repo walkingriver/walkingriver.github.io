@@ -2,7 +2,7 @@
 layout: post
 title: Razor Blades - Gillette vs Dollar Shave Club vs Harry's
 date: '2019-08-05'
-author: Michael Callaghan
+author: Michael D. Callaghan
 tags: 
 - shaving 
 - razors

@@ -2,7 +2,7 @@
 layout: post
 title: Fake Your Test Data
 date: '2019-05-06T05:15:00.002-04:00'
-author: Michael Callaghan
+author: Michael D. Callaghan
 tags: 
 - testing 
 - javascript

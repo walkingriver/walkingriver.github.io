@@ -2,7 +2,7 @@
 layout: post
 title: Ionic-React, Navigation and Styling
 date: '2020-01-14'
-author: Michael Callaghan
+author: Michael D. Callaghan
 tags: 
 - ionic 
 - react

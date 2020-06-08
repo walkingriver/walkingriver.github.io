@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Record Video of Your Android Screen with ADB (Updated)
-author: Michael Callaghan
+author: Michael D. Callaghan
 tags: 
 - android 
 - adb

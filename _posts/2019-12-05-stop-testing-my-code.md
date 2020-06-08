@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Stop Testing My Code!
-author: Michael Callaghan
+author: Michael D. Callaghan
 tags:
 - Software Development
 - Testing

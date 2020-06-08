@@ -2,7 +2,7 @@
 layout: post
 title: Displaying "Network Offline" in an Angular and Ionic Application
 date: '2020-04-24'
-author: Michael Callaghan
+author: Michael D. Callaghan
 tags: 
 - ionic 
 - pwa

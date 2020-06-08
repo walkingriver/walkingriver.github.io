@@ -2,7 +2,7 @@
 layout: post
 title: Ring Video Doorbell Pro - Updated Review
 date: '2019-01-05T15:43:00.001-05:00'
-author: Michael Callaghan
+author: Michael D. Callaghan
 tags: security, product review
 modified_time: '2019-01-09T07:32:56.367-04:00'
 feature: assets/img/motion-zones.PNG

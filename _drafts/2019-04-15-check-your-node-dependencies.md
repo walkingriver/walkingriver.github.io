@@ -2,7 +2,7 @@
 layout: post
 title: Check Your Node Dependencies at the Door
 date: '2020-01-01'
-author: Michael Callaghan
+author: Michael D. Callaghan
 thumbnail: https://walkingriver.com/assets/img/code.jpg
 tags: node,web development,programming
 feature: assets/img/code.jpg

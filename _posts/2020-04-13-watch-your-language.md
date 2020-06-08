@@ -2,7 +2,7 @@
 layout: post
 title: Watch Your Language - Spelling and Grammar Tips for Developers (Updated April 2020)
 date: '2020-04-13'
-author: Michael Callaghan
+author: Michael D. Callaghan
 tags: 
 - writing 
 - spelling

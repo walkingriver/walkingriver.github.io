@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Easy Agile Planning with Trello
-author: Michael Callaghan
+author: Michael D. Callaghan
 tags:
 - Project Planning
 - Trello

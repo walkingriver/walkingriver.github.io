@@ -2,7 +2,7 @@
 layout: post
 title: Some Ionic v3 to v4 Gotchas
 date: '2019-07-10'
-author: Michael Callaghan
+author: Michael D. Callaghan
 tags: 
 - ionic 
 - angular

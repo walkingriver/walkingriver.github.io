@@ -2,7 +2,7 @@
 layout: post
 title: Making Icons for a Capacitor/iOS Application
 date: '2019-06-29T15:15:00.002-04:00'
-author: Michael Callaghan
+author: Michael D. Callaghan
 tags: 
 - ionic 
 - capacitor

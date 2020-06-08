@@ -2,7 +2,7 @@
 layout: post
 title: Archive Your Git Repo
 date: '2019-03-19T10:56:00.001-04:00'
-author: Michael Callaghan
+author: Michael D. Callaghan
 tags: 
 - git 
 - code

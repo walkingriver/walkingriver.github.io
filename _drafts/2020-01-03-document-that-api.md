@@ -2,7 +2,7 @@
 layout: post
 title: Document That Node API with Swagger and JSDoc
 date: '2020-01-03'
-author: Michael Callaghan
+author: Michael D. Callaghan
 tags: 
 - node 
 - swagger

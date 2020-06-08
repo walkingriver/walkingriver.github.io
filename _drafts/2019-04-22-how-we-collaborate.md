@@ -3,7 +3,7 @@
 layout: post
 title: How We Lead
 date: '2019-04-08T10:56:00.001-04:00'
-author: Michael Callaghan
+author: Michael D. Callaghan
 thumbnail: https://walkingriver.com/assets/img/
 tags: 
 - learning 

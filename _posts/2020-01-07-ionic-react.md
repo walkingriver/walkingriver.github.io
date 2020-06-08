@@ -2,7 +2,7 @@
 layout: post
 title: Confessions of a Reluctant Ionic-React Fan
 date: '2020-01-07'
-author: Michael Callaghan
+author: Michael D. Callaghan
 tags: 
 - ionic 
 - react

@@ -2,7 +2,7 @@
 layout: post
 title: Custom Angular Checkbox with [(ngModel)] Support
 date: '2019-08-22T15:15:00.002-04:00'
-author: Michael Callaghan
+author: Michael D. Callaghan
 tags: [angular,css,html]
 layout: post
 feature: assets/img/angular-logo.png

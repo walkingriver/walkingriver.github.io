@@ -2,7 +2,7 @@
 layout: post
 title: First Class for Peanuts
 date: '2019-04-15T08:39:00.001-04:00'
-author: Michael Callaghan
+author: Michael D. Callaghan
 thumbnail: https://walkingriver.com/assets/img/
 tags: 
 - travel 

@@ -2,7 +2,7 @@
 layout: post
 title: A Few Days with Twilio Flex
 date: '2020-02-19'
-author: Michael Callaghan
+author: Michael D. Callaghan
 tags: 
 - twilio
 - sms

@@ -2,7 +2,7 @@
 layout: post
 title: My PWA Journey
 date: '2020-04-23'
-author: Michael Callaghan
+author: Michael D. Callaghan
 tags: 
 - PWA 
 - Angular

@@ -2,7 +2,7 @@
 layout: post
 title: Making Splash Screens for a Capacitor/Android Application
 date: '2019-06-30'
-author: Michael Callaghan
+author: Michael D. Callaghan
 tags: 
 - ionic 
 - capacitor

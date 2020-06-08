@@ -2,7 +2,7 @@
 layout: post
 title: Ionic-React, Upgrading to Ionic v5
 date: '2020-01-17'
-author: Michael Callaghan
+author: Michael D. Callaghan
 tags: 
 - ionic 
 - react

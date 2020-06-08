@@ -2,7 +2,7 @@
 layout: post
 title: How to Create an Effective Ionic Menu With and Without a Split Pane
 date: '2020-05-09'
-author: Michael Callaghan
+author: Michael D. Callaghan
 tags: 
 - Ionic Framework
 - UI

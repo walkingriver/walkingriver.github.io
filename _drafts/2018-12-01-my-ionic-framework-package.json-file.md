@@ -1,7 +1,7 @@
 ---
 layout: post
 title: My Ionic Framework package.json File
-author: Michael Callaghan
+author: Michael D. Callaghan
 tags:
 - Ionie
 - Mobile Development

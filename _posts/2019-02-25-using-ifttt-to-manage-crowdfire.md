@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Using IFTTT to Overcome Crowdfire's Twitter Woes
-author: Michael Callaghan
+author: Michael D. Callaghan
 tags: social media,marketing
 feature: assets/img/ifttt-01.png
 cover_image: https://walkingriver.com/assets/img/ifttt-01.png
