@@ -6,6 +6,7 @@ author: Michael D. Callaghan
 tags: security, product review
 modified_time: '2019-01-09T07:32:56.367-04:00'
 feature: assets/img/motion-zones.PNG
+cover_image: https://walkingriver.com/assets/img/motion-zones.PNG
 comments: true
 ---
 

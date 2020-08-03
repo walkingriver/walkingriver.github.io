@@ -9,8 +9,8 @@ tags:
 - review
 layout: post
 feature: assets/img/dsc-blades.jpg
-# thumbnail: https://walkingriver.com/assets/img/
-# cover_image: https://walkingriver.com/assets/img/
+thumbnail: https://walkingriver.com/assets/img/dsc-blades.jpg
+cover_image: https://walkingriver.com/assets/img/dsc-blades.jpg
 canonical_url: https://walkingriver.com/razor-blades/
 published: true
 ---
