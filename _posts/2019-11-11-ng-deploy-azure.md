@@ -143,3 +143,6 @@ That was not so bad. Other than one hiccup, Angular deployments to Azure seem to
 
 Most of what I did above would only be suitable for an individual developer. The documentation describes how to integrate deployment into a CICD pipeline, but that will have to wait for another batch of free time. 
 
+# For More Information
+
+If you are interested in learning more about Progressive Web Applications with Amazon, please consider taking a look at [one of my books or courses on the subject](https://walkingriver.gumroad.com).
