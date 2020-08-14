@@ -13,9 +13,7 @@
     "statusBar.background": "#2f253e",
     "statusBarItem.hoverBackground": "#47385e",
     "statusBar.foreground": "#e7e7e7",
-    "activityBar.activeBackground": "#47385e",
-    "statusBar.border": "#2f253e",
-    "titleBar.border": "#2f253e"
+    "activityBar.activeBackground": "#47385e"
   },
   "cSpell.enabledLanguageIds": [
     "asciidoc",
