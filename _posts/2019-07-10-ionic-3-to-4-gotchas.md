@@ -15,7 +15,7 @@ canonical_url: https://walkingriver.com/ionic-3-to-4-gotchas/
 published: true
 ---
 
-Not long ago I posted an [article about upgrading an app from Ionic v3 to v4](https://walkingriver.com/ionic-3-to-4/). While adding some more features, I found that there are some gotchas that are not entirely intuitive, particularly when updating the UI after dismissing things like alerts. The issue is easy enough to work around, but it took me some time to figure it out. This post describes one solution I discovered.
+Not long ago I posted an [article about upgrading an app from Ionic v3 to v4](https://walkingriver.com/ionic-3-to-4/){:target="_blank"}. While adding some more features, I found that there are some gotchas that are not entirely intuitive, particularly when updating the UI after dismissing things like alerts. The issue is easy enough to work around, but it took me some time to figure it out. This post describes one solution I discovered.
 
 <!--more-->
 
@@ -110,6 +110,6 @@ Is this the right solution? Are there better or cleaner solutions? Maybe. This a
 I ran into an identical problem with the `PickerController`. No UI refresh after the picker was dismissed. It, too, has a similar API, and the solution was the same.
 
 # References
-- [Ionic Framework Alert Controller](https://ionicframework.com/docs/api/alert)
-- [Ionic Framework Picker Controller](https://ionicframework.com/docs/api/picker)
+- [Ionic Framework Alert Controller](https://ionicframework.com/docs/api/alert){:target="_blank"}
+- [Ionic Framework Picker Controller](https://ionicframework.com/docs/api/picker){:target="_blank"}
 

@@ -21,9 +21,9 @@ A while ago I made a post I titled "Confessions of a Reluctant Ionic-React Fan".
 
 For some background, I have also posted a series of articles about my early experience with Ionic-React.
 
-0. [Confessions of a Reluctant Ionic-React Fan](https://walkingriver.com/ionic-react/)
-1. [Ionic-React, a Brief Introduction](https://walkingriver.com/ionic-react-intro)
-2. [Ionic-React, Upgrading to Ionic 5](https://walkingriver.com/ionic-react-nav-style/)
+0. [Confessions of a Reluctant Ionic-React Fan](https://walkingriver.com/ionic-react/){:target="_blank"}
+1. [Ionic-React, a Brief Introduction](https://walkingriver.com/ionic-react-intro){:target="_blank"}
+2. [Ionic-React, Upgrading to Ionic 5](https://walkingriver.com/ionic-react-nav-style/){:target="_blank"}
 
 # Course Overview
 The course will take you from having zero knowledge of the Ionic Framework, through building your first application, to integrating with mobile device features, to deploying it to popular web hosting services, and then finally all the way to the Apple App and Google Play Stores. 
@@ -55,6 +55,6 @@ I admit this is an ambitious goal, but I hope you will be willing to take this e
 
 # Two Ways to Sign Up
 
-1. The first method is simple. If you are as excited by this course as I am, [enroll in the course now](https://coursecraft.net/courses/z9Z5T). 
+1. The first method is simple. If you are as excited by this course as I am, [enroll in the course now](https://coursecraft.net/courses/z9Z5T){:target="_blank"}. 
 
-2. If you are interested, but are not yet willing to commit fully, you may [sign up for my mailing list](https://mailchi.mp/d6ca0c664819/ionic-react), and get updates as each course chapter is published. 
+2. If you are interested, but are not yet willing to commit fully, you may [sign up for my mailing list](https://mailchi.mp/d6ca0c664819/ionic-react){:target="_blank"}, and get updates as each course chapter is published. 

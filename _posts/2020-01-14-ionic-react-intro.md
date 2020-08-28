@@ -21,13 +21,13 @@ The other day I made a post I titled "Confessions of a Reluctant Ionic-React Fan
 
 This is the second in what I hope to be a series on my experience with Ionic-React.
 
-0. ["Confessions of a Reluctant Ionic-React Fan"](https://walkingriver.com/ionic-react/)
+0. ["Confessions of a Reluctant Ionic-React Fan"](https://walkingriver.com/ionic-react/){:target="_blank"}
 1. Ionic-React, a Brief Introduction
-2. [Ionic-React, Upgrading to Ionic v5](https://walkingriver.com/ionic-react-5/)
+2. [Ionic-React, Upgrading to Ionic v5](https://walkingriver.com/ionic-react-5/){:target="_blank"}
 3. _Coming Soon_
 
 # The Application
-The app I want to reproduce is called Bravo! It is a tiny app I wrote to help pass the time when waiting in line, on a road trip, or other times you find yourself with lots of time and little to do. You can download it here [for Android](http://bit.ly/android-bravo) or [for iOS](http://bit.ly/ios-bravo). 
+The app I want to reproduce is called Bravo! It is a tiny app I wrote to help pass the time when waiting in line, on a road trip, or other times you find yourself with lots of time and little to do. You can download it here [for Android](http://bit.ly/android-bravo){:target="_blank"} or [for iOS](http://bit.ly/ios-bravo){:target="_blank"}. 
 
 # Create the Project
 The first thing you need to do is ensure you have the latest version of the Ionic CLI. I will assume you are running Node 10 or higher already.
@@ -197,7 +197,7 @@ You can see the call to the `skipButton()` function inside the `<IonButtons>` ta
 This is a little more abstraction and encapsulation than I would prefer for a simple "show/hide button" construct. But I was unable to find a better solution. 
 
 ### A Better Approach
-Thanks to [Ely Lucas](https://twitter.com/elylucas), who commented on my pull request, I was able to eliminate the `skipButton()` function entirely by using what he suggested would be "kinda like [Angular's] ngIf." Instead of a separate function, we can simply evaluate the `skipButton` value directly inside the `<IonButtons>` element, as follows.
+Thanks to [Ely Lucas](https://twitter.com/elylucas){:target="_blank"}, who commented on my pull request, I was able to eliminate the `skipButton()` function entirely by using what he suggested would be "kinda like [Angular's] ngIf." Instead of a separate function, we can simply evaluate the `skipButton` value directly inside the `<IonButtons>` element, as follows.
 
 ```html
 <IonButtons slot="end">

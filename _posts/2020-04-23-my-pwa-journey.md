@@ -19,7 +19,7 @@ Deploying to app stores is painful. It is hard. There are many aspects of deploy
 
 <!--more-->
 
-Note: This is an excerpt from my book, [_Developing Progressive Web Applications with Angular (and Ionic)_](https://amzn.to/2x2fm1v)
+Note: This is an excerpt from my book, [_Developing Progressive Web Applications with Angular (and Ionic)_](https://amzn.to/2x2fm1v){:target="_blank"}
 
 # Deploying to the App Store
 As I said, it is hard. Here are some of the things you need to do. To build and deploy an app, you need to understand and complete the following steps: 
@@ -71,9 +71,9 @@ It can be run directly from its web site. And like all other PWAs:
 
 You can experience and install the application from here: http://mk8r-pwa-final.web.app
 
-The source code is open and available on [GitHub](https://github.com/walkingriver/mk8r-pwa). 
+The source code is open and available on [GitHub](https://github.com/walkingriver/mk8r-pwa){:target="_blank"}. 
 
 # The Book
-Once I had been through the process of turning an Angular/Ionic app into a PWA, I decided to share those lessons with the world. So I put them in a book, [_Developing Progressive Web Applications with Angular (and Ionic)_](https://amzn.to/2x2fm1v), now available at [Amazon.com](https://amzn.to/2x2fm1v).
+Once I had been through the process of turning an Angular/Ionic app into a PWA, I decided to share those lessons with the world. So I put them in a book, [_Developing Progressive Web Applications with Angular (and Ionic)_](https://amzn.to/2x2fm1v){:target="_blank"}, now available at [Amazon.com](https://amzn.to/2x2fm1v){:target="_blank"}.
 
 _Note: These are affiliate links to Amazon.com, and I could potentially receive a commission for any sales resulting from them._

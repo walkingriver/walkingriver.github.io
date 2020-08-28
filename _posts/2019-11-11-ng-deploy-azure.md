@@ -15,7 +15,7 @@ canonical_url: https://walkingriver.com/ng-deploy-azure/
 published: true
 ---
 
-Someone commented on the discussion section of my [Ionic/PWA course at Pluralsight](https://pluralsight.pxf.io/Ly2EY) that there are many examples of deploying to Firebase, but few other services. My immediate reply was that Firebase makes it dead-simple to deploy. But the question got me thinking. My course is almost a year old. Maybe there are other really good deployment hosts, and I might be doing my viewers and readers a disservice by not investigating them. I have always been a big fan of Microsoft Azure, so figured I would see what it takes to deploy my Ionic PWA there.
+Someone commented on the discussion section of my [Ionic/PWA course at Pluralsight](https://pluralsight.pxf.io/Ly2EY){:target="_blank"} that there are many examples of deploying to Firebase, but few other services. My immediate reply was that Firebase makes it dead-simple to deploy. But the question got me thinking. My course is almost a year old. Maybe there are other really good deployment hosts, and I might be doing my viewers and readers a disservice by not investigating them. I have always been a big fan of Microsoft Azure, so figured I would see what it takes to deploy my Ionic PWA there.
 
 <!--more-->
 
@@ -28,7 +28,7 @@ First, I have to assume you are using an Angular project. The information in thi
 ## Angular CLI and Project
 The absolute first thing I had to do with my demo project was upgrade it and Angular CLI from Angular 7 to 8. In fact, you need your Angular CLI to be at least version 8.3. 
 
-Fortunately, the Angular docs provide a comprehensive [upgrade guide](https://update.angular.io/).
+Fortunately, the Angular docs provide a comprehensive [upgrade guide](https://update.angular.io/){:target="_blank"}.
 
 ## Azure Account
 It should go without saying that to deploy an app to any cloud provider, you need to have an account there. Azure is no exception. 
@@ -145,4 +145,4 @@ Most of what I did above would only be suitable for an individual developer. The
 
 # For More Information
 
-If you are interested in learning more about Progressive Web Applications with Amazon, please consider taking a look at [one of my books or courses on the subject](https://walkingriver.gumroad.com).
+If you are interested in learning more about Progressive Web Applications with Amazon, please consider taking a look at [one of my books or courses on the subject](https://walkingriver.gumroad.com){:target="_blank"}.

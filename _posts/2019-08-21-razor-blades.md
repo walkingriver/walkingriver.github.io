@@ -77,7 +77,7 @@ The section above lists the summary of my results. This section contains a more 
 ### Dollar Shave Club Starter Set
 
 ![Dollar Shave Club](assets/img/dsc-blades.png)
-I began by ordering the $5 [The Ultimate Shave Starter Set](https://www.dollarshaveclub.com/get-started/plan/ultimate-shave-starter-set), which includes the following products:
+I began by ordering the $5 [The Ultimate Shave Starter Set](https://www.dollarshaveclub.com/get-started/plan/ultimate-shave-starter-set){:target="_blank"}, which includes the following products:
 
 - Razor Cartridges (4 pk)
 - Executive Handle (1 ct)
@@ -87,7 +87,7 @@ I began by ordering the $5 [The Ultimate Shave Starter Set](https://www.dollarsh
 
 ### Harrys's Starter Set
 ![Harry's Starter Set](assets/img/harrys.jpg)
-Just as with Dollar Shave Club, I ordered their [Starter Set](https://www.harrys.com/en/us/signup/customize) for $8, including shipping. This set is not only more expensive than the one from Dollar Shave Club, it does not include as much product:
+Just as with Dollar Shave Club, I ordered their [Starter Set](https://www.harrys.com/en/us/signup/customize){:target="_blank"} for $8, including shipping. This set is not only more expensive than the one from Dollar Shave Club, it does not include as much product:
 
 - A single Razor Cartridge 
 - One handle with a rubberized grip
@@ -97,19 +97,19 @@ Just as with Dollar Shave Club, I ordered their [Starter Set](https://www.harrys
 
 ### Gillette Fusion Pro Shield
 ![Gillette Fusion Pro Shield](assets/img/proshield.jpg)
-This is my go-to blade, the [Fusion Pro Shield](https://amzn.to/2l9mvXA). I have been using it for years, essentially since it was released. Consider this my control unit. I know I like it. It provides a great, comfortable shave. Really the only drawback is the cost of the blades. 
+This is my go-to blade, the [Fusion Pro Shield](https://amzn.to/2l9mvXA){:target="_blank"}. I have been using it for years, essentially since it was released. Consider this my control unit. I know I like it. It provides a great, comfortable shave. Really the only drawback is the cost of the blades. 
 
 ### Gillette Fusion Proglide Shave Gel
-I have been using the [Fusion Proglide Shave Gel](https://amzn.to/2l7x6Cl) for longer than I can remember. It goes on as a blue gel and lubricates well. I find when I use this shave gel, I get a better shave with much less irritation than otherwise.
+I have been using the [Fusion Proglide Shave Gel](https://amzn.to/2l7x6Cl){:target="_blank"} for longer than I can remember. It goes on as a blue gel and lubricates well. I find when I use this shave gel, I get a better shave with much less irritation than otherwise.
 
 ### PURE by Gillette Shaving Cream for Men
-I stumbled upon a can of [PURE Shaving Cream](https://amzn.to/2XUUm9b) recently and decided to add it to my overall test. It appears to be similar the Proglide gel, without the color or scent.
+I stumbled upon a can of [PURE Shaving Cream](https://amzn.to/2XUUm9b){:target="_blank"} recently and decided to add it to my overall test. It appears to be similar the Proglide gel, without the color or scent.
 
 ### Target Up & Up Shave Gel
-Part of my test inadvertently used a shave gel I'd never used before. At the end of my first week, I ran out of my normal shave gel and ended up with a [Target Brand](https://www.target.com/p/therapeutic-shave-gel-with-colloidal-oatmeal-and-vitamin-e-7oz-up-up-153-compare-to-aveeno-active-naturals-therapeutic-shave-gel/-/A-13970853). As you will see, I worked it in, but the results were unsatisfactory.
+Part of my test inadvertently used a shave gel I'd never used before. At the end of my first week, I ran out of my normal shave gel and ended up with a [Target Brand](https://www.target.com/p/therapeutic-shave-gel-with-colloidal-oatmeal-and-vitamin-e-7oz-up-up-153-compare-to-aveeno-active-naturals-therapeutic-shave-gel/-/A-13970853){:target="_blank"}. As you will see, I worked it in, but the results were unsatisfactory.
 
 ### Gillette Aftershave
-Aftershave seems to be getting harder to find. Maybe I'm looking in the wrong places, but my basic go-to is this [Gillette Aftershave Gel](https://amzn.to/2YanLrc). It has a pleasant scent, is easy to apply, and a little goes a long way. I can get months out of a single 2.5 oz bottle.
+Aftershave seems to be getting harder to find. Maybe I'm looking in the wrong places, but my basic go-to is this [Gillette Aftershave Gel](https://amzn.to/2YanLrc){:target="_blank"}. It has a pleasant scent, is easy to apply, and a little goes a long way. I can get months out of a single 2.5 oz bottle.
 
 # The Experiment
 The Dollar Shave Club starter set came with four blades. The box in which the blades were packaged said the for best results, use one blade per week. At that rate, not only would I not be saving any money over the Gillette, it would end up costing me more. I shave daily, and can get a month out of a Gillette ProShield blade cartridge. Somewhere during the third week, however, the quality of the shave begins to deteriorate. Given that fact, I have decided to try each blade for two weeks, without changing any other variable. 

@@ -21,15 +21,15 @@ Ionic v5 has been released, right in the middle of the conversion of one of my I
 
 This is the third in a series on my experience with Ionic-React.
 
-0. [Confessions of a Reluctant Ionic-React Fan](https://walkingriver.com/ionic-react/)
-1. [Ionic-React, a Brief Introduction](https://walkingriver.com/ionic-react-intro)
+0. [Confessions of a Reluctant Ionic-React Fan](https://walkingriver.com/ionic-react/){:target="_blank"}
+1. [Ionic-React, a Brief Introduction](https://walkingriver.com/ionic-react-intro){:target="_blank"}
 2. Ionic-React, Upgrading to Ionic v5
 3. _Coming Soon_
 
 # The Application
 A few weeks back my "trusty" Mac Mini died. It simply would not power on. Fortunately, it was under warranty. A lot happened while I was waiting for it to be fixed and returned. One of those things was the official release of Ionic v5, including Ionic-React. So before I fully jump back into the app's conversion from Angular to React, I want to make sure it has the latest version of Ionic. 
 
-As I mentioned previously, the app I am converting is called Bravo! It is a tiny app I wrote to help pass the time when waiting in line, on a road trip, or other times you find yourself with lots of time and little to do. You can download it here [for Android](http://bit.ly/android-bravo) or [for iOS](http://bit.ly/ios-bravo). 
+As I mentioned previously, the app I am converting is called Bravo! It is a tiny app I wrote to help pass the time when waiting in line, on a road trip, or other times you find yourself with lots of time and little to do. You can download it here [for Android](http://bit.ly/android-bravo){:target="_blank"} or [for iOS](http://bit.ly/ios-bravo){:target="_blank"}. 
 
 # Ionic v5
 With the release of Ionic v5, they changed the package name of the Ionic CLI. So that is a good place to start. You need to uninstall the old version, and then install the new version, globally.
@@ -76,7 +76,7 @@ export interface AppPage {
 }
 ```
 
-Apparently something has changed. The code is expecting an object, but is getting the exported string value. I went over to the [Ionic 5 Breaking Changes Notes](https://github.com/ionic-team/ionic/blob/master/BREAKING.md), but did not find anything that would explain this. 
+Apparently something has changed. The code is expecting an object, but is getting the exported string value. I went over to the [Ionic 5 Breaking Changes Notes](https://github.com/ionic-team/ionic/blob/master/BREAKING.md){:target="_blank"}, but did not find anything that would explain this. 
 
 # Create a New Ionic-React App?
 On a whim, I decided to create a brand new Ionic-React project with v5 of the CLI, based on the side-menu project. It had a different strategy for creating and maintaining the menu. Rather than fight with it, I decided it would be better to try to adopt the newer style. 
@@ -134,9 +134,9 @@ The new version looks like this:
 
 Notice that it simply sets the `icon` attribute to the value of the `iosIcon`. This is not what I was expecting, though. I have never seen or used the `icon` attribute before. I have always used `name`. 
 
-Thinking I might be a little confused, I consulted the [Ionic React Docs](https://ionicframework.com/docs/api/item). As I thought, the docs indicate that the `<IonIcon>` component is supposed to have the icon specified using the `name` attribute. However, if you do that, you will see a deprecation warning that you should use `icon` instead. Ok, I guess the docs need to be updated. 
+Thinking I might be a little confused, I consulted the [Ionic React Docs](https://ionicframework.com/docs/api/item){:target="_blank"}. As I thought, the docs indicate that the `<IonIcon>` component is supposed to have the icon specified using the `name` attribute. However, if you do that, you will see a deprecation warning that you should use `icon` instead. Ok, I guess the docs need to be updated. 
 
-The [IonIcon v5 Release Notes](https://github.com/ionic-team/ionicons/blob/master/CHANGELOG.md) do not mention the `icon` at all, but instead specify that there are two different variants: one each for iOS and Material Design. Following those directions, I decided to change the `IonIcon` attributes to look like this.
+The [IonIcon v5 Release Notes](https://github.com/ionic-team/ionicons/blob/master/CHANGELOG.md){:target="_blank"} do not mention the `icon` at all, but instead specify that there are two different variants: one each for iOS and Material Design. Following those directions, I decided to change the `IonIcon` attributes to look like this.
 
 ```html
 <IonIcon slot="start"
@@ -210,7 +210,7 @@ This Ionic v4-v5 upgrade did not go as well as some of my others. That said, it 
 
 I am not the only one who has been struggling with Icon changes since v5 was released. There were a lot of people on Twitter sharing similar frustrations. From what I have seen, though, this has really been the only roadblock with the upgrade.
 
-If you are interested in the complete set of changes I made to the project, you can review the [Pull Request](https://github.com/walkingriver/bravo-react/pull/3/files).
+If you are interested in the complete set of changes I made to the project, you can review the [Pull Request](https://github.com/walkingriver/bravo-react/pull/3/files){:target="_blank"}.
 
 # What is Next?
 Now that the upgrade to Ionic v5 is complete, here are some of the things that still need to be done to complete this project: 

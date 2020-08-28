@@ -19,7 +19,7 @@ which should work on both MacOS and Windows.
 <!--more-->
 
 ## Background
-I've been working a lot lately on writing mobile apps using the [Ionic Framework](https://www.ionicframework.com). 
+I've been working a lot lately on writing mobile apps using the [Ionic Framework](https://www.ionicframework.com){:target="_blank"}. 
 My goal is to be able to release apps for both iPhone and Android at roughly the same time. 
 As part the submission process to both Google Play and the Apple App Store,
 it is required (or at least highly recommended) to submit a demo video of

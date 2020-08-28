@@ -114,7 +114,7 @@ The first command initializes a new Flex plugin project directly through its NPM
 The next two lines start the plugin, which by default is a small panel at the top of the Flex desktop that simply displays a message with a close button.
 
 ## React
-Plugins are implemented as React components. That was not good enough for me. I wanted some attractive web components. I have been spending a lot of time lately [experimenting with Ionic-React](https://walkingriver.com/ionic-react/), so I added `npm install @ionic/react` to the plugin project, and instantly had all of Ionic at my disposal.
+Plugins are implemented as React components. That was not good enough for me. I wanted some attractive web components. I have been spending a lot of time lately [experimenting with Ionic-React](https://walkingriver.com/ionic-react/){:target="_blank"}, so I added `npm install @ionic/react` to the plugin project, and instantly had all of Ionic at my disposal.
 
 Next, I deleted the sample React code that came with the plugin project, and replaced it with some code that would call a web service to retrieve the current day's park hours at the Walt Disney World Resort (sorry, I cannot share that code). The web response is then parsed and converted into four `<IonCol>` elements, one for each park, and displayed across the top of the Flex desktop. 
 

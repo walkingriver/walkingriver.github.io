@@ -19,7 +19,7 @@ One of my blind spots when creating apps with the Ionic Framework is adding a si
 
 <!--more-->
 
->This article is adapted from my book series on Developing Mobile Applications with Ionic and Angular: [Ionic Framework - Idea to App Store](https://www.amazon.com/Developing-Mobile-Application-Ionic-Angular-ebook/dp/B088BD42WN/). I would love for you to check it out and leave me some feedback.
+>This article is adapted from my book series on Developing Mobile Applications with Ionic and Angular: [Ionic Framework - Idea to App Store](https://www.amazon.com/Developing-Mobile-Application-Ionic-Angular-ebook/dp/B088BD42WN/){:target="_blank"}. I would love for you to check it out and leave me some feedback.
 
 # Menu Implementation 
 These instructions assume you started with a blank Ionic template. Other templates might already have a menu.
@@ -52,7 +52,7 @@ Next comes the menu itself. That will live inside the app component markup, src/
 
 To build the menu component, create an `ion-menu` element as the first element inside of the `ion-app` element. Set its `contentId` to `main-content`. This value must match the HTML element `id` attribute of the `ion-router-outlet`, so add an `id` attribute to `ion-router-outlet` with the same value if it does not already have one. If it has one and it is different, change one of them so they are identical.   
 
-For the menu `type`, I am partial to `overlay`, but feel free to try `push` or `reveal`. You can see the various type options here. The differences are subtle, and I [explain them in more detail in this article](https://walkingriver.com/ion-menu).
+For the menu `type`, I am partial to `overlay`, but feel free to try `push` or `reveal`. You can see the various type options here. The differences are subtle, and I [explain them in more detail in this article](https://walkingriver.com/ion-menu){:target="_blank"}.
 
 ![Ionic Menu Types](https://walkingriver.com/assets/img/ion-menu.png)
 

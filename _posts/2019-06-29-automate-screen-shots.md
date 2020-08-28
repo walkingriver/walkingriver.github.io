@@ -19,7 +19,7 @@ Software developers are lazy, and I mean that in a good way. I've been writing s
 
 <!--more-->
 
-As I have written previously, I created a modest mobile game called _Bravo!_. It's written in TypeScript using the Ionic Framework. I recently upgraded it to Ionic 4 and replaced Cordova with Capacitor. It went pretty well, and I [described the experience in another post](https://walkingriver.com/ionic-3-to-4). Once I finished, the next step was to submit the app to the Google Play and Apple App Stores. The Google submission went smoothly, but Apple rejected the new binary because I did not provide screenshots for the newer, larger iPhones. 
+As I have written previously, I created a modest mobile game called _Bravo!_. It's written in TypeScript using the Ionic Framework. I recently upgraded it to Ionic 4 and replaced Cordova with Capacitor. It went pretty well, and I [described the experience in another post](https://walkingriver.com/ionic-3-to-4){:target="_blank"}. Once I finished, the next step was to submit the app to the Google Play and Apple App Stores. The Google submission went smoothly, but Apple rejected the new binary because I did not provide screenshots for the newer, larger iPhones. 
 
 In the past, I had always created these screenshots by running the app in the iOS simualtor, navigating to each page I wanted to show, and manually taking a screenshot. It occurred to me that there should be a way to automate this task. I also figured that the images don't need to be 100% pixel perfect for the App Store, and that a close approximation would probably do. 
 
@@ -298,7 +298,7 @@ export class AppPage {
 ```
 
 # References
-- [Ionic Framework](https://ionicframework.com)
-- [Capacitor](https://capacitor.ionicframework.com/)
-- [Walking River Bravo!](https://bit.ly/ios-bravo)
+- [Ionic Framework](https://ionicframework.com){:target="_blank"}
+- [Capacitor](https://capacitor.ionicframework.com/){:target="_blank"}
+- [Walking River Bravo!](https://bit.ly/ios-bravo){:target="_blank"}
 

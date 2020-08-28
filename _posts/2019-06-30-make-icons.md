@@ -19,7 +19,7 @@ I recently upgraded one of my mobile games to Ionic 4 and Capacitor. One of the 
 
 <!--more-->
 
-> You can read about my [Ionic 3 - 4 and Capacitor experience here](https://walkingriver.com/ionic-3-to-4/).
+> You can read about my [Ionic 3 - 4 and Capacitor experience here](https://walkingriver.com/ionic-3-to-4/){:target="_blank"}.
 
 I started with a PNG file of 1280x1280 pixels. I knew the Mac had some built-in command line tools that would do the heavy lifting for me, and Xcode provided me the file names and sizes I needed to generate. Armed with that informtation, the rest was easy. 
 

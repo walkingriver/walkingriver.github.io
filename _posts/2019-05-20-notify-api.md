@@ -15,7 +15,7 @@ canonical_url: https://walkingriver.com/notify-api/
 published: true
 ---
 
-As part of my recent Pluralsight Course, [Building Progressive Web Apps with Ionic](https://app.pluralsight.com/library/courses/progressive-web-apps-ionic/), I needed a public-facing API that its demo application could call. I implemented a simple Node/Express web service and deployed it to Firebase Functions using Google free "Spark" Plan. One major drawback to the Spark Plan is that it has a pretty low threshold limit for the number of requests per minute it will allow. In this post, I will describe how you can download the web service's code and host it both locally and in your own Firebase account, and then how to modify the course's demo app to call your version instead of mine.
+As part of my recent Pluralsight Course, [Building Progressive Web Apps with Ionic](https://app.pluralsight.com/library/courses/progressive-web-apps-ionic/){:target="_blank"}, I needed a public-facing API that its demo application could call. I implemented a simple Node/Express web service and deployed it to Firebase Functions using Google free "Spark" Plan. One major drawback to the Spark Plan is that it has a pretty low threshold limit for the number of requests per minute it will allow. In this post, I will describe how you can download the web service's code and host it both locally and in your own Firebase account, and then how to modify the course's demo app to call your version instead of mine.
 
 <!--more-->
 
@@ -66,7 +66,7 @@ cd ..
 
 # Create Firebase App
 
-Open a browser to the [Firebase Console](https://console.firebase.google.com). If you have not yet registered with Firebase, do that first. 
+Open a browser to the [Firebase Console](https://console.firebase.google.com){:target="_blank"}. If you have not yet registered with Firebase, do that first. 
 
 Once at the console, Add a new project. Call it anything you want, but remember your choice. If you pick something that isn't unique, such as "notify-api," some random characters will be automatically appended for you. You can probably keep the default settings, but you may want to ensure that the Location is somewhere close to you. Accept the terms and click `Create Project`.
 
@@ -228,4 +228,4 @@ I wonder sometimes whether or not hosting the web app elsewhere might be a bette
 
 ----
 
-If you find any errors in this post or have other feedback, please follow me and comment on Twitter. I'm [@walkingriver](https://twitter.com/walkingriver).
+If you find any errors in this post or have other feedback, please follow me and comment on Twitter. I'm [@walkingriver](https://twitter.com/walkingriver){:target="_blank"}.

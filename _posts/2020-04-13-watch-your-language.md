@@ -159,7 +159,7 @@ Docker enables teams quickly to replicate their development and production envir
 Though splitting infinitives is becoming more acceptable and widespread, especially in informal writing, the use of split infinitives seems lazy. 
 
 ## Contractions
-Some two-word phrases are commonly abbreviated into contractions (can't, shouldn't, we're, they'll, etc.). Most of us who are not [Lt. Commander Data](https://memory-alpha.fandom.com/wiki/Verbal_contraction) use them almost unconsciously. This is not a hard and fast rule, so much as a preference on my part. I was taught many years ago that one should avoid using contractions in professional and technical writing. Their use is considered too informal. 
+Some two-word phrases are commonly abbreviated into contractions (can't, shouldn't, we're, they'll, etc.). Most of us who are not [Lt. Commander Data](https://memory-alpha.fandom.com/wiki/Verbal_contraction){:target="_blank"} use them almost unconsciously. This is not a hard and fast rule, so much as a preference on my part. I was taught many years ago that one should avoid using contractions in professional and technical writing. Their use is considered too informal. 
 
 Do not use...
 ```

@@ -22,8 +22,8 @@ What happens when a committed Angular developer crosses over and experiments wit
 This is the first in a series on my experience with Ionic-React.
 
 0. Confessions of a Reluctant Ionic-React Fan
-1. [Ionic-React, a Brief Introduction](https://walkingriver.com/ionic-react-intro)
-2. [Ionic-React, Upgrading to Ionic v5](https://walkingriver.com/ionic-react-5/)
+1. [Ionic-React, a Brief Introduction](https://walkingriver.com/ionic-react-intro){:target="_blank"}
+2. [Ionic-React, Upgrading to Ionic v5](https://walkingriver.com/ionic-react-5/){:target="_blank"}
 3. _Coming Soon_
 
 # Background 

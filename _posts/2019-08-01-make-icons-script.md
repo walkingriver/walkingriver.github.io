@@ -18,7 +18,7 @@ published: true
 This is a follow-up to my post about creating iOS App Store icons for an Ionic/Capacitor application. I improved the script to make it a little easier for anyone to use. 
 <!--more-->
 
-> The [original post describing the problem is here](https://walkingriver.com/make-icons/).
+> The [original post describing the problem is here](https://walkingriver.com/make-icons/){:target="_blank"}.
 
 ## How it works
 The script works by using a built-in image manipulation command line utility, sips. For each icon size needed, the script calls sips to resize a common png, and copies the result to the appropriate folder and filename. 
@@ -80,7 +80,7 @@ To use it, first make sure you're on a Mac.
 
 1. Copy the above script into the topmost folder of your Ionic project. Name the file `make-icons.sh`.
 1. Make the script executable with `chmod +x make-icons.sh`
-1. Add Capacitor integrations and an iOS platform if you haven't already done so. For more information on that, see [my post on Adding Capacitor](https://walkingriver.com/ionic-3-to-4/).
+1. Add Capacitor integrations and an iOS platform if you haven't already done so. For more information on that, see [my post on Adding Capacitor](https://walkingriver.com/ionic-3-to-4/){:target="_blank"}.
 1. Add a PNG image called `icon.png` in the same folder. This image should be at least 1024x1024, and should contain no rounded corners or transparency.
 1. Execute `./make-icons.sh`.
 1. Open ios/App/App/Assets.xcassets/AppIcon.appiconset/ to see your icons.

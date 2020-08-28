@@ -19,7 +19,7 @@ This is a follow-up to my post from yesterday, about making icons and splash scr
 
 <!--more-->
 
-> You can read about my [Ionic 3 - 4 and Capacitor experience here](https://walkingriver.com/ionic-3-to-4/).
+> You can read about my [Ionic 3 - 4 and Capacitor experience here](https://walkingriver.com/ionic-3-to-4/){:target="_blank"}.
 
 To create the Android splash screen, I started with the same 2732x2732 PNG file I used for the iOS project. Using the same `sips` command I had used yesterday, and the file sizes Android Studio and Capacitor gave me, I came up with this version of the shell script. 
 

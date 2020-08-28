@@ -21,12 +21,12 @@ One of the key features of Progressive Web Applications is the ability for them 
 
 ---
 
-Note: This is an excerpt from my online video course, [Building Progressive Web Applications with Ionic (and Angular)](https://pluralsight.pxf.io/Ly2EY). There is also a [video version of this post on YouTube](https://youtu.be/LR-_EWxJThc).
+Note: This is an excerpt from my online video course, [Building Progressive Web Applications with Ionic (and Angular)](https://pluralsight.pxf.io/Ly2EY){:target="_blank"}. There is also a [video version of this post on YouTube](https://youtu.be/LR-_EWxJThc){:target="_blank"}.
 
 ---
 
 # @ngx-pwa/offline
-Obviously, if your application needs to be online for some functions, those functions will not work, and you will want to be able to degrade your functionality gracefully, and at least let the user know that some features will not be available. ​In my applications, I want to provide a visual indicator that the application is offline. To do that, I use [@ngx-pwa/offline](https://www.npmjs.com/package/@ngx-pwa/offline), a handy little npm package that will help do this in an Angular friendly way. ​
+Obviously, if your application needs to be online for some functions, those functions will not work, and you will want to be able to degrade your functionality gracefully, and at least let the user know that some features will not be available. ​In my applications, I want to provide a visual indicator that the application is offline. To do that, I use [@ngx-pwa/offline](https://www.npmjs.com/package/@ngx-pwa/offline){:target="_blank"}, a handy little npm package that will help do this in an Angular friendly way. ​
 ​
 You can quickly install it with npm. Use one of these two commands, depending on the version of Angular your project uses.
 

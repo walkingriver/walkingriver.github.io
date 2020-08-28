@@ -112,7 +112,7 @@ In the end, it was decided that everyone would use iPhones. The barcode scanner 
 So while we ultimately chose a single platform (iOS), we are not locked into that decision. With a minor configuration change, we could easily support Android devices in just a few days. Selecting Ionic Framework is what makes that possible.
 
 # Ionic for Your Next Application
-Since that time, Ionic has grown and matured. Version 2 discarded AngularJS in favor of Angular 2 and TypeScript. Version 3 introduced some improved styling and design paradigms, along with [Capacitor](https://capacitorjs.com), a new and improved hardware compatibility layer. And it has only gotten better.
+Since that time, Ionic has grown and matured. Version 2 discarded AngularJS in favor of Angular 2 and TypeScript. Version 3 introduced some improved styling and design paradigms, along with [Capacitor](https://capacitorjs.com){:target="_blank"}, a new and improved hardware compatibility layer. And it has only gotten better.
 
 ## Any Framework
 As of version 4, Ionic is no longer tied to Angular, or any particular framework for that matter. They recently shipped an official library supporting React, and will soon release support for Vue.

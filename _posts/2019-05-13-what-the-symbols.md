@@ -309,4 +309,4 @@ Even though they are specifically targeted to *nix-based OSes, many of these wor
 
 I have only scratched the surface of the special symbols available in many terminal shells. 
 
-Have I missed your favorite? Do you have a specific tips? Did I make any mistakes in this post? Let me know on Twitter. I'm [@walkingriver](https://twitter.com/walkingriver).
+Have I missed your favorite? Do you have a specific tips? Did I make any mistakes in this post? Let me know on Twitter. I'm [@walkingriver](https://twitter.com/walkingriver){:target="_blank"}.

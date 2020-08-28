@@ -18,7 +18,7 @@ Did you know there is a very simple and straightforward command to archive a com
 ## Why Archive Your Git Repo?
 Every few weeks or so, I find myself needing to archive my Git repo. Often I do this to send code to someone who has no reason to access the repo directly. They just need a snapshot of the code, with no history information, because they won't be contributing to it.
 
-I also provide a snapshot of my code for every module in [my Pluralsight courses](https://www.pluralsight.com/authors/michael-callaghan). Being able to archive my Git repo into a zip file is very handy.
+I also provide a snapshot of my code for every module in [my Pluralsight courses](https://www.pluralsight.com/authors/michael-callaghan){:target="_blank"}. Being able to archive my Git repo into a zip file is very handy.
 
 For some reason, I can never remember how to do this, and find myself looking it up repeatedly. I decided to write about it here so that I could always find it when I need it. And just maybe it will help someone other than just me.
 

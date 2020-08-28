@@ -176,7 +176,7 @@ Here is a demo I created with the above code to show all three of these options 
 
 ![Options Demo](/assets/img/resolve-or-die.gif)
 
-If you wish to see the code in its entirety, here is [the repo on GitHub](https://github.com/walkingriver/resolve-or-die).
+If you wish to see the code in its entirety, here is [the repo on GitHub](https://github.com/walkingriver/resolve-or-die){:target="_blank"}.
 
 # Summary
 I wrote this post in response to a real situation I had in a recent project. The main page needed four different pieces of data, all loaded from separate sources. The implementation used a Route Resolver to ensure all of the data loaded before the page appeared. During testing, one of the services was down and was timing out after 30 seconds. This means the user was kept staring at a white screen until the service gave up. Obviously this experience is not ideal, and led me to research other (better?) options.

@@ -21,7 +21,7 @@ Today I needed to add some custom styles to a checkbox in an Angular 8 app. I fo
 The UI design I was trying to copy required a custom-styled checkbox. This one needed a fat white check mark inside a green box when checked, and an empty gray square when unchecked. Further, the design called for the checkbox control itself to be larger than normal, and had a specific requirement for the label's spacing. 
 
 ## CSS
-I will start by showing the final CSS in case you want to follow along, but I will not be describing the styles. The point of this post is to show the Angular component. If you want a more complete explanation of the styling, this is where I got the HTML and CSS I used. [Link: W3School](https://www.w3schools.com/howto/howto_css_custom_checkbox.asp). I tweaked their CSS a bit, but not by much. 
+I will start by showing the final CSS in case you want to follow along, but I will not be describing the styles. The point of this post is to show the Angular component. If you want a more complete explanation of the styling, this is where I got the HTML and CSS I used. [Link: W3School](https://www.w3schools.com/howto/howto_css_custom_checkbox.asp){:target="_blank"}. I tweaked their CSS a bit, but not by much. 
 
 
 ```css
@@ -169,7 +169,7 @@ Both of the fields are annotated with Angular's `@Input` decorator, which is wha
 <app-checkbox text="Remember me" disabled="false"></app-checkbox>
 ```
 
-The `onChanged` function is called whenever the `<input>` changed (in other words, the checkbox is checked or cleared). The `$event` parameter is a standard [HTML DOM Event object](https://www.w3schools.com/jsref/dom_obj_event.asp). It is in this function where I manually set the `isChecked` field to either `true` or `false`, based on the actual state of the checkbox. I am being overly paranoid by ensuring that both `$event` and `$event.target` have truthy values before retrieving the `checked` attribute. It may be paranoid, but it works.
+The `onChanged` function is called whenever the `<input>` changed (in other words, the checkbox is checked or cleared). The `$event` parameter is a standard [HTML DOM Event object](https://www.w3schools.com/jsref/dom_obj_event.asp){:target="_blank"}. It is in this function where I manually set the `isChecked` field to either `true` or `false`, based on the actual state of the checkbox. I am being overly paranoid by ensuring that both `$event` and `$event.target` have truthy values before retrieving the `checked` attribute. It may be paranoid, but it works.
 
 ### No Value Accessor
 At this point, there is a custom checkbox that can be dropped inside any other component. It will work, except for two things: 
@@ -218,7 +218,7 @@ onChanged($event) {
 ```
 
 #### registerOnTouched()
-This one is a little more obscure, and it doesn't seem to be necessary for a checkbox control. According to the [official documentation](https://angular.io/api/forms/ControlValueAccessor#registerOnTouched):
+This one is a little more obscure, and it doesn't seem to be necessary for a checkbox control. According to the [official documentation](https://angular.io/api/forms/ControlValueAccessor#registerOnTouched){:target="_blank"}:
 
 > When implementing registerOnTouched in your own value accessor, save the given function so your class calls it when the control should be considered blurred or "touched"."
 
@@ -333,7 +333,7 @@ export class CheckboxComponent implements ControlValueAccessor {
 ```
 
 # For More Information
-- [Angular Docs for the ControlValueAccessor](https://angular.io/api/forms/ControlValueAccessor)
-- [W3School Custom Checkbox](https://www.w3schools.com/howto/howto_css_custom_checkbox.asp)
-- [HTML DOM Event object](https://www.w3schools.com/jsref/dom_obj_event.asp)
+- [Angular Docs for the ControlValueAccessor](https://angular.io/api/forms/ControlValueAccessor){:target="_blank"}
+- [W3School Custom Checkbox](https://www.w3schools.com/howto/howto_css_custom_checkbox.asp){:target="_blank"}
+- [HTML DOM Event object](https://www.w3schools.com/jsref/dom_obj_event.asp){:target="_blank"}
 

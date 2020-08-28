@@ -23,9 +23,9 @@ Like most kids born in the past 20 years or so, my son had always shown a tremen
 ## From Web Controls to SQL Queries
 In the spring of 2006, a friend and I had been sub-contracted to create a website for a small company in Concord, NH. It was going to be a moderately large site with a big SQL Server back-end. The contractor on the project was a SQL Server guru with no front-end coding experience.  
 
-After some consideration, we decided to write it in ASP.NET Web Forms, with the new-fangled [Ajax Control Toolkit](http://www.ajaxtoolkit.net/) from Microsoft. We figured the three of us could complete the entire project in about six months, negotiated a rate, and got started.
+After some consideration, we decided to write it in ASP.NET Web Forms, with the new-fangled [Ajax Control Toolkit](http://www.ajaxtoolkit.net/){:target="_blank"} from Microsoft. We figured the three of us could complete the entire project in about six months, negotiated a rate, and got started.
 
-Sometime in early Summer, as the UI was nearing completion, the client asked whether we would be willing to enhance each date-related text box in the entire app with a [calendar control](http://www.ajaxtoolkit.net/Calendar/Calendar.aspx). This would provide the now-common ability of having a calendar appear automatically to select a date, instead of making the user type it by hand.
+Sometime in early Summer, as the UI was nearing completion, the client asked whether we would be willing to enhance each date-related text box in the entire app with a [calendar control](http://www.ajaxtoolkit.net/Calendar/Calendar.aspx){:target="_blank"}. This would provide the now-common ability of having a calendar appear automatically to select a date, instead of making the user type it by hand.
 
 The process of adding the calendar control was simple: drag the control icon from a visual toolbox onto the web form design surface, and then add the text box's control ID to the calendar control, linking them together. It wasn't hard, but it would be tedious. There were dozens of these fields scattered throughout the many pages of the app. It seemed silly to charge the client our rate for a few hours of drag-n-drop work.
 
@@ -48,7 +48,7 @@ I was impressed by his grasp of the underlying concepts and initiative. However,
 ## Where's my LINQ book?
 
 <a href="https://www.amazon.com/LINQ-Pocket-Reference-Implement-Applications-ebook/dp/B00CKYWZES/ref=as_li_ss_il?keywords=linq+pocket&qid=1554289444&s=gateway&sr=8-1&linkCode=li2&tag=walkingriver-20&linkId=325df55c6962f4db8ffc5146f6ef8889&language=en_US" target="_blank"><img align="left" border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B00CKYWZES&Format=_SL160_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=walkingriver-20&language=en_US" ></a><img src="//ir-na.amazon-adsystem.com/e/ir?t=walkingriver-20&language=en_US&l=li2&o=1&a=B00CKYWZES" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
-Back in 2006, when big bookstores were still a thing, I used to spend a lot of time in the Barnes and Noble in Nashua, NH, browsing their computer books. One day I came across [LINQ Pocket Reference](https://amzn.to/2I5gDIp). I had heard of LINQ and love the style and conciseness of the O'Reilly pocket references. I bought a copy and brought it home.
+Back in 2006, when big bookstores were still a thing, I used to spend a lot of time in the Barnes and Noble in Nashua, NH, browsing their computer books. One day I came across [LINQ Pocket Reference](https://amzn.to/2I5gDIp){:target="_blank"}. I had heard of LINQ and love the style and conciseness of the O'Reilly pocket references. I bought a copy and brought it home.
 
 As I often do, I forgot about the book for a few days. It sat on the side of my desk, untouched. Then one day, I needed to look something up but the book wasn't there anymore. In fact, a couple of my books were missing: the LINQ book and another one on C#. I searched the usual places in the house where I might leave a book, but couldn't find it. 
 
