@@ -11,7 +11,7 @@ layout: post
 feature: /assets/img/rxjs.png
 thumbnail: /assets/img/rxjs.png
 cover_image: /assets/img/rxjs.png
-canonical_url: https://walkingriver.com/rxjs
+canonical_url: https://walkingriver.com/rxjs-select-rest/
 published: true
 ---
 
