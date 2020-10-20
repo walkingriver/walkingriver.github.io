@@ -45,6 +45,14 @@ Though technically either form is correct, in most of the English-speaking world
 ## Irregardless
 Again, there is no such word. There are two words you may wish to use instead: `regardless` or `irrespective`. 
 
+### October 2020 Update!
+It was brought to my attention by [Team 33 Productions on Twitter](https://tweetdeck.twitter.com/33ProductionsSP){:target="_blank"} that I am indeed mistaken about this. Evidently irregardless is a word, as [reported by NPR just this past summer](https://www.npr.org/2020/07/07/887649010/regardless-of-what-you-think-irregardless-is-a-word){:target="_blank"}. 
+
+That said, I concur with the following, taken from the article:
+> "It's not a real word. I don't care what the dictionary says," responds author Michelle Ray, who teaches English in Silver Spring, Md.
+
+I stand by my recommendation that you should not use the word.
+
 ## It's/Its
 This one probably bothers me more than any other. The word `it's` is a contraction, meaning `it is`. The correct possessive form is `its`.
 
