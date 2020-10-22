@@ -223,7 +223,7 @@ git commit -am"Upgraded to Angular 10"
  2 files changed, 1945 insertions(+), 897 deletions(-)
 ```
 
-The [GitHub diff is here](){:target="_blank"}. As you can see, it only updated packages. Though it showed many of the same warnings, it did not find anything in the code it needed to migrate.
+The [GitHub diff is here](https://github.com/walkingriver/at10dance-angular/commit/a0114c149e637a90394b35a8888f83fac38728c8){:target="_blank"}. As you can see, it only updated packages. Though it showed many of the same warnings, it did not find anything in the code it needed to migrate.
 
 As I reviewed those migration guides, I also did not find any issues to update. I cannot confirm this, but I believe that the Ionic team keeps on top of these things and uses the latest Angular guidance in their application generators.
 
