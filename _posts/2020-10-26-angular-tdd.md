@@ -412,9 +412,44 @@ export class CorrelationService {
 
 I probably could also dispense with the empty constructor, but something in the back of my mind is preventing me from deleting it.
 
+# Refactoring the Service
+After I finished writing this, it occurred to me that there is a better way to initialize the service than with the `||` in `getConversationId`. Why not use the constructor to do its job and construct the object and initialize its internal state?
+
+## Before
+As you may recall (or just look up and see), the `getConversationId` function looks like this:
+
+```typescript
+getConversationId() {
+  return this.conversationId || this.resetConversationId();
+}
+```
+
+If the value of `this.conversationId` is not defined, the conditional "or" will cause the function on the right side to be executed. That function's side-effect is to initialize the value. TypeScript conditional "short-circuiting" prevents it from being called if `this.conversationId` already contains a value. 
+
+In this case, it is simple enough to follow, but you may be able imagine that in more complex classes it may not be.
+
+## After
+Instead, I will move the call to `resetConversationId` into the constructor, guaranteeing that `this.conversationId` will always have a value. Thus, I can delete the conditional check from the latter function.
+
+```typescript
+constructor() {
+  this.resetConversationId();
+}
+
+getConversationId() {
+  return this.conversationId;
+}
+```
+
+To me, this is much simpler code and captures the meaning more clearly than before. Anyone looking at this code will understand that the service pre-initializes its state immediately.
+
+The tests still pass, as they should. This ostensibly is why we write unit tests in the first place, to ensure that changes to the implementation do not break functionality.
+
 # Conclusion
 
-From start to finish, this experiment took me just over two hours to complete (2:30 - 4:45 PM). The tests were easy to write because the service itself did not exist. By describing the tests as I expected them to work, the service API practically wrote itself. 
+From start to finish, this experiment took me just over two hours to complete (2:30 - 4:45 PM). I spent another 15 minutes or so doing the above refactoring and writing about it.
+
+The tests were easy to write because the service itself did not exist when I began. By describing the tests as I expected them to work, the service API practically wrote itself. 
 
 I am not convinced that a more complicated service or a UI component will be as easy to write in this manner, but over all I am pleased with the result.
 
