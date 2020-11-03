@@ -11,7 +11,7 @@ layout: post
 feature: https://walkingriver.com/assets/img/angular-logo.png
 thumbnail: https://walkingriver.com/assets/img/angular-logo.png
 cover_image: https://walkingriver.com/assets/img/angular-logo.png
-canonical_url: https://walkingriver.com/rxjs-select-rest/
+canonical_url: https://walkingriver.com/angular-upgrade/
 published: true
 ---
 
