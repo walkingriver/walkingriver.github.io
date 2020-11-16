@@ -113,7 +113,7 @@ Finally, I needed to make sure my screenshots were of the appropriate size and a
 
 You can get a list of all of the built-in named devices by opening the Chrome Developer Tools, then opening the `Settings` panel. Once there, click `Devices` on the left side. 
 
-![Chrome Built-in Devices](/assets/img/2019-07-03-21-01-08.png)
+![Chrome Built-in Devices](https://walkingriver.com/assets/img2019-07-03-21-01-08.png)
 
 Any device listed here can be used by Protractor when driving Chrome as the test browser. Two of the three device sizes needed to submit to the App Store are already there. 
 
@@ -171,7 +171,7 @@ Once I had all of my devices specified in `protractor.conf.ts`, the only thing l
 
 The results were excellent. I ended up with a folder full of images at the appropriate sizes. 
 
-![](/assets/img/2019-07-04-22-31-21.png)
+![](https://walkingriver.com/assets/img2019-07-04-22-31-21.png)
 
 From there, all I had to do was upload them to iTunes Connect, which I did successfully. 
 
@@ -301,4 +301,3 @@ export class AppPage {
 - [Ionic Framework](https://ionicframework.com){:target="_blank"}
 - [Capacitor](https://capacitor.ionicframework.com/){:target="_blank"}
 - [Walking River Bravo!](https://bit.ly/ios-bravo){:target="_blank"}
-

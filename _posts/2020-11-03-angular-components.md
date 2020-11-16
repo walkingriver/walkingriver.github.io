@@ -123,7 +123,7 @@ Now let us take a look at the markup. This, too, is pretty simple, almost trivia
 
 The component consists of a single `<div>` with a class called `wrapper`. We will see more of that in the next section on styling. Inside this `<div>` are three more elements: 
 
-![Loading image](/assets/img/loading.gif)
+![Loading image](https://walkingriver.com/assets/imgloading.gif)
 
 1. An `<img>` tag pointing at an animated gif. This is one I am not really happy with. I would prefer to isolate the image so that using this component is a simple matter of dropping it into another project. However, this is not about component reuse. If it were, I would probably encode the image as a BASE-64 string and include it directly in the `<img>` tag itself.
 1. A title represented by an `<h1>` tag containing a hard-coded message to the user.
@@ -233,7 +233,7 @@ In this sample code, I am using Angular's attribute binding syntax to bind the `
 # The Result
 When it is all assembled and working on an actual web application, this is what it might look like:
 
-![Loading Component Animation](/assets/img/loading-component.gif)
+![Loading Component Animation](https://walkingriver.com/assets/imgloading-component.gif)
 
 # Summary
 Angular components do not need to be complicated. In fact, sometimes they do not even need any imperative code. In this article I have created a simple Loading Component that can be easily reused anywhere in my application. 

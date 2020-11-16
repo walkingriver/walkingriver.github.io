@@ -172,7 +172,7 @@ Naturally, though, none of these tests will run. In fact, they will not even com
 
 Fortunately, VS Code will do the heavy lifting for me. All I have to do is put my edit cursor on one of the function names, click the yellow light-bulb (for Auto Fix), and choose `Add all missing members.`
 
-![VS Code adds missing service functionality](/assets/img/vs-code-add-missing.png)
+![VS Code adds missing service functionality](https://walkingriver.com/assets/imgvs-code-add-missing.png)
 
 The code it builds is not ideal and will still require some editing, but at this point the tests will compile.
 

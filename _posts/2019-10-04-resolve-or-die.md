@@ -174,7 +174,7 @@ Either of these alternative patterns can be handled by kicking off the data load
 # Demo
 Here is a demo I created with the above code to show all three of these options side-by-side. The demo consists of three Angular page components, each attempting to load some data from a common service. The service simply waits 3.5 seconds and throws an error.  
 
-![Options Demo](/assets/img/resolve-or-die.gif)
+![Options Demo](https://walkingriver.com/assets/imgresolve-or-die.gif)
 
 If you wish to see the code in its entirety, here is [the repo on GitHub](https://github.com/walkingriver/resolve-or-die){:target="_blank"}.
 
@@ -190,4 +190,3 @@ As part of that research, I came up with some ~~rules~~ guidelines for deciding 
     - Use skeleton text or a loading indicator.
 
 Review the demo video to see how each one behaves, and choose the option that works best for your projects. 
-
