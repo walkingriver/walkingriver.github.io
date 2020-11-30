@@ -51,29 +51,31 @@ The content of this book represents my experience, and I hope you will be able t
 
 Here are some of the topics that are covered in the book. Notice it is not all simply Angular. There are other useful subjects that the Angular Advocate needs to understand.
 
-- How to introduce coworkers to TypeScript.
-- How to provide coworkers a Gentle introduction to Angular.
-- How to create a simple "no-code" Angular component.
-- How to display "offline" status in an Angular app.
-- How to support [(ngModel)] in a custom Angular component.
-- When to use route resolvers, and when not to use them.
-- How to keep up with Angular releases. Fortunately, @Angular makes it easy to do. 
-- Understanding service APIs from both the producer and consumer point of view.
-- Keeping your deployment options open.
-- How to spin up a test API quickly and easily with Firebase.
-- The benefits of Progressive Web Apps (PWAs) and when to use them.
-- How to embrace RxJS and become truly effective.
-- How to use Test-driven-development (TDD) effectively with Angular.
-- Knowing what code to test (and what code not to test).
-- Knowing what all those weird symbols on the command line are all about.
-- How to revert your (or your team's) mistaken git commits.
-- How to provide source code without the overhead of the git repository.
-- Understanding how people learn, before you need to teach.
-- Knowing the basics of how to teach is critical on the  path.
-- How to get people to pay more attention when you speak.
-- Why you should pay attention to spelling and grammar.
-- Understanding the basics of agile planning.
-- Where to get Creative-Commons licensed images for almost any purpose.
+How to introduce coworkers to TypeScript.
+How to provide coworkers a Gentle introduction to Angular.
+How to create a simple "no-code" Angular component.
+How to display "offline" status in an Angular app.
+How to support [(ngModel)] in a custom Angular component.
+When to use route resolvers, and when not to use them.
+How to keep up with Angular releases. Fortunately, @Angular makes it easy to do. 
+Understanding service APIs from both the producer and consumer point of view.
+Keeping your deployment options open.
+How to spin up a test API quickly and easily with Firebase.
+The benefits of Progressive Web Apps (PWAs) and when to use them.
+How to embrace RxJS and become truly effective.
+How to use Test-driven-development (TDD) effectively with Angular.
+Knowing what code to test (and what code not to test).
+Knowing what all those weird symbols on the command line are all about.
+How to revert your (or your team's) mistaken git commits.
+How to provide source code without the overhead of the git repository.
+Understanding how people learn, before you need to teach.
+Knowing the basics of how to teach is critical on the  path.
+How to get people to pay more attention when you speak.
+Why you should pay attention to spelling and grammar.
+Understanding the basics of agile planning.
+Where to get Creative-Commons licensed images for almost any purpose.
 
 # How to Reserve Your Copy
-If these things sound interesting, and I hope they do, please consider [placing an order today at AngularAdvocate.com](https://gum.com/angular-advocate){:target="_blank"}.
+If these things sound interesting, and I hope they do, please consider [placing an order today at AngularAdvocate.com](https://gum.co/angular-advocate){:target="_blank"}.
+
+I am also releasing the first three chapters, free of charge. [You can download the free PDF today](https://gum.co/angular-advocate-preview){:target="_blank"}.
