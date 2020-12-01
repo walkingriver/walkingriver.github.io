@@ -119,7 +119,7 @@ This means I needed way to pass in a string to be used for the label, a boolean 
 The first order of business is to create the component, with the help of the Angular CLI. 
 
 ```sh
-ng generate component --module shared --inline-template --spec false shared/checkbox 
+ng generate component --module shared --inline-template --skip-tests shared/checkbox 
 
 CREATE src/app/shared/checkbox/checkbox.component.scss (0 bytes)
 CREATE src/app/shared/checkbox/checkbox.component.ts (292 bytes)
@@ -336,4 +336,3 @@ export class CheckboxComponent implements ControlValueAccessor {
 - [Angular Docs for the ControlValueAccessor](https://angular.io/api/forms/ControlValueAccessor){:target="_blank"}
 - [W3School Custom Checkbox](https://www.w3schools.com/howto/howto_css_custom_checkbox.asp){:target="_blank"}
 - [HTML DOM Event object](https://www.w3schools.com/jsref/dom_obj_event.asp){:target="_blank"}
-

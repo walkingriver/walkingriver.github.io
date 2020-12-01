@@ -26,7 +26,7 @@ In December of 2010 I was in the 11th month of a 9-month contract with Dell. 201
 
 In late January 2010, after about two months living off savings and food storage, I finally got a job offer, but it was not in New Hampshire. It was with Dell, in Round Rock, Texas. Though not ideal (it was 3000 miles away) and not long-term (it was only a 9-month contract), I accepted the job. 
 
-![Dell HQ, Round Rock, Texas, USA](https://walkingriver.com/assets/imgdell.jpg)
+![Dell HQ, Round Rock, Texas, USA](https://walkingriver.com/assets/img/dell.jpg)
 
 I was to start on the first Monday in February, which gave me exactly a week to pack up my Mustang Convertible and head out for a grand solo road trip. It was the middle of the school year and my wife and I decided it would be best for me to go alone, given that it was not a permanent gig. If it turned out later to be so, we could decide for them to join me in June. 
 
@@ -107,7 +107,7 @@ After breakfast, I drove to Team Disney. Fortunately, my many prior visits to th
 
 From this point on, I will use initials when describing the people I met who are not otherwise well known in the industry. My coworkers will probably be able to figure out who these people are, but most of my readers will not. This will allow me to avoid using terms like "hiring manager" and "other manager" for the rest of the story.
 
-![Team Disney at Walt Disney World](https://walkingriver.com/assets/imgteamdisney.jpg)
+![Team Disney at Walt Disney World](https://walkingriver.com/assets/img/teamdisney.jpg)
 
 Upon my arrival at Team Disney, I discovered I was a little early. I parked at the far end of the parking lot to be able to take everything in. I have always admired the Team Disney building but had never been close to it. That giant tower in the center reminds me of a smoke stack, and I assumed the building was designed to resemble a cruise ship. I was mistaken. That tower is an (estimated) 8-story hollow tube, open to the sky. In fact, it is a giant functioning sundial, with markings on the walls to help you tell the time. 
 
@@ -178,17 +178,17 @@ Another difference between Dell and Disney is that I did not try to drive all my
 # My First Couple of Days
 On May 9, 2011, I finally arrived for my first day at Team Disney. I again met with JG, JS, and DM, and spent most of the day getting my computer set up and generally observing. I was not expected to do much, because  I did not even have a security badge yet. That would be tomorrow. 
 
-![Disney University](https://walkingriver.com/assets/imgdisneyuniversity.jpg)
+![Disney University](https://walkingriver.com/assets/img/disneyuniversity.jpg)
 
 On Tuesday, May 10, I arrived at Disney University bright and early for Traditions, a day-long orientation required for all new Disney Cast Members. I do not want to go into detail about the specifics of Traditions for two reasons. First, I do not want to spoil the experience for others. You are best coming in cold, as I did. Second, the program changes often enough that anything I told you would likely be out of date or completely inaccurate.
 
 I can say that it was at Traditions that I received my security badge and my name tag. 
 
-![Disney nametag](https://walkingriver.com/assets/imgnametag.jpg)
+![Disney nametag](https://walkingriver.com/assets/img/nametag.jpg)
 
 With my security badge came new abilities, and I was determined to use them. When Traditions ended, I drove to Disney's Boardwalk Inn, where I had stayed just a few months before. My shiny new badge got me through the security gate and I proceeded to park and walk around. 
 
-![Disney's Boardwalk Resort Area](https://walkingriver.com/assets/imgboardwalk.jpg)
+![Disney's Boardwalk Resort Area](https://walkingriver.com/assets/img/boardwalk.jpg)
 
 The Boardwalk Resort area has always been one of my favorite locations at Walt Disney World. It is simply beautiful. It is also within walking distance of both Epcot and Disney's Hollywood Studios. 
 
@@ -232,7 +232,7 @@ The most complicated task I have ever been assigned was to make popcorn, and tha
 
 Here is a picture of me working at the ice cream cart just outside of the Tomorrowland Speedway at Magic Kingdom, around Easter a few years ago.
 
-![Tomorrowland Speedway Ice Cream Cart](https://walkingriver.com/assets/imgice-cream-tomorrowland.jpg)
+![Tomorrowland Speedway Ice Cream Cart](https://walkingriver.com/assets/img/ice-cream-tomorrowland.jpg)
 
 # Since Joining Disney
 

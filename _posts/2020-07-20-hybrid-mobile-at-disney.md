@@ -21,15 +21,15 @@ One hot summer day, my team received a somewhat frantic email. Due to some hardw
 
 # What is Disney's Magical Express?
 
-![Disney's Magical Express](https://walkingriver.com/assets/img2020-07-16-12-54-43.png)
+![Disney's Magical Express](https://walkingriver.com/assets/img/2020-07-16-12-54-43.png)
 
 Disney's Magical Express is a service offered to Guests staying at a Walt Disney World Resort. It provides "complimentary motorcoach transportation between Orlando International Airport and select Walt Disney World Resort hotels—featuring complimentary luggage delivery." If you ever visited Walt Disney World, you may be familiar with how it works. A few weeks before your trip. you will receive some bar-coded luggage tags in the mail. You simply affix these tags to your bags, and check them at the airport as you normally would before your departing flight.
 
-![Magical Express Luggage Tags](https://walkingriver.com/assets/img2020-07-16-13-00-23.png)
+![Magical Express Luggage Tags](https://walkingriver.com/assets/img/2020-07-16-13-00-23.png)
 
 The magic happens when you arrive at Orlando International Airport. When your flight lands, rather than retrieving your luggage at baggage claim, you and your family can head straight to Disney's Magical Express Welcome Center in Terminal B, where you will board a luxury motorcoach for a comfortable ride to your resort. Soon after your arrival, your luggage will be delivered to your room. 
 
-![Disney's Magical Express Airport Check-in](https://walkingriver.com/assets/img2020-07-16-13-00-37.png) ![Disney's Magical Express motorcoach interior](https://walkingriver.com/assets/img2020-07-16-13-01-03.png)
+![Disney's Magical Express Airport Check-in](https://walkingriver.com/assets/img/2020-07-16-13-00-37.png) ![Disney's Magical Express motorcoach interior](https://walkingriver.com/assets/img/2020-07-16-13-01-03.png)
 
 # The Magic Behind the Magic
 Have you ever considered how Disney keeps track of your luggage and manages to get it to you in a timely manner? It is a large task; one that is solved by technology. When a flight lands at Orlando International, all bags bearing the Disney luggage tags are removed from the airplane and sent to a remote sorting facility. They never even enter the airport. The bags are sorted into groups based on their destinations. From there they are sent to the appropriate resort hotels. Here they are further sorted and delivered to each Guest's room.
@@ -43,7 +43,7 @@ On that fateful summer day, we were told that the handheld scanners used by Disn
 
 # Android or iOS?
 
-![Android barcode scanner](https://walkingriver.com/assets/img2020-07-16-12-57-07.png) ![iPhone](https://walkingriver.com/assets/img2020-07-16-12-57-14.png) ![iPhone with case](https://walkingriver.com/assets/img2020-07-16-12-57-22.png)
+![Android barcode scanner](https://walkingriver.com/assets/img/2020-07-16-12-57-07.png) ![iPhone](https://walkingriver.com/assets/img/2020-07-16-12-57-14.png) ![iPhone with case](https://walkingriver.com/assets/img/2020-07-16-12-57-22.png)
 
 Our first question back to the business was what type of hardware they had in mind for the replacement. They were looking at three potential options: an Android device that was specifically designed to work in an unforgiving warehouse environment, an iPhone, or possibly an iPod Touch. The Disney Resorts already had some success with using iPhones, and they were not comfortable with the idea of their Cast carrying multiple devices. However, the managers in the sorting facility were concerned that iPhones and iPod Touch devices would not be resilient enough for their operation. Could we possibly support both?
 
@@ -62,13 +62,13 @@ We were forced to rethink our approach.
 ## Ionic Framework for the Win
 Fortunately, I recently had some success building a small hybrid mobile application using the Ionic Framework. With Ionic, development is done with standard web skills: HTML, CSS, and JavaScript. Ionic had also made an early architectural decision to support Angular. We had lots of Angular developers on our team. 
 
-![Ionic Framework UI](https://walkingriver.com/assets/img2020-07-16-12-57-56.png)
+![Ionic Framework UI](https://walkingriver.com/assets/img/2020-07-16-12-57-56.png)
 
 Ionic does the heavy lifting of interacting with the hardware and providing a host for the web application code to run directly on the device (as opposed to a remote web server). It also provides a very "native look and feel" on both Android and iOS devices, intelligently choosing the appropriate method based on the device the application is running on.
 
 The only stumbling block would be that custom barcode scanner. Could Ionic support it?
 
-![iPhone barcode scanner](https://walkingriver.com/assets/img2020-07-16-12-58-57.png)
+![iPhone barcode scanner](https://walkingriver.com/assets/img/2020-07-16-12-58-57.png)
 
 I emailed our technical support contact for the company who makes the scanner with a simple question: "Have any of your customers ever used Ionic with your scanners?" His reply was something to the effect of, "Never heard of Ionic. But if you can use Cordova, I have a plugin you can try."
 
@@ -79,11 +79,11 @@ Better news, at the time of our project, Ionic used Cordova as its hardware comp
 ## Proof of Concept
 Over the next few hours, I downloaded the Cordova plugin for the scanner hardware and created a small proof of concept application. It was not pretty. It simply registered a handler for the scanner's "onScan" event, and displayed the provided bar code details in JSON format on the browser. The next day, I was able to get one our test iPhones and one of the scanners, and had a fully-functional demo to show the business. 
 
-![Soda can](https://walkingriver.com/assets/img2020-07-16-12-59-36.png) ![Tissue box](https://walkingriver.com/assets/img2020-07-16-12-59-24.png) ![QR Code](https://walkingriver.com/assets/img2020-07-16-12-59-42.png)
+![Soda can](https://walkingriver.com/assets/img/2020-07-16-12-59-36.png) ![Tissue box](https://walkingriver.com/assets/img/2020-07-16-12-59-24.png) ![QR Code](https://walkingriver.com/assets/img/2020-07-16-12-59-42.png)
 
 It could read and decode any common bar code I tried: a soda can, a box of tissues, a QR code for a website, the serial number of the phone in the conference room. Even better, it scanned and decoded each in less than 200ms. If you have ever used the phone's camera to read bar codes, you will certainly agree that this is much faster. The last test was ensuring it could decode the bar codes on the luggage tags. It passed that test with flying colors.
 
-![Disney's Magical Express luggage tag](https://walkingriver.com/assets/img2020-07-16-13-00-05.png)
+![Disney's Magical Express luggage tag](https://walkingriver.com/assets/img/2020-07-16-13-00-05.png)
 
 # Ionic Development Experience
 With the proof of concept successfully completed, we officially made the decision to use Ionic. A small team of about six Angular developers was assembled and we started putting together some prototype web pages. Development was done with standard web servers to begin with. Throughout most of our first iteration, we still had no idea which device would be selected. But it did not matter, as we were confident we could support both. 
@@ -105,7 +105,7 @@ Throughout development and early testing, we tested on the iPhones and scanning 
 
 It turned out that the company supplying the barcode scanner had a product specifically designed for our type of use. Imagine an Otter Box with an extra battery and built-in hardware barcode scanner. An iPhone can be inserted into this product and locked in place. Once installed in this manner, the iPhone was just as durable as the more-expensive custom Android model they had been considering. The extra battery meant that it could be used continuously all day without needing to be recharged.
 
-![Hardened iPhone case with barcode scanner](https://walkingriver.com/assets/img2020-07-16-12-55-54.png)
+![Hardened iPhone case with barcode scanner](https://walkingriver.com/assets/img/2020-07-16-12-55-54.png)
 
 In the end, it was decided that everyone would use iPhones. The barcode scanner added some bulk to the devices used at the Resorts, but this was considered a better solution than asking our Cast to carry multiple devices. 
 
