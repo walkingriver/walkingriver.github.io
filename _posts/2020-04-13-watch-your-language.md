@@ -15,12 +15,12 @@ canonical_url: https://walkingriver.com/watch-your-language/
 published: true
 ---
 
-At the risk of offending some of my peers, I wish to make an observation. As a group, we tend to be horrible at written communication. Software developers are some of the worst writers I have ever read. We make sloppy mistakes, both in spelling and in grammar. Whether you write technical articles for a living, blog posts for a hobby, or pull request comments, this article is an attempt to provide some simple guidance to improve your language and your writing. 
+At the risk of offending some of my peers, I want to make an observation. As a group, we tend to be horrible at written communication. Software developers are some of the worst writers I have ever read. We make sloppy mistakes, both in spelling and in grammar. Whether you write technical articles for a living, blog posts for a hobby, or pull request comments, this article is an attempt to provide some simple guidance to improve your language and your writing. 
 
 <!--more-->
 
 # Spelling
-First and foremost, use a spell checker. In today's world, there is no excuse for spelling words incorrectly. However, if you are not careful, you can still use a correctly spelled word incorrectly. Below are some common mistakes I see often. 
+First, use a spell checker. In today's world, there is no excuse for spelling words incorrectly. However, if you are not careful, you can still use a correctly spelled word incorrectly. Below are some common mistakes I see often. 
 
 ## Alright
 There is no such word, even though many spell checkers do not flag it. It is an informal form of `all right`.
@@ -46,7 +46,7 @@ Though technically either form is correct, in most of the English-speaking world
 Again, there is no such word. There are two words you may wish to use instead: `regardless` or `irrespective`. 
 
 ### October 2020 Update!
-It was brought to my attention by [Team 33 Productions on Twitter](https://twitter.com/33ProductionsSP){:target="_blank"} that I am indeed mistaken about this. Evidently irregardless is a word, as [reported by NPR just this past summer](https://www.npr.org/2020/07/07/887649010/regardless-of-what-you-think-irregardless-is-a-word){:target="_blank"}. 
+It was brought to my attention by [Team 33 Productions on Twitter](https://twitter.com/33ProductionsSP){:target="_blank"} that I am mistaken about this. Evidently irregardless is a word, as [reported by NPR just this past summer](https://www.npr.org/2020/07/07/887649010/regardless-of-what-you-think-irregardless-is-a-word){:target="_blank"}. 
 
 That said, I concur with the following, taken from the article:
 > "It's not a real word. I don't care what the dictionary says," responds author Michelle Ray, who teaches English in Silver Spring, Md.
