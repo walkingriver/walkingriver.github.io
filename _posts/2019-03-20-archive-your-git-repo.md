@@ -11,6 +11,7 @@ modified_time: '2019-03-19T10:56:00.001-04:00'
 feature: assets/img/github.png
 cover_image: https://walkingriver.com/assets/img/github.png
 canonical_url: https://walkingriver.com/archive-your-git-repo/
+exclude_from_posts: true
 ---
 Did you know there is a very simple and straightforward command to archive a complete Git repository, while including no historical information? In this brief article I explain both how and why I do it.
 <!--more-->
@@ -52,4 +53,3 @@ _Note: The archive will not contain the .git directory, but will contain other h
 ## Reference
 
 [https://stackoverflow.com/questions/160608/do-a-git-export-like-svn-export]()
-

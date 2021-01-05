@@ -10,6 +10,7 @@ feature: assets/img/source-code.jpg
 thumbnail: https://walkingriver.com/assets/img/source-code.jpg
 cover_image: https://walkingriver.com/assets/img/source-code.jpg
 canonical_url: https://walkingriver.com/understand-your-api/
+exclude_from_posts: true
 published: true
 ---
 
@@ -69,4 +70,3 @@ If you are creating an API:
 - Do not break the interface to your API.
 
  As I said above, you do not want to be the one bringing down the production systems on a Sunday morning.
-

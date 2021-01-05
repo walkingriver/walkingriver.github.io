@@ -7,6 +7,7 @@ tags:
 - Trello
 - Agile
 modified_time: '2018-07-29T07:32:56.367-04:00'
+exclude_from_posts: true
 published: true
 cover_image: https://1.bp.blogspot.com/-4t0A5h-1EAE/U9bFK0lj5zI/AAAAAAAAAPA/uS-0XM9sacc/s1600/CardsDoneAndDoing.png
 feature: https://1.bp.blogspot.com/-4t0A5h-1EAE/U9bFK0lj5zI/AAAAAAAAAPA/uS-0XM9sacc/s1600/CardsDoneAndDoing.png

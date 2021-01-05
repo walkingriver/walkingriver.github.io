@@ -12,6 +12,7 @@ feature: assets/img/2019-07-04-22-31-21.png
 thumbnail: https://walkingriver.com/assets/img/2019-07-04-22-31-21.png
 cover_image: https://walkingriver.com/assets/img/2019-07-04-22-31-21.png
 canonical_url: https://walkingriver.com/automate-screen-shots
+exclude_from_posts: true
 published: true
 ---
 

@@ -12,6 +12,7 @@ feature: assets/img/bravo-icons.png
 thumbnail: https://walkingriver.com/assets/img/bravo-icons.png
 cover_image: https://walkingriver.com/assets/img/bravo-icons.png
 canonical_url: https://walkingriver.com/make-splash/
+exclude_from_posts: true
 published: true
 ---
 
@@ -62,4 +63,3 @@ resize $1 1280 1920 drawable-port-xxxhdpi
 ```
 
 Like yesterday's script to create iOS icons, this one is pretty straightforward. It is a lot of brute force, and assumes a happy path. Unlike yesterday's, this one actually allows you to specify the splash screen to be converted, and it will then build the appropriate `res` folder. Simply take those files and drop them into your Android Capacitor project. You'll find them in `./android/src/app/main/res`.
-

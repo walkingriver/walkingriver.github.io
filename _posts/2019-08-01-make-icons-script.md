@@ -12,6 +12,7 @@ feature: assets/img/pp-icons.png
 thumbnail: https://walkingriver.com/assets/img/pp-icons.png
 cover_image: https://walkingriver.com/assets/img/pp-icons.png
 canonical_url: https://walkingriver.com/make-icons-script/
+exclude_from_posts: true
 published: true
 ---
 
@@ -85,5 +86,3 @@ To use it, first make sure you're on a Mac.
 1. Execute `./make-icons.sh`.
 1. Open ios/App/App/Assets.xcassets/AppIcon.appiconset/ to see your icons.
 1. Enjoy!
-
-

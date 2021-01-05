@@ -13,6 +13,7 @@ feature: assets/img/github.png
 thumbnail: https://walkingriver.com/assets/img/github-octocat.png
 cover_image: https://walkingriver.com/assets/img/github.png
 canonical_url: https://walkingriver.com/revert-your-mistaken-git-commits/
+exclude_from_posts: true
 published: true
 ---
 

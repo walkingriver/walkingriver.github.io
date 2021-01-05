@@ -12,6 +12,7 @@ feature: https://walkingriver.com/assets/img/azure-angular.jpg
 thumbnail: https://walkingriver.com/assets/img/azure-angular.jpg
 cover_image: https://walkingriver.com/assets/img/azure-angular.jpg
 canonical_url: https://walkingriver.com/ng-deploy-azure/
+exclude_from_posts: true
 published: true
 ---
 

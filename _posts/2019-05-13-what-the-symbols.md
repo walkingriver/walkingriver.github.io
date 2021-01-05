@@ -13,6 +13,7 @@ feature: assets/img/linux-shell.png
 thumbnail: https://walkingriver.com/assets/img/bash.png
 cover_image: https://walkingriver.com/assets/img/linux-shell.png
 canonical_url: https://walkingriver.com/what-the-symbols/
+exclude_from_posts: true
 published: true
 ---
 
