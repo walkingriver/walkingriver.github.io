@@ -7,6 +7,7 @@ feature: assets/img/ifttt-01.png
 cover_image: https://walkingriver.com/assets/img/ifttt-01.png
 canonical_url: https://walkingriver.com/using-ifttt-to-manage-crowdfire/
 comments: true
+exclude_from_posts: true
 ---
 Recently the social media tool Crowdfire had its Twitter API suspended without warning. 
 Suddenly its users all over the world had their ability to post curated content to Twitter

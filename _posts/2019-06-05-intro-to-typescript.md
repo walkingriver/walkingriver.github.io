@@ -12,6 +12,7 @@ feature: assets/img/typescript.jpg
 thumbnail: https://walkingriver.com/assets/img/typescript-logo.svg
 cover_image: https://walkingriver.com/assets/img/typescript.jpg
 canonical_url: https://walkingriver.com/intro-to-typescript/
+exclude_from_posts: true
 published: true
 ---
 
@@ -308,4 +309,3 @@ mike = { email: '2345@company.com', firstName: 'Bob', lastName: 'Johnson' };
 
 # What Next?
 That's all for now, but there is a lot more to TypeScript. For more information, visit www.typescriptlang.org
-

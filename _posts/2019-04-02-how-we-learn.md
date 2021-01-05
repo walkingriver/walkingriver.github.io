@@ -8,6 +8,7 @@ tags: learning
 feature: assets/img/baby.jpg
 cover_image: https://walkingriver.com/assets/img/baby.jpg
 canonical_url: https://walkingriver.com/how-we-learn/
+exclude_from_posts: true
 ---
 
 Have you ever stopped to think about how we learn things? I was recently reflecting on when my 15-year old was learning to drive. I had the unenviable job of teaching him. At the time, it struck me that he had to think about every little detail of what he was doing. He needed to be reminded to check his mirrors, signal his lane changes, look behind him when backing up, etc.. Learning to drive requires absolute and complete attention. He didn't even have the spare mental capacity to listen to music.
@@ -37,4 +38,3 @@ You may have noticed that I haven't said anything about the time this takes. Tha
 What should you take away from this? Keep these steps in mind the next time you start to learn a new skill. And in the meantime, practice your learning. Pick a topic. Study it. Pay attention to the steps you go through.
 
 In another post, I discuss how these same steps can apply from a different perspective: that of a teacher. I  show how the teacher's approach has to change, according to which step the student is on.
-

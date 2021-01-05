@@ -11,6 +11,7 @@ feature: assets/img/laptop-boy.jpg
 thumbnail: https://walkingriver.com/assets/img/laptop-boy.jpg
 cover_image: https://walkingriver.com/assets/img/laptop-boy.jpg
 canonical_url: https://walkingriver.com/teaching-kids-to-code/
+exclude_from_posts: true
 published: true
 ---
 

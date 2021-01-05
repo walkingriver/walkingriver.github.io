@@ -12,6 +12,7 @@ feature: assets/img/dsc-blades.jpg
 thumbnail: https://walkingriver.com/assets/img/dsc-blades.jpg
 cover_image: https://walkingriver.com/assets/img/dsc-blades.jpg
 canonical_url: https://walkingriver.com/razor-blades/
+exclude_from_posts: true
 published: true
 ---
 
@@ -174,4 +175,3 @@ The shave foam was initially promising. It has a pleasant scent, and goes on smo
 
 ## Day 66-71
 The next day, I decided to jettison the Harry's shave foam and go back to my trusty Gillette gel. It was a little better, but the shave quality and comfort are nowhere near what I was getting from Gillette or Dollar Shave Club. Though I do believe I will be able to finish out the week and complete the experiment, I can report conclusively that I will not be using Harry's razors any longer. 
-

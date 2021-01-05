@@ -12,6 +12,7 @@ feature: assets/img/ionic-pwa.png
 thumbnail: https://walkingriver.com/assets/img/ionic-pwa.png
 cover_image: https://walkingriver.com/assets/img/ionic-pwa.png
 canonical_url: https://walkingriver.com/notify-api/
+exclude_from_posts: true
 published: true
 ---
 

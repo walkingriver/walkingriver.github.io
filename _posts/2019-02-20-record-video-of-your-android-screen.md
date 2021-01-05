@@ -10,6 +10,7 @@ feature: assets/img/android-1000x420.jpg
 cover_image: https://walkingriver.com/assets/img/android-1000x420.jpg
 canonical_url: https://walkingriver.com/record-video-of-your-android-screen/
 comments: true
+exclude_from_posts: true
 ---
 Recently I needed to record a demo video for one of my apps running on an Android test device, an older Samsung Galaxy S4.
 I had no idea how to do that.
@@ -49,4 +50,3 @@ Make sure you include the trailing dot at the end of that command.
 1. Use the video any way you wish.
 
 There might be a better way to do this, but I'm cheap and this is free. I did find other methods, mostly paid apps. If you know of something simpler, please let me know here or on twitter. I'm @walkingriver
-

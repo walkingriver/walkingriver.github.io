@@ -11,6 +11,7 @@ tags:
 feature: assets/img/math-board.jpg
 cover_image: https://walkingriver.com/assets/img/math-board.jpg
 canonical_url: https://walkingriver.com/how-we-teach/
+exclude_from_posts: true
 ---
 
 This is the second post in my series about learning and teaching. In [the first post](https://walkingriver.com/how-we-learn/){:target="_blank"}, I specifically discussed the four steps that everyone goes through when learning something new. In this post, I am going to discuss how to teach students at each step of the process.  The techniques used vary, depending on where a given student is. Please note, you don't have to be a professional teacher to understand and use these techniques. Whether you are a teacher, a parent, a manager, a mentor, or even a student yourself, understanding these techniques can make you better at what you do.

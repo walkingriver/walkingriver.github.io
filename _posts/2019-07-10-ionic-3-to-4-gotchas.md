@@ -12,6 +12,7 @@ feature: assets/img/ionic-logo.png
 thumbnail: https://walkingriver.com/assets/img/ionic-logo.png
 cover_image: https://walkingriver.com/assets/img/ionic-logo.png
 canonical_url: https://walkingriver.com/ionic-3-to-4-gotchas/
+exclude_from_posts: true
 published: true
 ---
 
@@ -112,4 +113,3 @@ I ran into an identical problem with the `PickerController`. No UI refresh after
 # References
 - [Ionic Framework Alert Controller](https://ionicframework.com/docs/api/alert){:target="_blank"}
 - [Ionic Framework Picker Controller](https://ionicframework.com/docs/api/picker){:target="_blank"}
-
