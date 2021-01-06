@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Upgrading an AngularJS Project to Angular
-date: '2020-12-30'
+date: '2021-01-02'
 author: Michael D. Callaghan
 tags: 
 - TypeScript
