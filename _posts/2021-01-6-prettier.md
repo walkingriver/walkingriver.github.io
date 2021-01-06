@@ -15,11 +15,9 @@ canonical_url: https://walkingriver.com/prettier/
 published: false
 ---
 
-I have been resisting installing and using Prettier for a long time now, mostly because I was happy enough with the job VS Code does formatting my code. Then over the Christmas break, my son convinced me to install it. After he did, he said, "Now open an HTML file and I'll show you something you aren't going to like."
+I have been resisting installing and using Prettier for a long time now, mostly because I was happy enough with the job VS Code does formatting my code. Then over the Christmas break, my son convinced me to install it. After I did, he said, "Now open an HTML file and I'll show you something you aren't going to like." Sure, now he tells me! That struck me as ominous, but I decided to go along for the ride.
 
 <!--more-->
-
-A natural salesman he is not. 
 
 We opened an HTML file and immediately reformatted the file using Prettier's default settings. Near the top of the file was a block of HTML rendering an unordered list, representing a navigation menu.
 
