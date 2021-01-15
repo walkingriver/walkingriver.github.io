@@ -32,7 +32,7 @@ As soon as I saw my first failure, I naively assumed it was the most recent test
 
 # Start Disabling Tests
 
-As I write this, my project has 153 unit tests. The failure was occurring in an `afterAll` function, which I did not even have. The error referred to a specific component, but not a specific test. I could not even determine which test to skip. Instead, I decided to start running a subset of tests by
+As I write this, my project has 153 unit tests. The failure was occurring in an `afterAll` function, which I did not even have. The error referred to a specific component, but not a specific test. I could not even determine which test to skip. Instead, I decided to start running a subset of tests by selectively disabling some of the other tests and test suites.
 
 # Disable Random Test Ordering
 
@@ -63,7 +63,7 @@ Did it solve my problem? Nope, but at least I felt I was making progress.
 
 # You Can Specify the Random Seed!
 
-The next thing I did was to turn random ordering back on, but this time provide my own random seed. If you are not familiar with a seed, it is a number used to initialize (or "seed") the random number generator. The benefit of this approach is that using the same value to see the random number generator will provide the identical sequence of random values on subsequent runs. Thus, once I found a seed that caused my test failure to show itself, I could continue using that seed during my investigation.
+The next thing I did was to turn random ordering back on, but this time provide my own random seed. If you are not familiar with a seed, it is a number used to initialize (or "seed") the random number generator. The benefit of this approach is that using the same value to seed the random number generator will provide the identical sequence of random values on subsequent runs. Thus, once I found a seed that caused my test failure to show itself, I could continue using that seed during my investigation.
 
 I started with the seed `1234`. Because I had no idea what value might cause the problem, it really did not matter. On the first run with that value, all the tests passed, so that was no help. I continued changing the seed value until my test failed. Fortunately, it only took me a couple of attempts. I ended up with a configuration like this:
 
