@@ -20,7 +20,6 @@ Have you ever had an intermittent or random failure in your unit tests? I did, a
 <!--more-->
 
 # Background
-
 ![Angular + Jasmine + Karma](/assets/img/angular-jasmine-karma.png)
 
 I am using Angular 10 in this specific project, writing unit tests with Jasmine, and running them with Karma.
