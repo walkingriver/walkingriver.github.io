@@ -1,3 +1,4 @@
+
 ---
 layout: post
 title: Diagnosing Random Angular Test Failures
@@ -217,3 +218,7 @@ In short:
 - Ensure your test doubles are typed correctly, especially your mock services.
 
 I hope you found this summary to be worthwhile and useful. If you have any tricks or tips of your own when it comes to diagnosing unit tests, please feel free to share them with me.
+
+# Angular Advocate
+![Angular Advocate Book](https://walkingriver.com/assets/img/aa-3d-small.jpg)
+If you are interested in more content like this, please consider my recently-released book, _Angular Advocate: How to Awaken the Champion Within and Become the Go-to Expert at Work_, available in a [Kindle Edition at Amazon](https://amzn.to/3p00l67) or [DRM-free on Gumroad](https://gum.co/angular-advocate).
