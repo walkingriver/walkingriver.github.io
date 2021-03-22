@@ -1,4 +1,3 @@
-
 ---
 layout: post
 title: Diagnosing Random Angular Test Failures
