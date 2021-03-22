@@ -13,6 +13,7 @@ thumbnail: https://walkingriver.com/assets/img/angular-logo.png
 cover_image: https://walkingriver.com/assets/img/angular-logo.png
 canonical_url: https://walkingriver.com/angular-tdd/
 published: true
+exclude_from_posts: true
 ---
 
 I tried something "new" this afternoon. I built an Angular service in a true TDD fashion. I wrote the tests first, discovering the service interface along the way. This is how it went. I invite you to follow along.

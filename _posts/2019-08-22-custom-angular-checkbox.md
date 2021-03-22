@@ -11,6 +11,7 @@ cover_image: https://walkingriver.com/assets/img/angular-logo.png
 canonical_url: https://walkingriver.com/custom-angular-checkbox/
 exclude_from_posts: true
 published: true
+exclude_from_posts: true
 ---
 
 Today I needed to add some custom styles to a checkbox in an Angular 8 app. I found a simple example of what I wanted to do, implemented entirely with CSS and HTML, and containing no imperative code. Delighted with this discovery, I copied the CSS into my page and got it working with a few tweaks. Then I wondered what it would take to turn it into a custom component I could reuse. As it turns out, it was harder than I thought, but not overwhelming. The solution is described here.

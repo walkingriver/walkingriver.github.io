@@ -13,6 +13,7 @@ thumbnail: /assets/img/rxjs.png
 cover_image: /assets/img/rxjs.png
 canonical_url: https://walkingriver.com/rxjs-select-rest/
 published: true
+exclude_from_posts: true
 ---
 
 I am currently working on a project to uplift some AngularJS code to Angular 10. On a recent code review there were some concerns that came up about the heavy use of RxJS. I will attempt to address those concerns in this post.

@@ -13,6 +13,7 @@ thumbnail: https://walkingriver.com/assets/img/angular-logo.png
 cover_image: https://walkingriver.com/assets/img/angular-logo.png
 canonical_url: https://walkingriver.com/angular-activated-route
 published: true
+exclude_from_posts: true
 ---
 
 How to tie changes to an HTML dropdown (select) to your page's URL and reactively respond to those changes, without forcing a page reload. Angular's ActivatedRoute and some basic RxJS make it easy to do.

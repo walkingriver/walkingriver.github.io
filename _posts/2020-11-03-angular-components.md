@@ -13,6 +13,7 @@ thumbnail: https://walkingriver.com/assets/img/angular-logo.png
 cover_image: https://walkingriver.com/assets/img/angular-logo.png
 canonical_url: https://walkingriver.com/angular-components/
 published: true
+exclude_from_posts: true
 ---
 
 Angular components do not need to be complicated. In fact, with a little HTML and CSS, it is reasonably straightforward to build a component you can reuse in all your projects. I will detail the creation of a "Loading" indicator.
