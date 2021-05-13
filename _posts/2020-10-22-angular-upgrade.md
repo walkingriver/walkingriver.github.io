@@ -244,9 +244,8 @@ git commit -am"Upgraded to Angular 10"
 
 As I said, your experience may not be the same as mine. You may not even need `npx`. I hope this article helped you, even a little, and I wish you every success in your own endeavors.
 
-# Discount Code
+# Angular Advocate
 
-If you are interested in either the book or the course on building web and mobile Apps with Angular and Ionic, here is a code good for 25% off the regular price.
+![Angular Advocate Book](https://walkingriver.com/assets/img/aa-3d-small.jpg)
 
-- Book: https://gum.co/NlVUr/blog25
-- Course: https://gum.co/FyZHi/blog25
+If you are interested in more content like this, please consider my recently-released book, _Angular Advocate: How to Awaken the Champion Within and Become the Go-to Expert at Work_, available in a [Print and Kindle Edition at Amazon](https://amzn.to/3p00l67) or [DRM-free on Gumroad](https://gum.co/angular-advocate).
