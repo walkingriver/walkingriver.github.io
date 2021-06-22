@@ -144,7 +144,7 @@ Once that was done, I painstakingly began copying tests one at a time from the o
 
 With the test doubles in place, my component creation test passed. One down, nine to go.
 
-The next test up was the failing one. It did something only other test in the suite does. It changed the behavior of one of my mock services. Could that be the piece I had been missing?
+The next test up was the failing one. It did something only one other test in the suite did. It changed the behavior of one of my mock services. Could that be the piece I had been missing?
 
 # Suspect Your Test Doubles
 I deleted my test doubles and reentered them individually. While doing this, I noticed that two of my mock services were created as object literals directly in the test suite. This was odd, as I also had a mock service defined as a class in another file. I decided I should try to use that instead. 
