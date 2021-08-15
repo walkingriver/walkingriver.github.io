@@ -137,7 +137,7 @@ Ultimately, the piece of business we really care about in this block of code is 
 
 ## Conclusion
 
-Unit testing code does noy need to be hard. If you spend some time thinking about what your tests need to accomplish, you can often
+Unit testing code does not need to be hard. If you spend some time thinking about what your tests need to accomplish, you can often
 find ways to refactor the code to make it more testable, and provide tests that are more meaningful.
 
 The ability to mock existing services is a tool that is worth having. And as you can see, I found a place where mocking made testing easier rather than harder. 
