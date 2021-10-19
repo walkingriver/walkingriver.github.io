@@ -13,7 +13,6 @@ thumbnail: https://walkingriver.com/assets/img/routine.png
 cover_image: https://walkingriver.com/assets/img/routine.png
 canonical_url: https://walkingriver.com/exercise-for-developer
 published: true
-exclude_from_posts: false
 ---
 
 Sitting behind a desk all day is a typical part of a software developer's life. It is easy to become lazy and sedentary, which describes me over most of my career. That all changed in 2020. The COVID pandemic  brought on a new era of remote work. Not having a daily commute gave me the chance to come up with a new morning routine. 
