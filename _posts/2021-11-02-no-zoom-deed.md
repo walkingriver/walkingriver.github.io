@@ -22,7 +22,7 @@ Earlier this year the leader of our church congregation asked me to take over th
 # What Device?
 At first, we attached an iPhone to one of those small, flexible tripod, and placed it on the podium. If you have ever attended a Zoom meeting where someone props their phone at a 45-degree angle looking up at them, you can imagine how great that looked. In fact, you need not imagine. It looked a lot like this:
 
-![Mike in front of a stone wall](./assets/img/mike-stone-wall.jpg)
+![Mike in front of a stone wall](https://walkingriver.com/assets/img/mike-stone-wall.jpg)
 
 I decided that if they wanted me to run these webinars, I was going to do something about that horrible angle. 
 
@@ -61,7 +61,7 @@ All I had to do was arrive a little early to get everything set up. I clip the l
 
 I recently did a short review of this microphone, which you can see and hear below.
 
-<iframe width="100%" src="https://www.youtube.com/embed/PC1S8HmzUnw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560%" src="https://www.youtube.com/embed/PC1S8HmzUnw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 For about $120, I solved all my problems (or so I thought at the time).
 
@@ -154,7 +154,7 @@ My current webinar configuration now looks like this:
 
  Finally, I took this picture a while ago to show what it all looks like from my perspective.
 
- ![My Zoom AV setup](./assets/img/chapel-av-setup.jpg)
+ ![My Zoom AV setup](https://walkingriver.com/assets/assets/img/chapel-av-setup.jpg)
 
 <hr/>
 
