@@ -61,7 +61,7 @@ All I had to do was arrive a little early to get everything set up. I clip the l
 
 I recently did a short review of this microphone, which you can see and hear below.
 
-<iframe width="560px" src="https://www.youtube.com/embed/PC1S8HmzUnw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/PC1S8HmzUnw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 For about $120, I solved all my problems (or so I thought at the time).
 
