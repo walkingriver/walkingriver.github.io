@@ -22,7 +22,7 @@ Earlier this year the leader of our church congregation asked me to take over th
 # What Device?
 At first, we attached an iPhone to one of those small, flexible tripod, and placed it on the podium. If you have ever attended a Zoom meeting where someone props their phone at a 45-degree angle looking up at them, you can imagine how great that looked. In fact, you need not imagine. It looked a lot like this:
 
-![Mike in front of a stone wall](./assets/img/mike-stone-wall.jpg)
+![Mike in front of a stone wall](https://walkingriver.com/assets/img/mike-stone-wall.jpg)
 
 I decided that if they wanted me to run these webinars, I was going to do something about that horrible angle. 
 
@@ -34,7 +34,7 @@ For the next few weeks, I mounted my iPhone 11 on the tripod at the back of the 
 # Fix the Audio
 Ok, so how to fix the audio? Well, we still had that other iPhone we had been using. Maybe we could connect both phones to the Zoom webinar and make them co-hosts. The iPhone on the podium would mute its camera and unmute its mic. My iPhone would do the opposite. We quickly found the flaw in that plan. 
 
-I expected sychronization issues with the audio and video from the separate devices, but no one ever complained about that. The problem was control.
+I expected synchronization issues with the audio and video from the separate devices, but no one ever complained about that. The problem was control.
 
 For a variety of reasons, parts of the service require us to mute the audio and video of the webinar. We soon discovered that one device, even when logged in as the webinar host, cannot completely control the audio and video mute settings of another device. We could mute each other, but not unmute. Also, I discovered that when I turn on the camera, it resets to 1x zoom. This meant that I had to jump up and re-zoom, while someone at the front of the room had to stand up and unmute that iPhone. 
 
@@ -55,13 +55,13 @@ At the same time, I still needed to solve the audio problems, too. It occurred t
 
 <a href="https://www.amazon.com/gp/product/B08L52SM66?ie=UTF8&psc=1&linkCode=li3&tag=twitter-std-20&linkId=63a6d773508483810dffd7ca5571da89&language=en_US&ref_=as_li_ss_il" target="_blank"><img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B08L52SM66&Format=_SL250_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=twitter-std-20&language=en_US" ></a><img src="https://ir-na.amazon-adsystem.com/e/ir?t=twitter-std-20&language=en_US&l=li3&o=1&a=B08L52SM66" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
 
-This system consists of a small lapel microphone, a rechargable UHF transmitter, and a wireless USB-powered reciver. Now I could plug the camera and receiver into two USB ports and manage the entire webinar from a laptop in the back of the room. Because everything is connected to my laptop, I could control the audio and video muting entirely, without being a distraction. 
+This system consists of a small lapel microphone, a rechargeable UHF transmitter, and a wireless USB-powered receiver. Now I could plug the camera and receiver into two USB ports and manage the entire webinar from a laptop in the back of the room. Because everything is connected to my laptop, I could control the audio and video muting entirely, without being a distraction. 
 
 All I had to do was arrive a little early to get everything set up. I clip the lapel mic to the stalk of the boom mic already at the podium, wrap the wire around the mic stalk, clip the transmitter unobtrusively on the edge of the podium, turn it on, and walk away. Everything else is controlled entirely from my laptop.
 
 I recently did a short review of this microphone, which you can see and hear below.
 
-<iframe width="100%" src="https://www.youtube.com/embed/PC1S8HmzUnw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560px" src="https://www.youtube.com/embed/PC1S8HmzUnw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 For about $120, I solved all my problems (or so I thought at the time).
 
@@ -154,7 +154,7 @@ My current webinar configuration now looks like this:
 
  Finally, I took this picture a while ago to show what it all looks like from my perspective.
 
- ![My Zoom AV setup](./assets/img/chapel-av-setup.jpg)
+ ![My Zoom AV setup](https://walkingriver.com/assets/assets/img/chapel-av-setup.jpg)
 
 <hr/>
 
