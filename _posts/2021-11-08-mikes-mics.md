@@ -62,6 +62,11 @@ I started with the hardware I have on hand. Most people, myself included at time
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/oC6TZnkHplI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+## Apple MacBook Pro (16-inch, 2019)
+I was on a call recently with someone who did not appear to be using a headset of any kind. I asked him later what he was using because he sounded fantastic. He told me he was simply using his MacBook Pro. I have already tested the mic on my MacBook Air and was not impressed. Maybe the MacBook Pro has better audio? I have a MacBook Pro available to me, so I decided to test it also. My results were not as good as what I heard from my colleague. My conclusion is that the Macs are very sensitive to their environment. If you're in a quite room without a lot of hard surfaces, it might be fine. In my room, it sounded no better to me than the MacBook Air.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/l5w2R18IDF0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## Apple Thunderbolt Display
 I tested the Thunderbolt Display for the same reason I tested the MacBook Air: it's here and I know some people will default to their monitor's built-in microphone. Though "free" (not including the cost of the monitor), unless you have no other choice, you probably want to skip this one.
 
@@ -71,6 +76,11 @@ I tested the Thunderbolt Display for the same reason I tested the MacBook Air: i
 This was my primary microphone when I made my early [video courses for Pluralsight](https://bit.ly/ps-mike). The price seems to have come down quite a bit since then, making it an excellent choice for someone who wants better sound quality on a budget. Probably my biggest complaint about the Snowball is that it's too sensitive. It picks up everything. I remember once having to re-record a segment of a course because the cat came into the room and curled up in a wicker basket. The microphone picked up every creak. This one works best when mounted on a swing arm, with a pop filter and shock mount. Because of that, it may be too high maintenance for some. 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/mr95D_CfbuE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## Cambridge SoundWorks Oontz Angle
+I bought this inexpensive little Bluetooth speaker to have something better than my phone for music playback when working around the house. It happens to have a mic, and it's pretty small. I thought it might be decent option if I place it on my desk right in front of me, just below the camera's field of view. As you will see in the video, it's pretty terrible.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/d1hkiJ5vFXk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## DepsTech WebCam
 When I presented at a developer conference in the summer of 2021, I was told I needed a high-quality webcam for those attending virtually. I bought the DepsTech WebCam, which features a high-quality 4k camera and a tripod mount. These were the features I wanted for the conference. I didn't concern myself with its microphone quality because I knew I wouldn't be using it. Now that I'm back in my home office, I keep it mounted above my desk so that it's at eye-level when I stand. This makes it perfect for me to do remote presentations. I learned while performing this test that its audio isn't up to the same standards as its video.
@@ -133,8 +143,10 @@ For convenience, I am including links to each of the above videos, all in one pl
 - [Apple EarPods](https://youtu.be/L7SCdqjX8zA)
 - [Apple iPhone 11](https://youtu.be/RLF51T6D_2Y)
 - [Apple MacBook Air (2020 M1)](https://youtu.be/oC6TZnkHplI)
+- [Apple MacBook Pro (16-inch, 2019)](https://www.youtu.be/l5w2R18IDF0)
 - [Apple Thunderbolt Display](https://youtu.be/Jz3Y0py6Y_Y)
 - [Blue Snowball](https://youtu.be/mr95D_CfbuE)
+- [Cambridge SoundWorks Oontz Angle](https://youtu.be/d1hkiJ5vFXk)
 - [DepsTech WebCam](https://youtu.be/O4rfyhJcJs4 )
 - [Plantronics Voyager 8200](https://youtu.be/GVSJ9TjRnfs)
 - [Rode Video Me](https://youtu.be/aOdgir9M9_o)
