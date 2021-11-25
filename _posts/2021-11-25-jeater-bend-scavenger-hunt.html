@@ -1,0 +1,210 @@
+<html>
+
+<head>
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1.0" />
+
+  <style>
+    @import url(https://fonts.googleapis.com/css?family=Roboto:500,700);
+    @import url(https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+
+    *,
+    *::before,
+    *::after {
+      box-sizing: border-box;
+    }
+
+    html {
+      min-height: 100%;
+    }
+
+    body {
+      margin: 20px;
+      color: #435757;
+      background: linear-gradient(-20deg, #d0b782 20%, #a0cecf 80%);
+      font: 500 1.0em/1.0 'Comic Sans MS', 'Roboto', sans-serif;
+    }
+
+    .container {
+      /* max-width: 450px; */
+      margin: 0 auto;
+      border-top: 5px solid #435757;
+      background-color: rgba(255, 255, 255, .2);
+      box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+      user-select: none;
+    }
+
+    h1 {
+      margin: 0;
+      padding: 20px;
+      background-color: rgba(255, 255, 255, .4);
+      font-size: 1.8em;
+      text-align: center;
+    }
+
+    .items {
+      display: flex;
+      flex-direction: column;
+      padding: 20px;
+      counter-reset: not-found-items found-items;
+    }
+
+    h2 {
+      position: relative;
+      margin: 0;
+      padding: 10px 0;
+      font-size: 1.2em;
+    }
+
+    h2::before {
+      content: '';
+      display: block;
+      position: absolute;
+      top: 10px;
+      bottom: 10px;
+      left: -20px;
+      width: 5px;
+      background-color: #435757;
+    }
+
+    h2::after {
+      display: block;
+      float: right;
+      font-weight: normal;
+    }
+
+    .not-found {
+      order: 1;
+    }
+
+    .not-found::after {
+      content: ' ('counter(not-found-items) ')';
+    }
+
+    .found {
+      order: 3;
+    }
+
+    .found::after {
+      content: ' ('counter(found-items) ')';
+    }
+
+    /* hide inputs offscreen, but at the same vertical positions as the correpsonding labels, so that tabbing scrolls the viewport as expected */
+    input {
+      display: block;
+      height: 53px;
+      margin: 0 0 -53px -9999px;
+      order: 2;
+      outline: none;
+      counter-increment: not-found-items;
+    }
+
+    input:checked {
+      order: 4;
+      counter-increment: found-items;
+    }
+
+    label {
+      display: block;
+      position: relative;
+      padding: 15px 0 15px 45px;
+      border-top: 1px dashed #fff;
+      order: 2;
+      cursor: pointer;
+      animation: not-found .5s;
+    }
+
+    label::before {
+      content: '\f10c';
+      /* circle outline */
+      display: block;
+      position: absolute;
+      top: 11px;
+      left: 10px;
+      font: 1.5em 'FontAwesome';
+    }
+
+    label:hover,
+    input:focus+label {
+      background-color: rgba(255, 255, 255, .2);
+    }
+
+    input:checked+label {
+      order: 4;
+      animation: found .5s;
+    }
+
+    input:checked+label::before {
+      content: '\f058';
+      /* circle checkmark */
+    }
+
+    @keyframes not-found {
+      0% {
+        opacity: 0;
+        background-color: rgba(255, 255, 255, .4);
+        transform: translateY(20px);
+      }
+
+      50% {
+        opacity: 1;
+        background-color: rgba(255, 255, 255, .4);
+      }
+    }
+
+    @keyframes found {
+      0% {
+        opacity: 0;
+        background-color: rgba(255, 255, 255, .4);
+        transform: translateY(-20px);
+      }
+
+      50% {
+        opacity: 1;
+        background-color: rgba(255, 255, 255, .4);
+      }
+    }
+
+  </style>
+</head>
+
+<body>
+
+
+  <div class="container">
+    <h1>The Lights on Jeater Bend Scavenger hunt</h1>
+    <div id="items"
+      class="items">
+      <input id="item1"
+        type="checkbox">
+      <label for="item1">Four Mickeys</label>
+
+      <input id="item2"
+        type="checkbox">
+      <label for="item2">Five Deer</label>
+
+      <input id="item3"
+        type="checkbox">
+      <label for="item3">Six arches</label>
+
+      <input id="item4"
+        type="checkbox">
+      <label for="item4">Santa Claus</label>
+
+      <input id="item5"
+        type="checkbox">
+      <label for="item5">Two presents</label>
+
+      <input id="item6"
+        type="checkbox">
+      <label for="item6">Two black cats</label>
+
+      <h2 class="found"
+        aria-hidden="true">Found</h2>
+      <h2 class="not-found"
+        aria-hidden="true">Not Found</h2>
+    </div>
+  </div>
+</body>
+
+</html>
