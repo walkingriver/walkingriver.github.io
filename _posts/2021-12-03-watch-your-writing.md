@@ -33,7 +33,7 @@ My target audience is native English speakers. While I am sure non-native Englis
 # Spelling
 Most spelling mistakes online are probably caused by simple typos. This is especially true if you are typing on a mobile device. First, use a spell checker. In today's world, spell checkers are everywhere. The code editor I am using right now has one. A word of caution, however: if you are not careful, you can still use a correctly spelled word incorrectly. That is a harder problem to solve and requires more proofreading. 
 
-Considering only spelling, below are some common mistakes I see often. 
+Even though you may spell words correctly, it is possible to confuse your reader by using inappropriate language, words, and grammar. This section contains the errors I see most often.
 
 ## Alright
 There is no such word, even though many spell checkers do not flag it. It is an informal form of `all right`.
@@ -46,10 +46,23 @@ Examples:
 - ✅ There were a lot of bugs in the last release.
 - ✅ There were many bugs in the last release.
 
+## Awhile/A while
+I admit to being guilty of this one myself. `A while` refers to an indefinite amount of time. `Awhile` is an adverb, and will usually appear next to a verb. Also, though some people do it, Examples `awhile` after a preposition.
 
+Examples:
+- ❌ The code took awhile to build.
+- ✅ The code took a while to build.
+We should discuss our build process for awhile.
+- ✅ We should discuss our build process awhile.
 ## Cancelled/Canceled
 Though technically either form is correct, in most of the English-speaking world, the proper spelling is `canceled`. In reality, it does not matter which one you use; the former spelling (cancelled) is becoming more common. My advice is to pick one and be consistent.
 
+## Imply/Infer
+If you expect your reader to derive some meaning from your statement, you are implying. Your reader is inferring. Try not to reverse them.
+
+Examples:
+- ❌ What are you inferring with that statement?
+- ✅ What are you implying with that statement?
 ## Irregardless
 Again, there is no such word. There are two words you may wish to use instead: `regardless` or `irrespective`. 
 
@@ -72,6 +85,20 @@ Examples:
 
 See also `who's` and `whose`, which follow a similar pattern.
 
+## Lead/Led
+The past-tense of the verb `lead` is `led`, often confused with its homonym `lead`, which is a dense, soft metal.
+
+## Less/Fewer
+The rule for this is pretty simple. If you can count something, use `fewer`. If you cannot count it, or you tend to use its singular noun form, use `less`. 
+
+Examples:
+- ❌ This code has less bugs than the last one.
+- ✅ This code has fewer bugs than the last one.
+- ✅ This code is less complex than the last one.
+- ❌ I have less dollars today than yesterday.
+- ✅ I have fewer dollars today than yesterday.
+- ✅ I have less money today than yesterday.
+
 ## Let's/Lets
 This is another one I see often. The word `let's` is a contraction meaning "let us." On the other hand, `lets` is a verb meaning "allows." 
 
@@ -92,13 +119,22 @@ Examples
 - ❌ First I run my tests, than I commit the code.
 - ✅ First I run my tests, then I commit the code.
 
-
 ## There/their/they're
 `There` is a directional indicator. `Their` is the possessive form of `they`. `They're` is a contraction meaning "they are."
 
 Example
 - ✅ Their defense is over there on the sideline discussing how they're going to put more pressure on the quarterback. 
 
+## Was/Were
+Most people get this one right. The errors often occur when they are referring to a person and a situation that is not currently true, may happen in the future, or is unlikely ever to happen. This is known as the "subjunctive mood," and the normal rules do not apply. 
+
+Basically, the subjunctive rule is to use the plural form of the verb with the singular form of the noun. If you are not accustomed to seeing it, you will think the correct form is the error and vice versa. 
+
+Examples:
+- ❌ If I was the manager of this team, things would be different.
+- ✅ If I were the manager of this team, things would be different.
+- ❌ If John was to run for office, he would have my vote.
+- ✅ If John were to run for office, he would have my vote.
 
 ## Whose/Who's
 `Whose` is possessive. However, `who's` is a contraction meaning `who is`.  
@@ -121,7 +157,7 @@ Examples:
 
 Whenever I see `your welcome` in a message, I always want to reply, "my welcome what?" I imagine that this is almost always a typo, but it is worth mentioning.
 
-## A Note on Apostrophe Use
+# A Note on Apostrophe Use
 An odd trend I have seen on Twitter lately is an overall incorrect use of the apostrophe to make common nouns plural. I even see this from professional writers. 
 
 Examples:
@@ -133,58 +169,18 @@ Examples:
 There are times where it is appropriate, often when simply adding `s` would cause confusion.
 
 Examples:
-- ❌ There are two as algebra.
+- ❌ There are two as in algebra.
 - ✅ There are two a's in algebra.
 
 For more information, see [this excellent article on the subject](https://editorsmanual.com/articles/apostrophes-in-plurals/){:target="_blank"}. It contains many more examples and details. It can be a complex subject.
 
-# Grammar
-Even though you may spell words correctly, it is possible to confuse your reader by using inappropriate language, words, and grammar. This section contains the errors I see most often.
-
-## Awhile/A while
-I admit to being guilty of this one myself. `A while` refers to an indefinite amount of time. `Awhile` is an adverb, and will usually appear next to a verb. Also, though some people do it, Examples `awhile` after a preposition.
-
-Examples:
-- ❌ The code took awhile to build.
-- ✅ The code took a while to build.
-We should discuss our build process for awhile.
-- ✅ We should discuss our build process awhile.
-
-## Imply/Infer
-If you expect your reader to derive some meaning from your statement, you are implying. Your reader is inferring. Try not to reverse them.
-
-Examples:
-- ❌ What are you inferring with that statement?
-- ✅ What are you implying with that statement?
-
-## Lead/Led
-The past-tense of the verb `lead` is `led`, often confused with its homonym `lead`, which is a hard, soft metal.
 
 Examples:
 - ❌ He lead our standup meeting today.
 - ✅ He led our standup meeting today.
 - ✅ Alchemists tried to turn lead into gold.
 
-## Less/Fewer
-The rule for this is pretty simple. If you can count something, use `fewer`. If you cannot count it, or you tend to use its singular noun form, use `less`. 
-
-Examples:
-- ❌ This code has less bugs than the last one.
-- ✅ This code has fewer bugs than the last one.
-- ✅ This code is less complex than the last one.
-
-## Was/Were
-Most people get this one right. The errors often occur when they are referring to a person and a situation that is not currently true, may happen in the future, or is unlikely ever to occur. This is known as the "subjunctive mood," and the normal rules do not apply. 
-
-Basically, the subjunctive rule is to use the plural form of a verb with the singular form of the noun. If you are not accustomed to seeing it, you will think the correct form is the error and vice versa. 
-
-Examples:
-- ❌ If I was the manager of this team, things would be different.
-- ✅ If I were the manager of this team, things would be different.
-- ❌ If John was to run for office, he would have my vote.
-- ✅ If John were to run for office, he would have my vote.
-
-## Split Infinitives
+# Split Infinitives
 An infinitive is a verb form that is used as a noun. For example, the word `replicate` is a verb. `To replicate` is a noun. In the sentence `Docker enables teams to replicate`, the verb is `enables` and the noun is `to replicate`. 
 
 Splitting an infinitive involves adding another word between the two, and is technically a grammatical error. 
