@@ -17,7 +17,7 @@ published: true
 
 _Note: the fake template string below is intentional_
 
-Dear {{firstName}},
+Dear \{\{firstName\}\},
 
 I'm sure you've received marketing emails that start like this. It's obvious that someone botched the mail merge. It feels lazy or incompetent, definitely unprofessional. But what if they got it right? What if your name was correct in the greeting? Is that really any better? Honestly, have you ever truly believed they were sending emails just to you? 
 
@@ -33,6 +33,8 @@ If someone is using a bulk email system with mail merge capabilities, the softwa
 As I said, a simple, fun, and surprisingly effective technique. Credit goes to [@kvlly on Twitter](https://twitter.com/kvlly) for the idea.  It probably won't last, though. More and more systems will eventually be modified to strip emojis from names. But it'll be fun until they do.
 
 # DEVIntersection Fall 2021
+
+![Mike Hosting an Ionic Workshop at DEVIntersection in Las Vegas, December 2021](https://walkingriver.com/assets/img/dev-int-workshop.jpg)
 
 Now I'll get to DEVIntersection. This was my first time attending the Las Vegas event. I've been to the Orlando conference three times, most recently as a speaker. For this one they accepted my proposal to give an all-day Ionic-Angular workshop. I've never tried doing a long workshop publicly before, so I had no idea what to expect. I asked [my son Ben](https://twitter.com/callaghanbenj) to assist me. 
 
@@ -71,4 +73,4 @@ DEVIntersection is going back to Las Vegas in April 2022. I don't know if I want
 Thoughts? If you read [Don't Say That at Work](https://amzn.to/32S71x0), two of them should look familiar. I don't know how well those topics will translate to a live presentation, but I think I can make it work. Feel free to ping me on Twitter with any feedback.
 
 # Connect with Me 
-PS: If you want to connect with me on LinkedIn or Twitter, you can find me here: https://www.linkedin.com/in/michaelcallaghan2/ and here: [@WalkingRiver](https://twitter.com/walkingriver).
+PS: If you want to connect with me on LinkedIn or Twitter, you can find me here: [Mike Callaghan on LinkedIn](https://www.linkedin.com/in/michaelcallaghan2/) and here: [@WalkingRiver](https://twitter.com/walkingriver).
