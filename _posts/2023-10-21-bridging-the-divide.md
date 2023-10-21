@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Bridging the Divide: Melding Feature Development and Sustainment into a Seamless Workflow
-date: '2023-10-21'
+title: Melding Feature Development and Sustainment into a Seamless Workflow
+date: "2023-10-21"
 author: Michael D. Callaghan
 tags:
-- Kanban
-- Software Development
-- Agile
-- Sustainment
+  - Kanban
+  - Software Development
+  - Agile
+  - Sustainment
 feature: https://walkingriver.com/assets/img/bridging-the-divide.png
 thumbnail: https://walkingriver.com/assets/img/bridging-the-divide.png
 cover_image: https://walkingriver.com/assets/img/bridging-the-divide.png
@@ -15,9 +15,9 @@ canonical_url: https://walkingriver.com/bridging-the-divide
 published: true
 ---
 
-# Bridging the Divide: Melding Feature Development and Sustainment into a Seamless Workflow
-
 In the realm of software development, two core activities dominate the scene – Feature Development and Sustainment. The former is about adding new capabilities to the system, while the latter deals with maintaining and refining the existing system to ensure its steady and reliable operation. Traditionally, these two are seen as separate tracks, often managed by distinct teams with different sets of priorities and timelines. However, as the industry evolves towards more agile and lean practices, it's time to question this division and advocate for a more unified approach.
+
+<!-- more -->
 
 ## The Kanban Advantage
 
