@@ -17,7 +17,7 @@ published: true
 
 The quest for efficiency and quality in software development beckons a paradigm shift, where Quality Assurance (QA) is not seen as a separate entity, but as an integral part of the development lifecycle. Automation stands as a cornerstone of this transformation, offering a myriad of benefits when adopted in the QA process. When sustainment developers and the QA team collaborate in the same repository, contributing to the code as equal partners, a new horizon of productivity and quality unveils.
 
-<!-- more -->
+<!--more-->
 
 ## Seamless Collaboration
 

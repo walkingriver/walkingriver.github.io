@@ -17,7 +17,7 @@ published: true
 
 In the realm of software development, two core activities dominate the scene – Feature Development and Sustainment. The former is about adding new capabilities to the system, while the latter deals with maintaining and refining the existing system to ensure its steady and reliable operation. Traditionally, these two are seen as separate tracks, often managed by distinct teams with different sets of priorities and timelines. However, as the industry evolves towards more agile and lean practices, it's time to question this division and advocate for a more unified approach.
 
-<!-- more -->
+<!--more-->
 
 ## The Kanban Advantage
 
