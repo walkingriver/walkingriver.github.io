@@ -1,17 +1,12 @@
-<br>
-<hr />
-<a href="//pluralsight.pxf.io/c/1252739/480967/7490?u=https%3A%2F%2Fapp.pluralsight.com%2Fprofile%2Fauthor%2Fmichael-callaghan"><img src="//a.impactradius-go.com/display-ad/7490-480967" border="0" alt="" width="728" height="90"/></a><img height="0" width="0" src="//pluralsight.pxf.io/i/1252739/480967/7490" style="position:absolute;visibility:hidden;" border="0" />
-<hr />
-<span class="entry-tags">{% for tag in page.tags %}<a href="{{ site.url }}/tags/#{{ tag }}" title="Pages tagged {{ tag }}" class="tag"><span class="term">{{ tag }}</span></a>{% unless forloop.last %}{% endunless %}{% endfor %}</span>
-<span class="social-share">
-    <a href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url }}" title="Share on Facebook" class="tag">
-        <span class="term"><i class="fa fa-facebook-square"></i> Share</span>
-    </a>
-    <a href="https://twitter.com/intent/tweet?text={{ site.url }}{{ page.url }}" title="Share on Twitter" class="tag">
-        <span class="term"><i class="fa fa-twitter-square"></i> Tweet</span>
-    </a>
-    <a href="https://plus.google.com/share?url={{ site.url }}{{ page.url }}" title="Share on Google+" class="tag">
-            <span class="term"><i class="fa fa-google-plus-square"></i> +1</span>
-    </a>
-</span>
-<div style="clear:both"></div>
+{% if page.tags and page.tags.size > 0 %}
+<div class="entry-tags">
+    {% for tag in page.tags %}
+    <a href="{{ site.url }}/tags/#{{ tag | slugify }}" class="tag-pill">{{ tag }}</a>
+    {% endfor %}
+</div>
+{% endif %}
+
+<div class="social-share">
+    <a href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url }}" target="_blank" rel="noopener noreferrer">Share on Facebook<span class="visually-hidden"> (opens in new tab)</span></a>
+    <a href="https://twitter.com/intent/tweet?text={{ page.title | uri_escape }}&amp;url={{ site.url }}{{ page.url }}" target="_blank" rel="noopener noreferrer">Share on Twitter<span class="visually-hidden"> (opens in new tab)</span></a>
+</div>

@@ -1,0 +1,13 @@
+<footer class="site-footer">
+    <div class="container">
+        {% include books-link.html class="footer-books-link" label="Books by Michael D. Callaghan" %}
+        <nav aria-label="Footer">
+            <a href="{{ site.url }}/">Home</a>
+            <a href="{{ site.url }}/posts/">Posts</a>
+            <a href="{{ site.url }}/about/">About</a>
+            <a href="{{ site.url }}/contact/">Contact</a>
+        </nav>
+        <p>&copy; {{ 'now' | date: '%Y' }} Michael D. Callaghan. All rights reserved.</p>
+        <p><a href="https://twitter.com/{{ site.twitter }}" target="_blank" rel="noopener noreferrer">@{{ site.twitter }}<span class="visually-hidden"> (opens in new tab)</span></a> · <a href="https://amazon.com/author/{{ site.amazon }}" target="_blank" rel="noopener noreferrer">Amazon Author Page<span class="visually-hidden"> (opens in new tab)</span></a></p>
+    </div>
+</footer>

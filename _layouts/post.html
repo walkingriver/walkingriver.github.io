@@ -1,57 +1,30 @@
 ---
-layout: compress
-comments: true
+layout: base
 ---
-<!DOCTYPE html>
-<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8"><![endif]-->
-<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9"><![endif]-->
-<!--[if gt IE 8]><!-->
-<html class="no-js">
-<!--<![endif]-->
+{% if page.feature %}
+{% capture feature %}{{ page.feature }}{% endcapture %}
+{% unless feature contains 'http://' or feature contains 'https://' %}{% capture feature %}{{ site.url }}/{{ feature }}{% endcapture %}{% endunless %}
+<div class="post-feature">
+    <img src="{{ feature }}" alt="{{ page.title | escape }}">
+</div>
+{% endif %}
 
-<head>
-    {% include head.html %}
-</head>
-
-<body>
-    {% include nav.html %}
-    <!-- Header -->
-    <header class="header" role="banner">
-        <div class="wrapper animated fadeIn">
-            <div class="content">
-                <div class="post-title {% if page.feature %} feature {% endif %}">
-                    <h1>{{ page.title }}</h1>
-                    <h4>{{ page.date | date_to_string }}</h4>
-                    {% if site.reading_time %}
-                    <p class="reading-time">
-                        <i class="fa fa-clock-o"></i>
-                        {% include read-time.html %}
-                    </p><!-- /.entry-reading-time -->
-                    {% endif %}
-                    {% if page.project %}
-                    <a class="btn zoombtn" href="{{site.url}}/projects/">
-                        {% else %}
-                        <a class="btn zoombtn" href="{{site.url}}/posts/">
-                            {% endif %}
-                            <i class="fa fa-chevron-left"></i>
-                        </a>
-                </div>
-                {{ content }}
-                {% include feedback.html %}
-                <div class="entry-meta">
-                    {% include meta.html %}
-                </div>
-            </div>
+<article class="article">
+    <div class="container">
+        <header class="article-header">
+            <p class="back-link"><a href="{{ site.url }}/posts/">← All posts</a></p>
+            <h1>{{ page.title }}</h1>
+            <p class="article-meta-bar subtitle">
+                {{ page.date | date: "%B %-d, %Y" }}
+                {% if site.reading_time %}
+                · {% include read-time.html %}
+                {% endif %}
+            </p>
+        </header>
+        <div class="article-content">
+            {{ content }}
         </div>
-        {% if page.comments and site.disqus_shortname %}<section id="disqus_thread" class="animated fadeInUp"></section>
-        <!-- /#disqus_thread -->{% endif %}
-    </header>
-    {% include scripts.html %}
-    {% if site.mathjax == true %}
-    <!-- MathJax -->
-    <script async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-    {% endif %}
-</body>
-
-</html>
+        {% include feedback.html %}
+        {% include meta.html %}
+    </div>
+</article>

@@ -1,75 +1,55 @@
 ---
-layout: compress
+layout: base
 ---
-<!DOCTYPE html>
-<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8"><![endif]-->
-<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9"><![endif]-->
-<!--[if gt IE 8]><!-->
-<html class="no-js">
-<!--<![endif]-->
-
-<head>
-    {% include head.html %}
-</head>
-
-<body>
-    {% include nav.html %}
-    <!-- Header -->
-    <header class="header flex" role="banner">
-        <div class="container animated fadeIn">
-            <div class="row">
-                <a href="{{ site.url }}">
-                    <img src="{{ site.logo }}" class="img-circle zoombtn">
-                </a>
-                <h3 class="title">
-                    <a class="zoombtn" href="{{ site.url }}">
-                        <p style="font-size:1.2rem;font-weight:300">{{ site.title }}</p>
-                    </a>
-                </h3>
-                <hr class="hr-line">
-                <h3 class="title">
-                    <a href="{{ site.url }}">
-                        <p style="font-size:1rem;font-weight:300">{{ site.bio }}</p>
-                    </a>
-                </h3>
-                <hr class="hr-line">
-                </a>
-                <h3 class="title">
-                    <a href="{{ site.gumroad-url }}" class="">
-                        <p style="font-size:1rem;font-weight:300">{{ site.gumroad }}</p>
-                    </a>
-                </h3>
-
-                {% include gumroad.html %}
-                {% include social-links.html %}
-                <hr class="hr-line">
-                <h3 class="title">
-                    <a class="btn zoombtn" href="{{ site.url }}/about">
-                        About
-                    </a>
-                    <a class="btn zoombtn" href="{{ site.url }}/posts">
-                        Posts
-                    </a>
-                    <a class="btn zoombtn" href="{{ site.url }}/training">
-                        Courses
-                    </a>
-                    <a class="btn zoombtn" href="{{ site.url }}/speaking">
-                        Speaking
-                    </a>
-                    <a class="btn zoombtn" href="{{ site.url }}/contact">
-                        Contact
-                    </a>
-                    <a class="btn zoombtn" href="{{ site.url }}/projects">
-                         Projects
-                         </a>
-                </h3>
-            </div>
-            <div class="row">
+{% capture hero_bg %}{{ site.background }}{% endcapture %}
+{% unless hero_bg contains 'http://' or hero_bg contains 'https://' %}{% capture hero_bg %}{{ site.url }}/{{ hero_bg }}{% endcapture %}{% endunless %}
+<header class="home-hero" style="--hero-image: url('{{ hero_bg }}');">
+    <div class="container">
+        <div class="hero-content">
+            <h1>{{ site.title }}</h1>
+            <p class="subtitle">{{ site.bio }}</p>
+            <p class="bio">{{ site.description }}</p>
+            <div class="cta-buttons">
+                {% include books-link.html class="btn btn-primary" label="Browse my books →" %}
+                <a href="{{ site.url }}/posts/" class="btn btn-secondary">Read the blog</a>
             </div>
         </div>
-    </header>
-    {% include scripts.html %}
-</body>
+    </div>
+</header>
 
-</html>
+<section class="home-intro">
+    <div class="container">
+        <div class="home-intro-grid">
+            <div class="home-intro-photo">
+                <a href="{{ site.url }}/about/">
+                    <img src="{{ site.url }}/{{ site.logo }}" alt="{{ site.title }}">
+                </a>
+            </div>
+            <div class="home-intro-text">
+                <h2>Welcome</h2>
+                <p>{{ site.gumroad }}</p>
+                <aside class="newsletter-cta-inline" aria-labelledby="home-newsletter-heading">
+                    <h3 id="home-newsletter-heading">Stay in the loop</h3>
+                    <p>New posts, books, and occasional notes on writing and tech. A few messages a year, not a daily flood.</p>
+                    <button type="button" class="btn btn-primary newsletter-cta-btn" data-open-newsletter>Get email updates</button>
+                </aside>
+                {% include social-links.html %}
+                <div class="books-promo-band">
+                    <p>Fiction, career guides, and development books</p>
+                    {% include books-link.html class="btn btn-primary" label="View all books" %}
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="author-section">
+    <div class="container">
+        <h2>Quick links</h2>
+        <div class="cta-buttons">
+            <a href="{{ site.url }}/about/" class="btn btn-secondary">About</a>
+            <a href="{{ site.url }}/posts/" class="btn btn-secondary">All posts</a>
+            <a href="{{ site.url }}/contact/" class="btn btn-secondary">Contact</a>
+        </div>
+    </div>
+</section>
