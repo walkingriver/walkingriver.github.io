@@ -1,16 +1,20 @@
 # Site
 title:              WalkingRiver.com
-bio:                'I help make cool web apps at Walt Disney World'
+bio:                'Author · Software Developer · Educator'
 description:        'The best software is both elegant and beautiful, and seldom what you expect.'
 gumroad:            'Sign up below to receive notification of new blog posts, plus free and discounted offers for my current and upcoming web development books and courses. I promise not to overwhelm you or sell your email address.'
 reading_time:       true
 words_per_minute:   200
 logo:               'assets/img/mike-mmrr.jpg'
-# background:         'assets/img/white-mountains-918002_1920.jpg'
 background:         'assets/img/mike-speaking-session.jpg'
-tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             en_US
 url:                https://walkingriver.com
+
+books_url:          https://walkingriver.github.io/books
+books_link_text:    Browse my books
+
+github:
+  repository_url:   https://github.com/walkingriver/walkingriver.github.io
 
 # Jekyll
 excerpt_separator:  <!--more-->
@@ -31,54 +35,28 @@ sass:
 # Comments
 # disqus_shortname:   walkingriver
 
-# Social
-# if you don't have any of social below, comment the line.
+# Analytics — set ga4_measurement_id when ready (Universal Analytics is deprecated)
 google:
-  #plus:            #username
-  analytics:        UA-149361442-1
-  #verify:
-  #ad-client:
-  #ad-slot:
-#bing-verify:
-#email:
+  # ga4_measurement_id: G-XXXXXXXXXX
+
+# Social
 twitter:            walkingriver
 facebook:           walkingriverservices
 github-url:         walkingriver
 gumroad_url:        'https://gumroad.com/walkingriver'
-#stackoverflow:      411989/mikec   #from a "https://stackoverflow.com/users/123456/username" link
-linkedin:          michaelcallaghan2
-#xing:              username
-#instagram:          walkingriver
-#lastfm:            username
-#tumblr:            username
-#medium:            '@username'
-#pinterest:         username
-#foursquare:        username
-#steam:              username
-#dribbble:          username
+linkedin:           michaelcallaghan2
 youtube:            mdcsoft
-#youtube-channel:    https://www.youtube.com/user/mdcsoft
-#soundcloud:        username
-#weibo:             username
-#flickr:            username
-#codepen:           username
-#keybase:           username
-#xmpp:              username@server.com
-#hackernews:        username
-amazon:             mcallaghan  # Amazon Author Page
+amazon:             mcallaghan
 
-# Gems
-gems:
+plugins:
   - jekyll-mentions
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-gist
 
 jekyll-mentions:
-    base_url: https://github.com
+  base_url: https://github.com
 
-# Exclude list
-exclude: [README.md, Gemfile, Gemfile.lock, node_modules, gulpfile.js, package.json, _site, src, vendor, CNAME, LICENSE, Rakefile]
+exclude: [README.md, Gemfile, node_modules, gulpfile.js, package.json, _site, src, vendor, CNAME, LICENSE, Rakefile, _config-old.yml]
 
-# Coil
 coil:         $pay.stronghold.co/1a1430981e8e48d40b5887601117e6e46cb

@@ -1,0 +1,24 @@
+<button type="button" id="newsletter-tab" class="newsletter-tab" aria-controls="email-updates" aria-expanded="false">
+    Get updates
+</button>
+
+<div id="newsletter-backdrop" class="newsletter-backdrop" hidden></div>
+
+<aside id="email-updates" class="newsletter-panel" role="dialog" aria-labelledby="newsletter-heading" aria-modal="true" hidden>
+    <div class="newsletter-panel-header">
+        <button type="button" id="newsletter-close" class="newsletter-close" aria-label="Close email signup panel">&times;</button>
+        <h2 id="newsletter-heading">Email updates</h2>
+        <p class="newsletter-lead">New posts, books, and occasional notes on writing and tech. A few messages a year, not a daily flood.</p>
+    </div>
+    <div class="newsletter-panel-body">
+        <div class="newsletter-embed-wrap">
+            <iframe
+                title="Subscribe to email updates from Michael D. Callaghan"
+                src="https://walkingriver.gumroad.com/subscribe"
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+        </div>
+        <p class="newsletter-privacy">I never sell email addresses and won't flood you with spam. Unsubscribe anytime from any message.</p>
+    </div>
+</aside>

@@ -1,0 +1,6 @@
+{% assign href = include.href | default: site.books_url %}
+{% assign label = include.label | default: site.books_link_text %}
+{% assign class = include.class | default: '' %}
+{% assign external = include.external %}
+{% if external == nil %}{% assign external = true %}{% endif %}
+<a href="{{ href }}"{% if class != '' %} class="{{ class }}"{% endif %}{% if external %} target="_blank" rel="noopener noreferrer"{% endif %}>{{ label }}<span class="visually-hidden"> (opens in new tab)</span></a>

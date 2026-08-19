@@ -1,9 +1,15 @@
 ---
-layout: page
-title: "404"
+layout: base
+title: Page Not Found
 permalink: /404
-comments: false
-ads: false
 ---
-<p>There doesn't appear to be anything here. Sorry about that.</p>
-<p>If you've followed a link expecting something to be here, you can <a href="/contact">contact me</a>.</p>
+<section class="hero error-404">
+    <div class="container">
+        <h1>Page Not Found</h1>
+        <p class="subtitle">The page you're looking for doesn't exist.</p>
+        <div class="cta-buttons" style="justify-content: center;">
+            <a href="{{ site.url }}/" class="btn btn-primary">Back to home</a>
+            {% include books-link.html class="btn btn-secondary" label="Browse books" %}
+        </div>
+    </div>
+</section>

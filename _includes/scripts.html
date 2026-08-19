@@ -1,21 +1,14 @@
-<!-- JS -->
-<script src="{{ site.url }}/assets/js/jquery-1.12.0.min.js"></script>
-<script src="{{ site.url }}/assets/js/jquery.dlmenu.min.js"></script>
-<script src="{{ site.url }}/assets/js/jquery.goup.min.js"></script>
-<script src="{{ site.url }}/assets/js/jquery.magnific-popup.min.js"></script>
-<script src="{{ site.url }}/assets/js/jquery.fitvid.min.js"></script>
-<script src="{{ site.url }}/assets/js/scripts.js"></script>
-{% if site.google.analytics %}
-<!-- Asynchronous Google Analytics snippet -->
-<!--Global site tag(gtag.js) - Google Analytics-->
-<script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google.analytics }}"></script>
+<script src="{{ '/assets/js/site.js' | relative_url }}" defer></script>
+<script src="{{ '/assets/js/newsletter-panel.js' | relative_url }}" defer></script>
+{% if site.google.ga4_measurement_id %}
+<script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google.ga4_measurement_id }}"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag() { dataLayer.push(arguments); }
   gtag('js', new Date());
-  gtag('config', '{{ site.google.analytics }}');
+  gtag('config', '{{ site.google.ga4_measurement_id }}');
 </script>
 {% endif %}
-{% if page.comments != false %}
-{% include disqus_comments.html %}
+{% if page.layout == 'post' and site.mathjax %}
+<script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 {% endif %}

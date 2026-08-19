@@ -1,13 +1,4 @@
 # Site navigation links
 
-- title: Projects
-  url: /projects/
-
-- title: Courses
-  url: /training/
-
-- title: Speaking
-  url: /speaking/
-
 - title: Contact
   url: /contact/
