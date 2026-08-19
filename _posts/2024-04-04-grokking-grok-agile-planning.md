@@ -66,4 +66,4 @@ Grok's T-shirt estimates were short, sweet, and to the point. Whereas ChatGPT at
 
 Like ChatGPT, Grok can be used to write marketing summaries, create agile epics and user stories, generate user acceptance criteria, and provide rough estimates. I've been using this strategy personally and as a result, I'm enjoying the process more than ever before. I find staring at a blank screen to be hard, but I don't mind rephrasing and refining the output Grok gives me for these tasks.
 
-👉 Want more content like this? Get [*P-AI-R Programming*](https://amzn.to/4sD76e6) on [Amazon](https://amzn.to/4sD76e6) or DRM-free on [Gumroad](https://walkingriver.gumroad.com/l/pair-programming-2026).
+Get [*P-AI-R Programming*](https://amzn.to/4sD76e6) on Amazon or DRM-free on [Gumroad](https://walkingriver.gumroad.com/l/pair-programming-2026).

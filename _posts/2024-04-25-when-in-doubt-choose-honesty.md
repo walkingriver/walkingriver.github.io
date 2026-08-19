@@ -23,7 +23,7 @@ I have avoided telling this story publicly because of an irrational fear of repr
 
 So, I think I will be fine.
 
-This story is an excerpt from my book, [*Don't Say That at Work*](https://www.amazon.com/dp/B0FLVPGTDQ) (affiliate link). The book contains a collection of mistakes I made throughout my software development career and advice on how to avoid making similar ones yourself. If you would like to read more like this, please consider the complete book. Also available DRM-free on [Gumroad](https://walkingriver.gumroad.com/l/dont-say-that).
+This story is an excerpt from my book, [*Don't Say That at Work*](https://www.amazon.com/dp/B0FLVPGTDQ). The book contains a collection of mistakes I made throughout my software development career and advice on how to avoid making similar ones yourself. If you would like to read more like this, please consider the complete book. Also available DRM-free on [Gumroad](https://walkingriver.gumroad.com/l/dont-say-that).
 
 ## I Am a Developer!
 

@@ -21,7 +21,7 @@ Do you regularly review pull requests (PRs) on GitHub? Do you use VS Code? I do,
 
 ## Game Changer from Bolt?
 
-Have you seen all the hype around [bolt.new](https://bolt.net/) yet? If not, it's an online AI development tool from StackBlitz. It's purported to be the next generation of AI-assisted software development. You tell it what kind of software you want, and Bolt will write it for you. You can then ask Bolt to refine the app using plain English. It integrates with both StackBlitz and GitHub. The demos I've seen are pretty impressive, but I haven't personally been able to replicate them to quite the level I've seen from others. That said, this week's tweet (sorry, X post) announced a new feature: import from Figma. You point Bolt at your Figma URL, and it generates a pixel-perfect representation of the design in the web tech of your choice. If you use Figma, it might be worth taking a look.
+Have you seen all the hype around [bolt.new](https://bolt.new/) yet? If not, it's an online AI development tool from StackBlitz. It's purported to be the next generation of AI-assisted software development. You tell it what kind of software you want, and Bolt will write it for you. You can then ask Bolt to refine the app using plain English. It integrates with both StackBlitz and GitHub. The demos I've seen are pretty impressive, but I haven't personally been able to replicate them to quite the level I've seen from others. That said, this week's tweet (sorry, X post) announced a new feature: import from Figma. You point Bolt at your Figma URL, and it generates a pixel-perfect representation of the design in the web tech of your choice. If you use Figma, it might be worth taking a look.
 
 ## Book Recommendation
 
@@ -29,4 +29,4 @@ Hassan Osman, a prominent self-published author and mutual X follower, recently 
 
 ## Shameless Plug
 
-I recently lowered the prices of most of my books on Amazon. If you haven't looked at my titles recently, I'd love it if you took a look. Maybe you missed one of them!
+I recently lowered the prices of most of my books on [Amazon](https://amazon.com/author/mcallaghan). If you haven't looked at my titles recently, I'd love it if you took a look. Maybe you missed one of them!

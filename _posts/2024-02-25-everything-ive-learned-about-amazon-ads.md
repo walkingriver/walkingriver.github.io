@@ -58,5 +58,3 @@ On the first of each month, adjust each portfolio's budget based on royalties fr
 ## ✅ Your best ad is your next book
 
 Cross-promotion, catalog depth, and Amazon's algorithms all favor authors with multiple titles. While you tune campaigns, keep writing.
-
-👉 More at [walkingriver.gumroad.com](https://walkingriver.gumroad.com).

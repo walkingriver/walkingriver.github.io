@@ -1,6 +1,6 @@
 ---
 layout: post
-title: A Better \"Software Development\" Book Authoring Process
+title: A Better (Software Development) Book Authoring Process
 date: "2024-07-18"
 author: Michael D. Callaghan
 tags:
@@ -11,7 +11,7 @@ canonical_url: https://walkingriver.com/better-software-development-book-authori
 published: true
 medium_url: https://www.linkedin.com/pulse/better-software-development-book-authoring-process-callaghan-uc0se
 ---
-When I began rewriting *Angular Advocate* (now *Angular for Business*), preparing it to be my first traditionally-published book, I saw a chance to streamline my writing and editing process. Through trial and error, I came up with some optimizations that not only made my work easier but also more enjoyable.
+When I began rewriting *Angular Advocate*, preparing it to be my first traditionally-published book, I saw a chance to streamline my writing and editing process. Through trial and error, I came up with some optimizations that not only made my work easier but also more enjoyable.
 
 <!--more-->
 
@@ -73,5 +73,3 @@ To illustrate the possibility, I made the GitHub repo of one of my books complet
 ## Conclusion
 
 Blending coding with book authoring has been more rewarding than I could have imagined. For a software developer like me, integrating these worlds feels natural. I'll likely continue to use this writing process for all my future books and rewrites.
-
-Originally published on [LinkedIn Pulse](https://www.linkedin.com/pulse/better-software-development-book-authoring-process-callaghan-uc0se).

@@ -56,4 +56,4 @@ When asked to convert to Fibonacci values, ChatGPT adjusted relative complexity 
 
 ChatGPT can write marketing summaries, create agile epics and user stories, generate user acceptance criteria, and provide rough estimates. I've been using this strategy personally and enjoy the process more than ever. I find staring at a blank screen hard, but don't mind rephrasing and refining ChatGPT's output.
 
-👉 Want more content like this? Get [*P-AI-R Programming*](https://amzn.to/4sD76e6) on [Amazon](https://amzn.to/4sD76e6) or DRM-free on [Gumroad](https://walkingriver.gumroad.com/l/pair-programming-2026).
+Get [*P-AI-R Programming*](https://amzn.to/4sD76e6) on Amazon or DRM-free on [Gumroad](https://walkingriver.gumroad.com/l/pair-programming-2026).
