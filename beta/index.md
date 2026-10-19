@@ -15,8 +15,11 @@ then install or update the app from Google Play. Updates arrive through the Play
 | **PackOtter** | Trip prep checklists: what to pack and what to do before you leave | [Join PackOtter](https://play.google.com/apps/testing/com.walkingriver.packotter) |
 | **UsTonight** | One modest idea for tonight, for married couples | [Join UsTonight](https://play.google.com/apps/testing/com.walkingriver.covenantcouples) |
 
-**Bravo! is invite-only.** Make sure the Play Store on your phone is signed in to the Google account I added. If
-the link says the app isn't available, tell me which address you use. PackOtter and UsTonight are open to anyone.
+**Bravo! is invite-only.** Want to be a tester? Email
+[michael@walkingriver.com](mailto:michael@walkingriver.com?subject=Bravo%20beta%20tester) with the Google account your
+phone's Play Store uses, and I'll add you. Once you're on the list, make sure the Play Store is signed in to that
+account; if the link says the app isn't available, tell me which address you use. PackOtter and UsTonight are open
+to anyone.
 
 **Feedback:** email [michael@walkingriver.com](mailto:michael@walkingriver.com) with the app name, your phone
 model, and what happened. Screenshots help. Bugs, confusing bits and "I wish it did…" ideas are all welcome.
